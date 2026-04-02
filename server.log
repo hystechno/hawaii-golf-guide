@@ -1,0 +1,137 @@
+
+> hawaiigolf-guide@1.0.0 dev
+> next dev
+
+ ⚠ Invalid next.config.js options detected: 
+ ⚠     Unrecognized key(s) in object: 'appDir' at "experimental"
+ ⚠ See more info here: https://nextjs.org/docs/messages/invalid-next-config
+   ▲ Next.js 15.5.14
+   - Local:        http://localhost:3000
+   - Network:      http://10.255.255.254:3000
+   - Experiments (use with caution):
+     ✓ appDir
+
+ ✓ Starting...
+ ✓ Ready in 1314ms
+ ○ Compiling / ...
+ ✓ Compiled / in 1128ms (657 modules)
+ ✓ Compiled in 275ms (264 modules)
+ GET / 200 in 1766ms
+ ✓ Compiled in 296ms (657 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET / 200 in 188ms
+ ✓ Compiled in 277ms (657 modules)
+ GET / 200 in 188ms
+ ✓ Compiled in 222ms (657 modules)
+ GET / 200 in 74ms
+ ✓ Compiled in 213ms (657 modules)
+ GET / 200 in 66ms
+ ✓ Compiled in 223ms (657 modules)
+ GET / 200 in 67ms
+ ✓ Compiled in 231ms (657 modules)
+ GET / 200 in 71ms
+ ✓ Compiled in 246ms (657 modules)
+ GET / 200 in 89ms
+ ✓ Compiled in 217ms (657 modules)
+ GET / 200 in 65ms
+ ✓ Compiled in 217ms (657 modules)
+ GET / 200 in 67ms
+ ✓ Compiled in 210ms (657 modules)
+ GET / 200 in 66ms
+ ✓ Compiled in 210ms (657 modules)
+ GET / 200 in 64ms
+ ✓ Compiled in 176ms (657 modules)
+ GET / 200 in 87ms
+ ✓ Compiled in 144ms (657 modules)
+ GET / 200 in 63ms
+ ✓ Compiled in 209ms (657 modules)
+ GET / 200 in 64ms
+ GET / 200 in 134ms
+ ✓ Compiled in 251ms (657 modules)
+ GET / 200 in 86ms
+ GET / 200 in 100ms
+ ✓ Compiled in 216ms (657 modules)
+ GET / 200 in 80ms
+ GET / 200 in 92ms
+ ✓ Compiled in 252ms (657 modules)
+ GET / 200 in 92ms
+ GET / 200 in 131ms
+ ✓ Compiled in 243ms (657 modules)
+ GET / 200 in 87ms
+ GET / 200 in 122ms
+ ✓ Compiled in 3.2s (657 modules)
+ GET / 200 in 97ms
+ GET / 200 in 118ms
+ GET / 200 in 73ms
+ ✓ Compiled in 218ms (657 modules)
+ GET / 200 in 65ms
+ GET / 200 in 102ms
+ ✓ Compiled in 270ms (657 modules)
+ GET / 200 in 90ms
+ ✓ Compiled in 154ms (657 modules)
+ GET / 200 in 82ms
+ ✓ Compiled in 237ms (657 modules)
+ GET / 200 in 103ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ ReferenceError: labelMarginTop is not defined
+    at eval (src/components/InteractiveHawaiiMap.tsx:91:15)
+    at Array.map (<anonymous>)
+    at InteractiveHawaiiMap (src/components/InteractiveHawaiiMap.tsx:70:20)
+  89 |               labelTop = '100%'
+  90 |               labelTransform = 'translateX(-50%)'
+> 91 |               labelMarginTop = '2px'
+     |               ^
+  92 |             } else if (island.id === 'lanai') {
+  93 |               // Lanai: centered, just off south edge  
+  94 |               labelLeft = '50%' {
+  digest: '2160224324'
+}
+ GET / 500 in 128ms
+ ✓ Compiled in 143ms (657 modules)
+ ✓ Compiled in 174ms (657 modules)
+ GET / 200 in 140ms
+ ✓ Compiled in 170ms (657 modules)
+ GET / 200 in 72ms
+ ⨯ Error: Could not find the module "/home/stuart/projects/hawaiigolf.guide/website/node_modules/next/dist/next-devtools/userspace/app/segment-explorer-node.js#SegmentViewNode" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>) {
+  digest: '922311116'
+}
+ ⨯ Error: Could not find the module "/home/stuart/projects/hawaiigolf.guide/website/node_modules/next/dist/next-devtools/userspace/app/segment-explorer-node.js#SegmentViewNode" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '4103351021'
+}
+ ⨯ Error: Could not find the module "/home/stuart/projects/hawaiigolf.guide/website/node_modules/next/dist/next-devtools/userspace/app/segment-explorer-node.js#SegmentViewNode" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '4103351021'
+}
+ ⨯ Error: Could not find the module "/home/stuart/projects/hawaiigolf.guide/website/node_modules/next/dist/next-devtools/userspace/app/segment-explorer-node.js#SegmentViewNode" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '4103351021'
+}
+ ⨯ Error: Could not find the module "/home/stuart/projects/hawaiigolf.guide/website/node_modules/next/dist/next-devtools/userspace/app/segment-explorer-node.js#SegmentViewNode" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>) {
+  digest: '922311116'
+}
+ ⨯ Error: Could not find the module "/home/stuart/projects/hawaiigolf.guide/website/node_modules/next/dist/next-devtools/userspace/app/segment-explorer-node.js#SegmentViewNode" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>) {
+  digest: '922311116'
+}
+ ⨯ [TypeError: __webpack_modules__[moduleId] is not a function] {
+  digest: '568976621'
+}
+ ⨯ Error: Could not find the module "/home/stuart/projects/hawaiigolf.guide/website/node_modules/next/dist/next-devtools/userspace/app/segment-explorer-node.js#SegmentViewNode" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>) {
+  digest: '922311116'
+}
+[TypeError: __webpack_modules__[moduleId] is not a function]
+ ⨯ [TypeError: __webpack_modules__[moduleId] is not a function]
+ ⨯ [TypeError: __webpack_modules__[moduleId] is not a function] {
+  page: '/'
+}
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 1162ms (989 modules)
+ GET / 500 in 2963ms
+[?25h

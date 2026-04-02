@@ -1,0 +1,13 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/island/kauai/page": "/island/kauai",
+  "/island/maui/page": "/island/maui",
+  "/island/lanai/page": "/island/lanai",
+  "/island/molokai/page": "/island/molokai",
+  "/page": "/",
+  "/island/big-island/page": "/island/big-island",
+  "/courses/page": "/courses",
+  "/island/oahu/page": "/island/oahu",
+  "/island/[name]/page": "/island/[name]",
+  "/courses/[id]/page": "/courses/[id]"
+}

@@ -1,0 +1,13 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/island/kauai/page": "app/island/kauai/page.js",
+  "/island/maui/page": "app/island/maui/page.js",
+  "/island/lanai/page": "app/island/lanai/page.js",
+  "/island/molokai/page": "app/island/molokai/page.js",
+  "/page": "app/page.js",
+  "/island/big-island/page": "app/island/big-island/page.js",
+  "/courses/page": "app/courses/page.js",
+  "/island/oahu/page": "app/island/oahu/page.js",
+  "/island/[name]/page": "app/island/[name]/page.js",
+  "/courses/[id]/page": "app/courses/[id]/page.js"
+}

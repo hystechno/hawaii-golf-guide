@@ -1,0 +1,97 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-242384ad4e43ea53.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-38b49df12a94ee57.js",
+      "static/chunks/main-app-5918f10386f6a147.js",
+      "static/chunks/app/_not-found/page-d340288741a0c683.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-242384ad4e43ea53.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-38b49df12a94ee57.js",
+      "static/chunks/main-app-5918f10386f6a147.js",
+      "static/css/25a68c593b42b3b1.css",
+      "static/chunks/619-ba102abea3e3d0e4.js",
+      "static/chunks/app/layout-8bd0a3967ccfab14.js"
+    ],
+    "/island/kauai/page": [
+      "static/chunks/webpack-242384ad4e43ea53.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-38b49df12a94ee57.js",
+      "static/chunks/main-app-5918f10386f6a147.js",
+      "static/chunks/619-ba102abea3e3d0e4.js",
+      "static/chunks/app/island/kauai/page-0ec80341ad07d6b4.js"
+    ],
+    "/island/maui/page": [
+      "static/chunks/webpack-242384ad4e43ea53.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-38b49df12a94ee57.js",
+      "static/chunks/main-app-5918f10386f6a147.js",
+      "static/chunks/619-ba102abea3e3d0e4.js",
+      "static/chunks/app/island/maui/page-0ec80341ad07d6b4.js"
+    ],
+    "/island/lanai/page": [
+      "static/chunks/webpack-242384ad4e43ea53.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-38b49df12a94ee57.js",
+      "static/chunks/main-app-5918f10386f6a147.js",
+      "static/chunks/619-ba102abea3e3d0e4.js",
+      "static/chunks/app/island/lanai/page-0ec80341ad07d6b4.js"
+    ],
+    "/island/molokai/page": [
+      "static/chunks/webpack-242384ad4e43ea53.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-38b49df12a94ee57.js",
+      "static/chunks/main-app-5918f10386f6a147.js",
+      "static/chunks/619-ba102abea3e3d0e4.js",
+      "static/chunks/app/island/molokai/page-0ec80341ad07d6b4.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-242384ad4e43ea53.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-38b49df12a94ee57.js",
+      "static/chunks/main-app-5918f10386f6a147.js",
+      "static/chunks/394-8afd38919c689f50.js",
+      "static/chunks/app/page-e5cc9ae4833cb957.js"
+    ],
+    "/island/big-island/page": [
+      "static/chunks/webpack-242384ad4e43ea53.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-38b49df12a94ee57.js",
+      "static/chunks/main-app-5918f10386f6a147.js",
+      "static/chunks/619-ba102abea3e3d0e4.js",
+      "static/chunks/app/island/big-island/page-0ec80341ad07d6b4.js"
+    ],
+    "/courses/page": [
+      "static/chunks/webpack-242384ad4e43ea53.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-38b49df12a94ee57.js",
+      "static/chunks/main-app-5918f10386f6a147.js",
+      "static/chunks/app/courses/page-f7e0611d284ba90a.js"
+    ],
+    "/island/oahu/page": [
+      "static/chunks/webpack-242384ad4e43ea53.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-38b49df12a94ee57.js",
+      "static/chunks/main-app-5918f10386f6a147.js",
+      "static/chunks/619-ba102abea3e3d0e4.js",
+      "static/chunks/app/island/oahu/page-0ec80341ad07d6b4.js"
+    ],
+    "/island/[name]/page": [
+      "static/chunks/webpack-242384ad4e43ea53.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-38b49df12a94ee57.js",
+      "static/chunks/main-app-5918f10386f6a147.js",
+      "static/chunks/app/island/[name]/page-f7e0611d284ba90a.js"
+    ],
+    "/courses/[id]/page": [
+      "static/chunks/webpack-242384ad4e43ea53.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-38b49df12a94ee57.js",
+      "static/chunks/main-app-5918f10386f6a147.js",
+      "static/chunks/app/courses/[id]/page-f7e0611d284ba90a.js"
+    ]
+  }
+}

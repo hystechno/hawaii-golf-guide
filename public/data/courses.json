@@ -1,0 +1,3094 @@
+{
+  "metadata": {
+    "last_updated": "2026-03-31",
+    "source": "Hawaii State Golf Association + Manual Research",
+    "total_courses": 85,
+    "total_courses_by_island": {
+      "Oahu": 39,
+      "Maui": 15,
+      "Kauai": 8,
+      "Big Island": 19,
+      "Lanai": 3,
+      "Molokai": 1
+    },
+    "project": "Hawaii Golf Guide",
+    "website": "hawaiigolf.guide"
+  },
+  "courses": [
+    {
+      "id": "oahu-001",
+      "name": "Ala Wai Golf Course",
+      "island": "Oahu",
+      "city": "Honolulu",
+      "type": "Municipal",
+      "address": "404 Kapahulu Avenue, Honolulu, HI 96815",
+      "phone": "808-733-7387",
+      "website": "https://www.honolulu.gov/des/golf-courses/",
+      "style": "Flat and sporty",
+      "description": "Perimeter of Waikiki along the Ala Wai Canal with views of Diamond Head",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Driving Range",
+        "Pro Shop",
+        "Lessons"
+      ],
+      "difficulty": "Medium",
+      "par": 70,
+      "yardage": 5862,
+      "features": [
+        "Waikiki Views",
+        "Diamond Head Views",
+        "Beginner Friendly"
+      ],
+      "online_booking": true,
+      "booking_url": "https://www.honolulu.gov/des/golf-courses/tee-time-reservations/",
+      "status": "active",
+      "featured": false
+    },
+    {
+      "id": "oahu-002",
+      "name": "Bay View Golf Park",
+      "island": "Oahu",
+      "city": "Kaneohe",
+      "type": "Public",
+      "address": "45-285 Kaneohe Bay Drive, Kaneohe, HI 96744",
+      "phone": "808-247-0451",
+      "website": "http://www.bayviewgolfcourse.us/",
+      "style": "Par-3 executive course",
+      "description": "Windward Oahu semi-executive course with bay views",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Practice Green",
+        "Night Play Available"
+      ],
+      "difficulty": "Easy",
+      "par": 60,
+      "yardage": 3200,
+      "features": [
+        "Kaneohe Bay Views",
+        "Night Golf",
+        "Executive"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": false
+    },
+    {
+      "id": "oahu-003",
+      "name": "Coral Creek Golf Course",
+      "island": "Oahu",
+      "city": "Ewa Beach",
+      "type": "Public",
+      "address": "91-1111 Geiger Road, Ewa Beach, HI 96706",
+      "phone": "808-441-4653",
+      "website": "http://www.coralcreekgolfhawaii.com/",
+      "style": "Championship course with challenging layout",
+      "description": "Semi-private feel with championship layout near Ewa Beach",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Driving Range",
+        "Pro Shop",
+        "Restaurant"
+      ],
+      "difficulty": "Hard",
+      "par": 72,
+      "yardage": 7200,
+      "features": [
+        "Championship Layout",
+        "Newer Course",
+        "Ewa Beach"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": true
+    },
+    {
+      "id": "oahu-004",
+      "name": "Ewa Beach Golf Club",
+      "island": "Oahu",
+      "city": "Ewa Beach",
+      "type": "Public",
+      "address": "91-050 Fort Weaver Road, Ewa Beach, HI 96706",
+      "phone": "808-689-6565",
+      "website": "http://www.ewabeachgc.com/",
+      "style": "Links-style championship course",
+      "description": "Links-style championship golf on Leeward Oahu",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Driving Range",
+        "Pro Shop",
+        "Restaurant"
+      ],
+      "difficulty": "Hard",
+      "par": 72,
+      "yardage": 6954,
+      "features": [
+        "Links Style",
+        "Championship",
+        "Leeward Oahu"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": true
+    },
+    {
+      "id": "oahu-005",
+      "name": "Ewa Villages Golf Course",
+      "island": "Oahu",
+      "city": "Ewa Beach",
+      "type": "Municipal",
+      "address": "91-1760 Park Row, Ewa Beach, HI 96706",
+      "phone": "808-681-0220",
+      "website": "https://www.honolulu.gov/des/golf-courses/",
+      "style": "Links-style with wind factor",
+      "description": "Challenging links-style municipal course where wind is a major factor",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Practice Green",
+        "Clubhouse"
+      ],
+      "difficulty": "Hard",
+      "par": 72,
+      "yardage": 6232,
+      "features": [
+        "Links Style",
+        "Windy",
+        "Tight Fairways",
+        "Municipal"
+      ],
+      "online_booking": true,
+      "booking_url": "https://www.honolulu.gov/des/golf-courses/tee-time-reservations/",
+      "status": "active",
+      "featured": false
+    },
+    {
+      "id": "oahu-006",
+      "name": "Hawaii Country Club",
+      "island": "Oahu",
+      "city": "Wahiawa",
+      "type": "Public",
+      "address": "98-1214 Kaonohi Street, Aiea, HI 96701",
+      "phone": "808-621-5654",
+      "website": "",
+      "style": "Central Oahu public course",
+      "description": "Public golf in central Oahu near Wahiawa",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Pro Shop",
+        "Practice Area"
+      ],
+      "difficulty": "Medium",
+      "par": 72,
+      "yardage": 6400,
+      "features": [
+        "Central Oahu",
+        "Affordable"
+      ],
+      "online_booking": false,
+      "booking_url": "",
+      "status": "active",
+      "featured": false
+    },
+    {
+      "id": "oahu-007",
+      "name": "Hawaii Kai Golf Course",
+      "island": "Oahu",
+      "city": "Honolulu",
+      "type": "Public",
+      "address": "8902 Kalanianaole Highway, Honolulu, HI 96825",
+      "phone": "808-395-2358",
+      "website": "http://www.hawaiikaigolf.com/",
+      "style": "Championship and Executive courses",
+      "description": "Two courses: Championship and Par-3 Executive, designed by William Bell and Robert Trent Jones Sr.",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Driving Range",
+        "Pro Shop",
+        "Restaurant",
+        "Two Courses"
+      ],
+      "difficulty": "Medium",
+      "par": 72,
+      "yardage": 6700,
+      "features": [
+        "Championship Course",
+        "Executive Par-3",
+        "Robert Trent Jones Design"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": true
+    },
+    {
+      "id": "oahu-008-a",
+      "name": "Hawaii Prince Golf Club - A Course",
+      "island": "Oahu",
+      "city": "Ewa Beach",
+      "type": "Resort",
+      "address": "91-1200 Fort Weaver Road, Ewa Beach, HI 96706",
+      "phone": "808-944-4567",
+      "website": "http://www.princeresortshawaii.com/",
+      "style": "Links-style 9-hole course",
+      "description": "One of three 9-hole links-style courses at Hawaii Prince",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Pro Shop",
+        "Restaurant",
+        "Three 9-Hole Courses"
+      ],
+      "difficulty": "Medium",
+      "par": 36,
+      "yardage": 3500,
+      "features": [
+        "Links Style",
+        "9-Hole",
+        "Multiple Courses"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": false
+    },
+    {
+      "id": "oahu-008-b",
+      "name": "Hawaii Prince Golf Club - B Course",
+      "island": "Oahu",
+      "city": "Ewa Beach",
+      "type": "Resort",
+      "address": "91-1200 Fort Weaver Road, Ewa Beach, HI 96706",
+      "phone": "808-944-4567",
+      "website": "http://www.princeresortshawaii.com/",
+      "style": "Links-style 9-hole course",
+      "description": "One of three 9-hole links-style courses at Hawaii Prince",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Pro Shop",
+        "Restaurant",
+        "Three 9-Hole Courses"
+      ],
+      "difficulty": "Medium",
+      "par": 36,
+      "yardage": 3500,
+      "features": [
+        "Links Style",
+        "9-Hole",
+        "Multiple Courses"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": false
+    },
+    {
+      "id": "oahu-008-c",
+      "name": "Hawaii Prince Golf Club - C Course",
+      "island": "Oahu",
+      "city": "Ewa Beach",
+      "type": "Resort",
+      "address": "91-1200 Fort Weaver Road, Ewa Beach, HI 96706",
+      "phone": "808-944-4567",
+      "website": "http://www.princeresortshawaii.com/",
+      "style": "Links-style 9-hole course",
+      "description": "One of three 9-hole links-style courses at Hawaii Prince",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Pro Shop",
+        "Restaurant",
+        "Three 9-Hole Courses"
+      ],
+      "difficulty": "Medium",
+      "par": 36,
+      "yardage": 3500,
+      "features": [
+        "Links Style",
+        "9-Hole",
+        "Multiple Courses"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": false
+    },
+    {
+      "id": "oahu-009-a",
+      "name": "Ke'alohi Golf Course (Hickam)",
+      "island": "Oahu",
+      "city": "Hickam AFB",
+      "type": "Military",
+      "address": "Hickam AFB, HI",
+      "phone": "808-448-2318",
+      "website": "http://www.greatlifehawaii.com/",
+      "style": "Military base course",
+      "description": "Military base golf course at Hickam AFB",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Military Only",
+        "Pro Shop"
+      ],
+      "difficulty": "Medium",
+      "par": 72,
+      "yardage": 6400,
+      "features": [
+        "Military Base",
+        "Mililani/Waipio Area"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": false
+    },
+    {
+      "id": "oahu-009-b",
+      "name": "Mamala Bay Golf Course (Hickam)",
+      "island": "Oahu",
+      "city": "Hickam AFB",
+      "type": "Military",
+      "address": "Hickam AFB, HI",
+      "phone": "808-449-2300",
+      "website": "http://www.greatlifehawaii.com/",
+      "style": "Military base course with ocean views",
+      "description": "Popular military course near the flight line with ocean views",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Military Only",
+        "Ocean Views"
+      ],
+      "difficulty": "Medium",
+      "par": 72,
+      "yardage": 6600,
+      "features": [
+        "Military Base",
+        "Pearl Harbor Views",
+        "Ocean Views"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": false
+    },
+    {
+      "id": "oahu-010",
+      "name": "Hoakalei Country Club",
+      "island": "Oahu",
+      "city": "Ewa Beach",
+      "type": "Private",
+      "address": "91-1620 Keoneula Boulevard, Ewa Beach, HI 96706",
+      "phone": "808-853-4343",
+      "website": "http://www.hoakaleicountryclub.com/",
+      "style": "Private championship course",
+      "description": "Premier private club in Ewa Beach with challenging layout",
+      "rates": {
+        "resident_weekday": "Members Only",
+        "resident_weekend": "Members Only",
+        "non_resident_weekday": "Members Only",
+        "non_resident_weekend": "Members Only"
+      },
+      "amenities": [
+        "Private Club",
+        "Pro Shop",
+        "Restaurant",
+        "Pool"
+      ],
+      "difficulty": "Hard",
+      "par": 72,
+      "yardage": 7200,
+      "features": [
+        "Private",
+        "Championship",
+        "Ewa Beach"
+      ],
+      "online_booking": false,
+      "booking_url": "",
+      "status": "active",
+      "featured": false
+    },
+    {
+      "id": "oahu-011",
+      "name": "Honolulu Country Club",
+      "island": "Oahu",
+      "city": "Honolulu",
+      "type": "Private",
+      "address": "1690 Alewa Drive, Honolulu, HI 96817",
+      "phone": "808-441-9400",
+      "website": "http://www.honolulucountryclub.com/",
+      "style": "Historic private club",
+      "description": "Historic private club in Nuuanu area of Honolulu",
+      "rates": {
+        "resident_weekday": "Members Only",
+        "resident_weekend": "Members Only",
+        "non_resident_weekday": "Members Only",
+        "non_resident_weekend": "Members Only"
+      },
+      "amenities": [
+        "Private Club",
+        "Historic",
+        "Pro Shop"
+      ],
+      "difficulty": "Hard",
+      "par": 72,
+      "yardage": 6400,
+      "features": [
+        "Private",
+        "Historic",
+        "Nuuanu"
+      ],
+      "online_booking": false,
+      "booking_url": "",
+      "status": "active",
+      "featured": false
+    },
+    {
+      "id": "oahu-012",
+      "name": "Kahuku Golf Course",
+      "island": "Oahu",
+      "city": "Kahuku",
+      "type": "Municipal",
+      "address": "56-864 Kamehameha Highway, Kahuku, HI 96731",
+      "phone": "808-293-5842",
+      "website": "https://www.honolulu.gov/des/golf-courses/",
+      "style": "Seaside links walking course",
+      "description": "Closest course on Oahu to real links seaside layout. Walking only.",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Walking Only",
+        "Pull Cart Rental",
+        "Club Rental"
+      ],
+      "difficulty": "Medium",
+      "par": 72,
+      "yardage": 5230,
+      "features": [
+        "Ocean Views",
+        "Links Style",
+        "Walking Only",
+        "North Shore"
+      ],
+      "online_booking": true,
+      "booking_url": "https://www.honolulu.gov/des/golf-courses/tee-time-reservations/",
+      "status": "active",
+      "featured": true
+    },
+    {
+      "id": "oahu-013",
+      "name": "Kaneohe Klipper Golf Course",
+      "island": "Oahu",
+      "city": "Kaneohe",
+      "type": "Military",
+      "address": "MCBH Kaneohe Bay, HI",
+      "phone": "808-254-1745",
+      "website": "http://www.mccshawaii.com/",
+      "style": "Military course with bay views",
+      "description": "Marine Corps Base Hawaii course with spectacular bay views",
+      "rates": {
+        "resident_weekday": "Military Only",
+        "resident_weekend": "Military Only",
+        "non_resident_weekday": "Military Only",
+        "non_resident_weekend": "Military Only"
+      },
+      "amenities": [
+        "Military Only",
+        "Kaneohe Bay Views",
+        "Restaurant"
+      ],
+      "difficulty": "Hard",
+      "par": 72,
+      "yardage": 6800,
+      "features": [
+        "Military Base",
+        "Kaneohe Bay Views",
+        "Windward Oahu"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": false
+    },
+    {
+      "id": "oahu-014",
+      "name": "Kapolei Golf Club",
+      "island": "Oahu",
+      "city": "Kapolei",
+      "type": "Public",
+      "address": "91-701 Farrington Highway, Kapolei, HI 96707",
+      "phone": "808-674-2227",
+      "website": "http://www.pacificlinks.com/",
+      "style": "Championship public course",
+      "description": "Championship layout in Kapolei on Leeward Oahu",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Driving Range",
+        "Pro Shop",
+        "Restaurant"
+      ],
+      "difficulty": "Hard",
+      "par": 72,
+      "yardage": 7200,
+      "features": [
+        "Championship",
+        "Leeward Oahu",
+        "Public"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": true
+    },
+    {
+      "id": "oahu-015",
+      "name": "Ko Olina Golf Club",
+      "island": "Oahu",
+      "city": "Kapolei",
+      "type": "Resort",
+      "address": "92-1220 Aliinui Drive, Kapolei, HI 96707",
+      "phone": "808-676-5300",
+      "website": "http://www.koolinagolf.com/",
+      "style": "Resort championship course",
+      "description": "Ted Robinson designed resort course, former host of LPGA Lotte Championship",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Resort Course",
+        "Pro Shop",
+        "Restaurant",
+        "Spa"
+      ],
+      "difficulty": "Hard",
+      "par": 72,
+      "yardage": 6900,
+      "features": [
+        "Resort",
+        "Ted Robinson Design",
+        "LPGA Host",
+        "Ko Olina Resort"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": true
+    },
+    {
+      "id": "oahu-016",
+      "name": "Ko'olau Golf Club",
+      "island": "Oahu",
+      "city": "Kaneohe",
+      "type": "Public",
+      "address": "45-550 Kionaole Road, Kaneohe, HI 96744",
+      "phone": "808-236-4653",
+      "website": "http://www.koolaugolfclub.com/",
+      "style": "Mountain layout with stunning views",
+      "description": "Dramatic mountain golf at the base of the Ko'olau Range with breathtaking views",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Mountain Views",
+        "Pro Shop",
+        "Restaurant"
+      ],
+      "difficulty": "Hard",
+      "par": 72,
+      "yardage": 7300,
+      "features": [
+        "Mountain Views",
+        "Challenging",
+        "Ko'olau Range",
+        "Waterfalls"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": true
+    },
+    {
+      "id": "oahu-017",
+      "name": "Makaha Valley Country Club",
+      "island": "Oahu",
+      "city": "Waianae",
+      "type": "Public",
+      "address": "84-627 Makaha Valley Road, Waianae, HI 96792",
+      "phone": "808-695-7111",
+      "website": "http://www.pacificlinks.com/",
+      "style": "West side public course",
+      "description": "Golf on the Leeward coast in Makaha Valley",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Pro Shop",
+        "Valley Views"
+      ],
+      "difficulty": "Medium",
+      "par": 72,
+      "yardage": 6400,
+      "features": [
+        "West Side",
+        "Makaha Valley"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": false
+    },
+    {
+      "id": "oahu-018",
+      "name": "Mid-Pacific Country Club",
+      "island": "Oahu",
+      "city": "Kailua",
+      "type": "Private",
+      "address": "266 Kaelepulu Drive, Kailua, HI 96734",
+      "phone": "808-261-9765",
+      "website": "http://www.mpcchi.org/",
+      "style": "Private club in Kailua",
+      "description": "Premier private country club in Kailua on Windward Oahu",
+      "rates": {
+        "resident_weekday": "Members Only",
+        "resident_weekend": "Members Only",
+        "non_resident_weekday": "Members Only",
+        "non_resident_weekend": "Members Only"
+      },
+      "amenities": [
+        "Private Club",
+        "Tennis",
+        "Pool",
+        "Ocean Views"
+      ],
+      "difficulty": "Hard",
+      "par": 72,
+      "yardage": 6500,
+      "features": [
+        "Private",
+        "Kailua",
+        "Country Club"
+      ],
+      "online_booking": false,
+      "booking_url": "",
+      "status": "active",
+      "featured": false
+    },
+    {
+      "id": "oahu-019",
+      "name": "Mililani Golf Club",
+      "island": "Oahu",
+      "city": "Mililani",
+      "type": "Public",
+      "address": "95-176 Kipapa Drive, Mililani, HI 96789",
+      "phone": "808-623-2222",
+      "website": "http://www.mililanigolf.com/",
+      "style": "Central Oahu public course",
+      "description": "Public golf in Mililani with mountain views",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Driving Range",
+        "Pro Shop"
+      ],
+      "difficulty": "Medium",
+      "par": 72,
+      "yardage": 6400,
+      "features": [
+        "Central Oahu",
+        "Mountain Views",
+        "Affordable"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": false
+    },
+    {
+      "id": "oahu-020",
+      "name": "Moanalua Golf Club",
+      "island": "Oahu",
+      "city": "Honolulu",
+      "type": "Semi-Private",
+      "address": "1250 Ala Aolani Street, Honolulu, HI 96819",
+      "phone": "808-839-2311",
+      "website": "",
+      "style": "Historic 9-hole course",
+      "description": "THE FIRST GOLF COURSE IN HAWAII (built 1898). Historic 9-hole layout.",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Historic",
+        "9-Hole",
+        "Walking Course"
+      ],
+      "difficulty": "Medium",
+      "par": 36,
+      "yardage": 3200,
+      "features": [
+        "Historic",
+        "1898",
+        "First Hawaii Course",
+        "9-Hole"
+      ],
+      "online_booking": false,
+      "booking_url": "",
+      "status": "active",
+      "featured": true
+    },
+    {
+      "id": "oahu-021-a",
+      "name": "Barbers Point Golf Course (Navy)",
+      "island": "Oahu",
+      "city": "Kapolei",
+      "type": "Military",
+      "address": "NSF Barbers Point, Kapolei, HI",
+      "phone": "808-682-1911",
+      "website": "http://www.greatlifehawaii.com/",
+      "style": "Military base course",
+      "description": "Navy golf course at Barbers Point",
+      "rates": {
+        "resident_weekday": "Military Only",
+        "resident_weekend": "Military Only",
+        "non_resident_weekday": "Military Only",
+        "non_resident_weekend": "Military Only"
+      },
+      "amenities": [
+        "Military Only",
+        "West Side"
+      ],
+      "difficulty": "Medium",
+      "par": 72,
+      "yardage": 6400,
+      "features": [
+        "Military Base",
+        "Kapolei"
+      ],
+      "online_booking": false,
+      "booking_url": "",
+      "status": "active",
+      "featured": false
+    },
+    {
+      "id": "oahu-021-b",
+      "name": "Navy Marine Golf Course",
+      "island": "Oahu",
+      "city": "Honolulu",
+      "type": "Military",
+      "address": "Navy-Marine Golf Course, Honolulu, HI",
+      "phone": "808-471-0142",
+      "website": "http://www.greatlifehawaii.com/",
+      "style": "Military base course near Pearl Harbor",
+      "description": "Popular military course near Pearl Harbor",
+      "rates": {
+        "resident_weekday": "Military Only",
+        "resident_weekend": "Military Only",
+        "non_resident_weekday": "Military Only",
+        "non_resident_weekend": "Military Only"
+      },
+      "amenities": [
+        "Military Only",
+        "Pearl Harbor Area"
+      ],
+      "difficulty": "Medium",
+      "par": 72,
+      "yardage": 6300,
+      "features": [
+        "Military Base",
+        "Pearl Harbor"
+      ],
+      "online_booking": false,
+      "booking_url": "",
+      "status": "active",
+      "featured": false
+    },
+    {
+      "id": "oahu-022",
+      "name": "Oahu Country Club",
+      "island": "Oahu",
+      "city": "Honolulu",
+      "type": "Private",
+      "address": "150 Country Club Road, Honolulu, HI 96817",
+      "phone": "808-595-3256",
+      "website": "http://www.oahucountryclub.com/",
+      "style": "Historic private club in Nuuanu",
+      "description": "Historic private club founded in 1906 in Nuuanu Valley",
+      "rates": {
+        "resident_weekday": "Members Only",
+        "resident_weekend": "Members Only",
+        "non_resident_weekday": "Members Only",
+        "non_resident_weekend": "Members Only"
+      },
+      "amenities": [
+        "Private Club",
+        "Historic",
+        "Pool",
+        "Tennis"
+      ],
+      "difficulty": "Hard",
+      "par": 71,
+      "yardage": 6200,
+      "features": [
+        "Private",
+        "Historic",
+        "1906",
+        "Nuuanu Valley"
+      ],
+      "online_booking": false,
+      "booking_url": "",
+      "status": "active",
+      "featured": false
+    },
+    {
+      "id": "oahu-023",
+      "name": "Olomana Golf Links",
+      "island": "Oahu",
+      "city": "Waimanalo",
+      "type": "Public",
+      "address": "41-1801 Lupe Street, Waimanalo, HI 96795",
+      "phone": "808-259-7926",
+      "website": "http://www.pacificlinks.com/",
+      "style": "Links-style championship course",
+      "description": "Challenging links-style course on Windward Oahu with Ko'olau views",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Links Style",
+        "Driving Range",
+        "Ko'olau Views"
+      ],
+      "difficulty": "Hard",
+      "par": 72,
+      "yardage": 6800,
+      "features": [
+        "Links Style",
+        "Windward Oahu",
+        "Ko'olau Views",
+        "Challenging"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": true
+    },
+    {
+      "id": "oahu-024",
+      "name": "Pali Golf Course",
+      "island": "Oahu",
+      "city": "Kaneohe",
+      "type": "Municipal",
+      "address": "45-050 Kamehameha Highway, Kaneohe, HI 96744",
+      "phone": "808-266-7612",
+      "website": "https://www.honolulu.gov/des/golf-courses/",
+      "style": "Picturesque hillside course",
+      "description": "Picturesque and challenging hillside course on Windward Oahu, foothills of Ko'olau range",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Driving Range",
+        "Pro Shop",
+        "Mountain Views"
+      ],
+      "difficulty": "Hard",
+      "par": 72,
+      "yardage": 6513,
+      "features": [
+        "Mountain Views",
+        "Challenging",
+        "Windward Oahu",
+        "Ko'olau Views"
+      ],
+      "online_booking": true,
+      "booking_url": "https://www.honolulu.gov/des/golf-courses/tee-time-reservations/",
+      "status": "active",
+      "featured": true
+    },
+    {
+      "id": "oahu-025",
+      "name": "Pearl Country Club",
+      "island": "Oahu",
+      "city": "Aiea",
+      "type": "Public",
+      "address": "98-1359 Koaheahe Street, Aiea, HI 96701",
+      "phone": "808-487-3802",
+      "website": "http://www.pearlcc.com/",
+      "style": "Public course with Pearl Harbor views",
+      "description": "Valley course with view of Pearl Harbor and the Arizona Memorial",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Pearl Harbor Views",
+        "Driving Range",
+        "Pro Shop"
+      ],
+      "difficulty": "Medium",
+      "par": 72,
+      "yardage": 6400,
+      "features": [
+        "Pearl Harbor Views",
+        "Historic",
+        "Aiea",
+        "Public"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": true
+    },
+    {
+      "id": "oahu-026",
+      "name": "Royal Hawaiian Golf Club",
+      "island": "Oahu",
+      "city": "Kailua",
+      "type": "Public",
+      "address": "770 Auloa Road, Kailua, HI 96734",
+      "phone": "808-262-2139",
+      "website": "http://www.pacificlinks.com/",
+      "style": "Formerly Luana Hills, mountain course",
+      "description": "Recently renovated mountain course in Maunawili Valley (formerly Luana Hills)",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Mountain Views",
+        "Renovated"
+      ],
+      "difficulty": "Hard",
+      "par": 72,
+      "yardage": 7000,
+      "features": [
+        "Mountain Views",
+        "Renovated",
+        "Luana Hills History",
+        "Kailua"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": true
+    },
+    {
+      "id": "oahu-027",
+      "name": "Royal Kunia Country Club",
+      "island": "Oahu",
+      "city": "Waipahu",
+      "type": "Public",
+      "address": "94-1509 Anonui Street, Waipahu, HI 96797",
+      "phone": "808-688-9222",
+      "website": "http://www.royalkuniacc.com/",
+      "style": "Island's only target-style course",
+      "description": "Unique target-style course with dramatic elevation changes",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Target Style",
+        "Driving Range",
+        "Pro Shop"
+      ],
+      "difficulty": "Hard",
+      "par": 72,
+      "yardage": 7200,
+      "features": [
+        "Target Style",
+        "Elevation Changes",
+        "Unique Layout"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": true
+    },
+    {
+      "id": "oahu-028",
+      "name": "Ted Makalena Golf Course",
+      "island": "Oahu",
+      "city": "Waipahu",
+      "type": "Municipal",
+      "address": "93-030 Waipio Point Access Road, Waipahu, HI 96797",
+      "phone": "808-675-6052",
+      "website": "https://www.honolulu.gov/des/golf-courses/",
+      "style": "Flat near Pearl Harbor",
+      "description": "Flat course on Waipahu peninsula near Pearl Harbor",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Practice Green",
+        "Pro Shop",
+        "Pearl Harbor Views"
+      ],
+      "difficulty": "Easy",
+      "par": 72,
+      "yardage": 6369,
+      "features": [
+        "Pearl Harbor Views",
+        "Flat",
+        "Beginner Friendly",
+        "Municipal"
+      ],
+      "online_booking": true,
+      "booking_url": "https://www.honolulu.gov/des/golf-courses/tee-time-reservations/",
+      "status": "active",
+      "featured": false
+    },
+    {
+      "id": "oahu-029-a",
+      "name": "Angel's Course at Turtle Bay",
+      "island": "Oahu",
+      "city": "Kahuku",
+      "type": "Resort",
+      "address": "57-091 Kamehameha Highway, Kahuku, HI 96731",
+      "phone": "808-293-8574",
+      "website": "http://www.turtlebayresort.com/hawaii_golf/",
+      "style": "Former Arnold Palmer Course, renovated",
+      "description": "Renovated Arnold Palmer design at Turtle Bay Resort on North Shore",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Resort Course",
+        "Ocean Views",
+        "Pro Shop",
+        "Lessons"
+      ],
+      "difficulty": "Hard",
+      "par": 72,
+      "yardage": 7200,
+      "features": [
+        "Arnold Palmer Design",
+        "Resort",
+        "Ocean Views",
+        "North Shore"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": true
+    },
+    {
+      "id": "oahu-029-b",
+      "name": "Fazio Course at Turtle Bay",
+      "island": "Oahu",
+      "city": "Kahuku",
+      "type": "Resort",
+      "address": "57-091 Kamehameha Highway, Kahuku, HI 96731",
+      "phone": "808-293-8574",
+      "website": "http://www.turtlebayresort.com/hawaii_golf/",
+      "style": "George Fazio design, more forgiving",
+      "description": "Classic George Fazio design at Turtle Bay Resort",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Resort Course",
+        "Ocean Views",
+        "Pro Shop"
+      ],
+      "difficulty": "Medium",
+      "par": 72,
+      "yardage": 6800,
+      "features": [
+        "George Fazio Design",
+        "Resort",
+        "Ocean Views",
+        "North Shore"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": true
+    },
+    {
+      "id": "oahu-030-a",
+      "name": "Leilehua Golf Course (Army)",
+      "island": "Oahu",
+      "city": "Wahiawa",
+      "type": "Military",
+      "address": "Schofield Barracks, Wahiawa, HI",
+      "phone": "808-448-2318",
+      "website": "http://www.himwr.com/",
+      "style": "Army base course in Wahiawa",
+      "description": "Army golf course at Schofield Barracks in central Oahu",
+      "rates": {
+        "resident_weekday": "Military Only",
+        "resident_weekend": "Military Only",
+        "non_resident_weekday": "Military Only",
+        "non_resident_weekend": "Military Only"
+      },
+      "amenities": [
+        "Military Only",
+        "Central Oahu"
+      ],
+      "difficulty": "Medium",
+      "par": 72,
+      "yardage": 6400,
+      "features": [
+        "Military Base",
+        "Schofield Barracks",
+        "Wahiawa"
+      ],
+      "online_booking": false,
+      "booking_url": "",
+      "status": "active",
+      "featured": false
+    },
+    {
+      "id": "oahu-030-b",
+      "name": "Walter J. Nagorski Golf Course (Army)",
+      "island": "Oahu",
+      "city": "Honolulu",
+      "type": "Military",
+      "address": "Fort Shafter, Honolulu, HI",
+      "phone": "808-438-9587",
+      "website": "http://www.himwr.com/",
+      "style": "Army base course at Fort Shafter",
+      "description": "Army golf course at Fort Shafter near downtown Honolulu",
+      "rates": {
+        "resident_weekday": "Military Only",
+        "resident_weekend": "Military Only",
+        "non_resident_weekday": "Military Only",
+        "non_resident_weekend": "Military Only"
+      },
+      "amenities": [
+        "Military Only",
+        "Downtown Honolulu"
+      ],
+      "difficulty": "Medium",
+      "par": 72,
+      "yardage": 6200,
+      "features": [
+        "Military Base",
+        "Fort Shafter",
+        "Urban Golf"
+      ],
+      "online_booking": false,
+      "booking_url": "",
+      "status": "active",
+      "featured": false
+    },
+    {
+      "id": "oahu-031",
+      "name": "Waialae Country Club",
+      "island": "Oahu",
+      "city": "Honolulu",
+      "type": "Private",
+      "address": "4997 Kahala Avenue, Honolulu, HI 96816",
+      "phone": "808-732-1457",
+      "website": "http://www.waialaecc.com/",
+      "style": "PGA Tour host, historic private club",
+      "description": "Historic private club, host of the Sony Open in Hawaii PGA Tour event",
+      "rates": {
+        "resident_weekday": "Members Only",
+        "resident_weekend": "Members Only",
+        "non_resident_weekday": "Members Only",
+        "non_resident_weekend": "Members Only"
+      },
+      "amenities": [
+        "PGA Tour Host",
+        "Private Club",
+        "Sony Open",
+        "Historic"
+      ],
+      "difficulty": "Hard",
+      "par": 72,
+      "yardage": 7044,
+      "features": [
+        "PGA Tour",
+        "Sony Open",
+        "Historic",
+        "Kahala",
+        "Private"
+      ],
+      "online_booking": false,
+      "booking_url": "",
+      "status": "active",
+      "featured": true
+    },
+    {
+      "id": "oahu-032",
+      "name": "Waikele Golf Club",
+      "island": "Oahu",
+      "city": "Waipahu",
+      "type": "Public",
+      "address": "94-200 Paioa Place, Waipahu, HI 96797",
+      "phone": "808-676-9000",
+      "website": "http://www.golfwaikele.com/",
+      "style": "Public course with water features",
+      "description": "Popular public course in Waikele with water hazards throughout",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Water Hazards",
+        "Driving Range",
+        "Pro Shop"
+      ],
+      "difficulty": "Medium",
+      "par": 72,
+      "yardage": 6800,
+      "features": [
+        "Water Hazards",
+        "Waikele",
+        "Public",
+        "Affordable"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": false
+    },
+    {
+      "id": "oahu-033",
+      "name": "West Loch Golf Course",
+      "island": "Oahu",
+      "city": "Ewa Beach",
+      "type": "Municipal",
+      "address": "91-1126 Okupe Street, Ewa Beach, HI 96706",
+      "phone": "808-675-6076",
+      "website": "https://www.honolulu.gov/des/golf-courses/",
+      "style": "Short but challenging with water",
+      "description": "Short but challenging municipal course with many water hazards",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Water Hazards",
+        "Municipal",
+        "Affordable"
+      ],
+      "difficulty": "Medium",
+      "par": 72,
+      "yardage": 5844,
+      "features": [
+        "Water Hazards",
+        "Municipal",
+        "Leeward Oahu",
+        "Affordable"
+      ],
+      "online_booking": true,
+      "booking_url": "https://www.honolulu.gov/des/golf-courses/tee-time-reservations/",
+      "status": "active",
+      "featured": false
+    },
+    {
+      "id": "maui-001",
+      "name": "The Dunes at Maui Lani",
+      "island": "Maui",
+      "city": "Kahului",
+      "type": "Public",
+      "address": "1333 Maui Lani Parkway, Kahului, HI 96732",
+      "phone": "808-873-0422",
+      "website": "http://www.dunesatmauilani.com/",
+      "style": "Links-style championship course",
+      "description": "Scottish-inspired links course with dramatic elevation changes and views of Haleakala",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Driving Range",
+        "Pro Shop",
+        "Restaurant"
+      ],
+      "difficulty": "Hard",
+      "par": 72,
+      "yardage": 6800,
+      "features": [
+        "Links Style",
+        "Haleakala Views",
+        "Challenging",
+        "Public"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": true
+    },
+    {
+      "id": "maui-002-a",
+      "name": "Royal Ka'anapali Course",
+      "island": "Maui",
+      "city": "Lahaina",
+      "type": "Resort",
+      "address": "2290 Kaanapali Parkway, Lahaina, HI 96761",
+      "phone": "808-661-3691",
+      "website": "http://www.kaanapaligolfcourses.com/",
+      "style": "Robert Trent Jones Sr. resort course",
+      "description": "Classic Robert Trent Jones Sr. design at Ka'anapali Resort (North Course)",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Resort Course",
+        "Ocean Views",
+        "Pro Shop",
+        "Lessons"
+      ],
+      "difficulty": "Hard",
+      "par": 71,
+      "yardage": 6700,
+      "features": [
+        "Robert Trent Jones Design",
+        "Ocean Views",
+        "Resort",
+        "Ka'anapali"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": true
+    },
+    {
+      "id": "maui-002-b",
+      "name": "Ka'anapali Kai Course",
+      "island": "Maui",
+      "city": "Lahaina",
+      "type": "Resort",
+      "address": "2290 Kaanapali Parkway, Lahaina, HI 96761",
+      "phone": "808-661-3691",
+      "website": "http://www.kaanapaligolfcourses.com/",
+      "style": "More forgiving resort course",
+      "description": "More forgiving Arthur Jack Snyder design at Ka'anapali Resort (South Course)",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Resort Course",
+        "Ocean Views",
+        "Pro Shop"
+      ],
+      "difficulty": "Medium",
+      "par": 70,
+      "yardage": 6400,
+      "features": [
+        "Resort",
+        "Ocean Views",
+        "Ka'anapali",
+        "More Forgiving"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": false
+    },
+    {
+      "id": "maui-003",
+      "name": "Kahili Golf Course",
+      "island": "Maui",
+      "city": "Wailuku",
+      "type": "Public",
+      "address": "2500 Honoapiilani Highway, Wailuku, HI 96793",
+      "phone": "808-242-4653",
+      "website": "http://www.kahiligolf.com/",
+      "style": "Upcountry mountain course",
+      "description": "Elevated course with mountain views in Wailuku, cooler upcountry climate",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Mountain Views",
+        "Driving Range",
+        "Pro Shop"
+      ],
+      "difficulty": "Medium",
+      "par": 72,
+      "yardage": 6500,
+      "features": [
+        "Mountain Views",
+        "Upcountry",
+        "Cooler Climate",
+        "Public"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": false
+    },
+    {
+      "id": "maui-004-a",
+      "name": "The Bay Course at Kapalua",
+      "island": "Maui",
+      "city": "Lahaina",
+      "type": "Resort",
+      "address": "2000 Plantation Club Drive, Lahaina, HI 96761",
+      "phone": "877-527-2582",
+      "website": "http://www.kapalua.com/",
+      "style": "Arnold Palmer/Francis Duane design",
+      "description": "Classic Maui resort course, historically easier than Plantation but recently renovated",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Resort Course",
+        "Ocean Views",
+        "Pro Shop",
+        "Spa"
+      ],
+      "difficulty": "Medium",
+      "par": 72,
+      "yardage": 6600,
+      "features": [
+        "Arnold Palmer Design",
+        "Ocean Views",
+        "Resort",
+        "Kapalua",
+        "Recently Renovated"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": true
+    },
+    {
+      "id": "maui-004-b",
+      "name": "The Plantation Course at Kapalua",
+      "island": "Maui",
+      "city": "Lahaina",
+      "type": "Resort",
+      "address": "2000 Plantation Club Drive, Lahaina, HI 96761",
+      "phone": "877-527-2582",
+      "website": "http://www.kapalua.com/",
+      "style": "Ben Crenshaw/Bill Coore design, PGA Tour venue",
+      "description": "World-famous Ben Crenshaw/Bill Coore design, host of The Sentry PGA Tour event",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "PGA Tour Venue",
+        "World-Class",
+        "Ocean Views",
+        "Spa"
+      ],
+      "difficulty": "Hard",
+      "par": 73,
+      "yardage": 7411,
+      "features": [
+        "PGA Tour",
+        "The Sentry",
+        "Crenshaw/Coore Design",
+        "World Top 100",
+        "Kapalua"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": true
+    },
+    {
+      "id": "maui-005",
+      "name": "King Kamehameha Golf Club",
+      "island": "Maui",
+      "city": "Wailuku",
+      "type": "Private",
+      "address": "2500 Honoapiilani Highway, Wailuku, HI 96793",
+      "phone": "808-249-0033",
+      "website": "http://www.kamehamehagolf.com/",
+      "style": "Ted Robinson mountain course, iconic clubhouse",
+      "description": "Mountain course with Frank Lloyd Wright-designed clubhouse, dramatic elevation changes",
+      "rates": {
+        "resident_weekday": "Members Only",
+        "resident_weekend": "Members Only",
+        "non_resident_weekday": "Members Only",
+        "non_resident_weekend": "Members Only"
+      },
+      "amenities": [
+        "Private Club",
+        "Frank Lloyd Wright",
+        "Mountain Views",
+        "Maui's Highest Course"
+      ],
+      "difficulty": "Hard",
+      "par": 72,
+      "yardage": 6800,
+      "features": [
+        "Private",
+        "Frank Lloyd Wright Design",
+        "Mountain Views",
+        "Iconic Clubhouse"
+      ],
+      "online_booking": false,
+      "booking_url": "",
+      "status": "active",
+      "featured": true
+    },
+    {
+      "id": "maui-006",
+      "name": "Makena Golf Course",
+      "island": "Maui",
+      "city": "Makena",
+      "type": "Resort",
+      "address": "5410 Makena Alanui, Kihei, HI 96753",
+      "phone": "808-891-4000",
+      "website": "http://www.makenagolf.com/",
+      "style": "Resort course with ocean views",
+      "description": "Robert Trent Jones Jr. design in Makena with spectacular ocean views",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Resort Course",
+        "Ocean Views",
+        "Pro Shop"
+      ],
+      "difficulty": "Hard",
+      "par": 72,
+      "yardage": 6700,
+      "features": [
+        "Robert Trent Jones Design",
+        "Ocean Views",
+        "Makena",
+        "South Maui"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": false
+    },
+    {
+      "id": "maui-007",
+      "name": "Maui Country Club",
+      "island": "Maui",
+      "city": "Paia",
+      "type": "Private",
+      "address": "48 Nonohe Place, Paia, HI 96779",
+      "phone": "808-877-7893",
+      "website": "http://www.mauicountryclub.org/",
+      "style": "Historic private club on North Shore",
+      "description": "Historic private club near Paia on Maui's North Shore",
+      "rates": {
+        "resident_weekday": "Members Only",
+        "resident_weekend": "Members Only",
+        "non_resident_weekday": "Members Only",
+        "non_resident_weekend": "Members Only"
+      },
+      "amenities": [
+        "Private Club",
+        "Historic",
+        "North Shore Maui",
+        "Tennis"
+      ],
+      "difficulty": "Medium",
+      "par": 71,
+      "yardage": 6200,
+      "features": [
+        "Private",
+        "Historic",
+        "North Shore",
+        "Paia"
+      ],
+      "online_booking": false,
+      "booking_url": "",
+      "status": "active",
+      "featured": false
+    },
+    {
+      "id": "maui-008",
+      "name": "Maui Nui Golf Club",
+      "island": "Maui",
+      "city": "Kihei",
+      "type": "Public",
+      "address": "350 Maui Lani Parkway, Kahului, HI 96732",
+      "phone": "808-874-0777",
+      "website": "http://www.mauinuigolfclub.com/",
+      "style": "Affordable public course",
+      "description": "Affordable public golf with views of West Maui Mountains",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Public",
+        "Affordable",
+        "Driving Range"
+      ],
+      "difficulty": "Medium",
+      "par": 72,
+      "yardage": 6100,
+      "features": [
+        "Public",
+        "Affordable",
+        "West Maui Mountain Views",
+        "Kihei"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": false
+    },
+    {
+      "id": "maui-009",
+      "name": "Pukalani Country Club",
+      "island": "Maui",
+      "city": "Pukalani",
+      "type": "Public/Semi-Private",
+      "address": "360 Pukalani Street, Pukalani, HI 96768",
+      "phone": "808-572-1314",
+      "website": "http://www.pukalanigolf.com/",
+      "style": "Upcountry municipal course",
+      "description": "Upcountry municipal course with cooler climate and mountain views",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Municipal",
+        "Upcountry",
+        "Cool Climate",
+        "Mountain Views"
+      ],
+      "difficulty": "Medium",
+      "par": 72,
+      "yardage": 5900,
+      "features": [
+        "Upcountry",
+        "Cooler Climate",
+        "Municipal",
+        "Affordable"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": false
+    },
+    {
+      "id": "maui-010",
+      "name": "Waiehu Golf Course",
+      "island": "Maui",
+      "city": "Wailuku",
+      "type": "Municipal",
+      "address": "2000 Kahului Beach Road, Wailuku, HI 96793",
+      "phone": "808-244-5934",
+      "website": "http://www.co.maui.hi.us/",
+      "style": "Affordable municipal course",
+      "description": "County municipal course with ocean views, former host of USGA Amateur Links",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Municipal",
+        "Ocean Views",
+        "Affordable",
+        "USGA Host History"
+      ],
+      "difficulty": "Medium",
+      "par": 72,
+      "yardage": 6200,
+      "features": [
+        "Municipal",
+        "Ocean Views",
+        "Wailuku",
+        "USGA Amateur Host"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": false
+    },
+    {
+      "id": "maui-011-a",
+      "name": "Gold Course at Wailea",
+      "island": "Maui",
+      "city": "Kihei",
+      "type": "Resort",
+      "address": "100 Wailea Golf Club Drive, Kihei, HI 96753",
+      "phone": "808-875-7450",
+      "website": "http://www.waileagolf.com/",
+      "style": "Robert Trent Jones Jr. design",
+      "description": "Robert Trent Jones Jr. resort course, former host of LPGA Skins Game",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Resort Course",
+        "LPGA Host History",
+        "Ocean Views",
+        "Spa"
+      ],
+      "difficulty": "Hard",
+      "par": 72,
+      "yardage": 7078,
+      "features": [
+        "Robert Trent Jones Design",
+        "LPGA Skins Game",
+        "World-Class",
+        "Wailea"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": true
+    },
+    {
+      "id": "maui-011-b",
+      "name": "Emerald Course at Wailea",
+      "island": "Maui",
+      "city": "Kihei",
+      "type": "Resort",
+      "address": "100 Wailea Golf Club Drive, Kihei, HI 96753",
+      "phone": "808-875-7450",
+      "website": "http://www.waileagolf.com/",
+      "style": "More forgiving resort course",
+      "description": "More forgiving but still challenging resort course at Wailea",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Resort Course",
+        "Ocean Views",
+        "Pro Shop"
+      ],
+      "difficulty": "Medium",
+      "par": 72,
+      "yardage": 6825,
+      "features": [
+        "Resort",
+        "Ocean Views",
+        "More Forgiving",
+        "Wailea"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": false
+    },
+    {
+      "id": "maui-011-c",
+      "name": "Old Blue Course at Wailea",
+      "island": "Maui",
+      "city": "Kihei",
+      "type": "Resort",
+      "address": "100 Wailea Golf Club Drive, Kihei, HI 96753",
+      "phone": "808-879-2530",
+      "website": "http://www.waileagolf.com/",
+      "style": "Classic older resort course",
+      "description": "Classic par-70 course, more relaxed option at Wailea",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Resort Course",
+        "More Relaxed",
+        "Pro Shop"
+      ],
+      "difficulty": "Medium",
+      "par": 70,
+      "yardage": 6150,
+      "features": [
+        "Resort",
+        "Classic Design",
+        "Par-70",
+        "Wailea"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": false
+    },
+    {
+      "id": "kauai-001",
+      "name": "Kauai Lagoons Golf Club",
+      "island": "Kauai",
+      "city": "Lihue",
+      "type": "Resort",
+      "address": "3351 Hoolaulea Way, Lihue, HI 96766",
+      "phone": "808-241-4500",
+      "website": "https://www.kauailagoonsgolf.com/",
+      "style": "Jack Nicklaus/Hokuala championship course",
+      "description": "Award-winning Jack Nicklaus-designed 18-hole championship course with ocean views. Formerly Kauai Lagoons, rebranded as Hokuala.",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Resort Course",
+        "Jack Nicklaus Design",
+        "Ocean Views",
+        "Driving Range",
+        "Pro Shop"
+      ],
+      "difficulty": "Hard",
+      "par": 72,
+      "yardage": 7200,
+      "features": [
+        "Jack Nicklaus Design",
+        "Oceanfront",
+        "Kalapaki Bay",
+        "Resort"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": true
+    },
+    {
+      "id": "kauai-002",
+      "name": "Kiahuna Golf Club",
+      "island": "Kauai",
+      "city": "Koloa",
+      "type": "Resort",
+      "address": "2545 Kiahuna Plantation Drive, Koloa, HI 96756",
+      "phone": "808-742-9595",
+      "website": "https://www.kiahunagolf.com/",
+      "style": "Robert Trent Jones Jr. resort course",
+      "description": "Robert Trent Jones Jr. design in Poipu with ancient lava walls and tropical gardens. Garden Isle charm.",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Resort Course",
+        "Poipu Location",
+        "Tropical Gardens",
+        "Pro Shop"
+      ],
+      "difficulty": "Medium",
+      "par": 72,
+      "yardage": 6400,
+      "features": [
+        "Robert Trent Jones Jr.",
+        "Poipu",
+        "Garden Isle",
+        "Lava Walls"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": true
+    },
+    {
+      "id": "kauai-003",
+      "name": "Ocean Course at Hokuala",
+      "island": "Kauai",
+      "city": "Lihue",
+      "type": "Resort",
+      "address": "3351 Hoolaulea Way, Lihue, HI 96766",
+      "phone": "808-241-4500",
+      "website": "https://www.hokualakauai.com/",
+      "style": "Jack Nicklaus signature ocean course",
+      "description": "Ocean holes along Nawiliwili Bay. Dramatic finishing hole with ocean on three sides.",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Oceanfront",
+        "Jack Nicklaus Design",
+        "Luxury Resort"
+      ],
+      "difficulty": "Hard",
+      "par": 72,
+      "yardage": 6800,
+      "features": [
+        "Oceanfront",
+        "Jack Nicklaus",
+        "Nawiliwili Bay",
+        "Dramatic Finishing Hole"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": true
+    },
+    {
+      "id": "kauai-004",
+      "name": "Poipu Bay Golf Course",
+      "island": "Kauai",
+      "city": "Koloa",
+      "type": "Resort",
+      "address": "2250 Aku Road, Koloa, HI 96756",
+      "phone": "808-742-8711",
+      "website": "https://www.poipubayresort.com/",
+      "style": "Robert Trent Jones Jr. oceanfront resort course",
+      "description": "Oceanfront course in Poipu with challenging holes along the Pacific. Grand Hyatt Kauai location.",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Resort Course",
+        "Grand Hyatt",
+        "Oceanfront",
+        "Pro Shop"
+      ],
+      "difficulty": "Hard",
+      "par": 72,
+      "yardage": 6850,
+      "features": [
+        "Oceanfront",
+        "Robert Trent Jones Jr.",
+        "Poipu",
+        "Grand Hyatt"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": true
+    },
+    {
+      "id": "kauai-005",
+      "name": "Princeville Makai Golf Club",
+      "island": "Kauai",
+      "city": "Princeville",
+      "type": "Resort",
+      "address": "4080 Queen Emma Drive, Princeville, HI 96722",
+      "phone": "808-826-5070",
+      "website": "https://www.princevillemakai.com/",
+      "style": "Robert Trent Jones Jr. with spectacular views",
+      "description": "World-renowned course on North Shore with breathtaking ocean and mountain views. Recently renovated.",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Resort Course",
+        "North Shore",
+        "Hanalei Bay Views",
+        "Ocean/Mountain Views"
+      ],
+      "difficulty": "Hard",
+      "par": 72,
+      "yardage": 7220,
+      "features": [
+        "Robert Trent Jones Jr.",
+        "Hanalei Bay",
+        "North Shore",
+        "Recently Renovated"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": true
+    },
+    {
+      "id": "kauai-006",
+      "name": "Puakea Golf Course",
+      "island": "Kauai",
+      "city": "Lihue",
+      "type": "Public",
+      "address": "1190 Lilihuna Road, Lihue, HI 96766",
+      "phone": "808-245-0257",
+      "website": "https://www.puakeagolf.com/",
+      "style": "Affordable public course in Lihue",
+      "description": "Breadth-taking mountain and ocean views. Challenging but playable. Local favorite.",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Public",
+        "Affordable",
+        "Mountain Views",
+        "Ocean Views"
+      ],
+      "difficulty": "Medium",
+      "par": 72,
+      "yardage": 6400,
+      "features": [
+        "Public",
+        "Affordable",
+        "Lihue",
+        "Local Favorite",
+        "Mountain Views"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": true
+    },
+    {
+      "id": "kauai-007",
+      "name": "Wailua Golf Course",
+      "island": "Kauai",
+      "city": "Lihue",
+      "type": "Municipal",
+      "address": "3-5350 Kuhio Highway, Lihue, HI 96766",
+      "phone": "808-241-5933",
+      "website": "https://www.kauai.gov/golf",
+      "style": "County municipal course",
+      "description": "Affordable county municipal course along Wailua River. Historic park setting.",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Municipal",
+        "Affordable",
+        "Wailua River",
+        "Historic"
+      ],
+      "difficulty": "Medium",
+      "par": 72,
+      "yardage": 6142,
+      "features": [
+        "Municipal",
+        "Wailua River",
+        "Historic",
+        "Budget Friendly"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": false
+    },
+    {
+      "id": "kauai-008",
+      "name": "Prince Course at Princeville",
+      "island": "Kauai",
+      "city": "Princeville",
+      "type": "Resort",
+      "address": "5520 Ka Haku Road, Princeville, HI 96722",
+      "phone": "808-826-5070",
+      "website": "https://www.princevillemakai.com/",
+      "style": "Robert Trent Jones Jr. (currently closed for maintenance)",
+      "description": "Legendary course closed since 2017 for maintenance. Check reopening status.",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Resort Course",
+        "Temporarily Closed",
+        "North Shore"
+      ],
+      "difficulty": "Hard",
+      "par": 72,
+      "yardage": 7300,
+      "features": [
+        "Robert Trent Jones Jr.",
+        "North Shore",
+        "Closed for Maintenance"
+      ],
+      "online_booking": false,
+      "booking_url": "",
+      "status": "maintenance",
+      "featured": false
+    },
+    {
+      "id": "bi-001",
+      "name": "Big Island Country Club",
+      "island": "Big Island",
+      "city": "Kailua-Kona",
+      "type": "Semi-Private/Public",
+      "address": "71-1420 Mamalahoa Highway, Kailua-Kona, HI 96740",
+      "phone": "808-325-5044",
+      "website": "http://www.bigislandcountryclub.com/",
+      "style": "Upcountry course with mountain views",
+      "description": "Perched on the slopes of Hualalai with cooler climate and panoramic views",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Mountain Views",
+        "Cool Climate",
+        "Pro Shop",
+        "Restaurant"
+      ],
+      "difficulty": "Medium",
+      "par": 72,
+      "yardage": 6400,
+      "features": [
+        "Upcountry",
+        "Mountain Views",
+        "Cooler Climate",
+        "Semi-Private"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": false
+    },
+    {
+      "id": "bi-002",
+      "name": "The Club at Hokuli'a",
+      "island": "Big Island",
+      "city": "Kealakekua",
+      "type": "Private",
+      "address": "81-6627 Hualalai Road, Kealakekua, HI 96750",
+      "phone": "808-930-4101",
+      "website": "http://www.hokuliaclub.com/",
+      "style": "Jack Nicklaus signature private club",
+      "description": "Exclusive Jack Nicklaus signature design with ocean views on Kona coast",
+      "rates": {
+        "resident_weekday": "Members Only",
+        "resident_weekend": "Members Only",
+        "non_resident_weekday": "Members Only",
+        "non_resident_weekend": "Members Only"
+      },
+      "amenities": [
+        "Private Club",
+        "Jack Nicklaus Design",
+        "Ocean Views",
+        "Luxury"
+      ],
+      "difficulty": "Hard",
+      "par": 72,
+      "yardage": 7200,
+      "features": [
+        "Private",
+        "Jack Nicklaus",
+        "Exclusive",
+        "Ocean Views"
+      ],
+      "online_booking": false,
+      "booking_url": "",
+      "status": "active",
+      "featured": true
+    },
+    {
+      "id": "bi-003",
+      "name": "Hamakua Country Club",
+      "island": "Big Island",
+      "city": "Honokaa",
+      "type": "Public",
+      "address": "45-526 Pakalana Street, Honokaa, HI 96727",
+      "phone": "808-775-7244",
+      "website": "http://www.hamakuagolf.com/",
+      "style": "Affordable public course on Hamakua Coast",
+      "description": "Affordable golf on the scenic Hamakua Coast, historic plantation town setting",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Public",
+        "Affordable",
+        "Hamakua Coast",
+        "Historic"
+      ],
+      "difficulty": "Medium",
+      "par": 72,
+      "yardage": 5800,
+      "features": [
+        "Public",
+        "Affordable",
+        "Hamakua Coast",
+        "Plantation Town"
+      ],
+      "online_booking": false,
+      "booking_url": "",
+      "status": "active",
+      "featured": false
+    },
+    {
+      "id": "bi-004",
+      "name": "Hapuna Golf Course",
+      "island": "Big Island",
+      "city": "Kohala Coast",
+      "type": "Resort",
+      "address": "66-110 Hapuna Beach Drive, Kamuela, HI 96743",
+      "phone": "808-880-3000",
+      "website": "http://www.princeresortshawaii.com/",
+      "style": "Arnold Palmer/Ed Seay resort course",
+      "description": "Arnold Palmer design at Mauna Kea Resort with ocean views",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Resort Course",
+        "Arnold Palmer Design",
+        "Ocean Views",
+        "Spa"
+      ],
+      "difficulty": "Hard",
+      "par": 72,
+      "yardage": 6850,
+      "features": [
+        "Arnold Palmer Design",
+        "Resort",
+        "Ocean Views",
+        "Mauna Kea Resort"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": true
+    },
+    {
+      "id": "bi-005",
+      "name": "Hilo Municipal Golf Course",
+      "island": "Big Island",
+      "city": "Hilo",
+      "type": "Municipal",
+      "address": "3400 Kilauea Avenue, Hilo, HI 96720",
+      "phone": "808-959-7711",
+      "website": "http://www.hawaiicounty.gov/pr-golf/",
+      "style": "Affordable municipal course, rainy side",
+      "description": "Affordable municipal golf on the rainy Hamakua side of island",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Municipal",
+        "Affordable",
+        "Hilo",
+        "Rainy Climate"
+      ],
+      "difficulty": "Medium",
+      "par": 71,
+      "yardage": 6000,
+      "features": [
+        "Municipal",
+        "Affordable",
+        "Hilo",
+        "East Side"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": false
+    },
+    {
+      "id": "bi-006",
+      "name": "Hualalai Golf Club",
+      "island": "Big Island",
+      "city": "Kailua-Kona",
+      "type": "Private/Resort",
+      "address": "100 Kaupulehu Drive, Kailua-Kona, HI 96740",
+      "phone": "808-325-8480",
+      "website": "http://www.hualalairesort.com/",
+      "style": "Jack Nicklaus championship private course",
+      "description": "Jack Nicklaus championship design at Four Seasons Hualalai, hosts Mitsubishi Electric Championship",
+      "rates": {
+        "resident_weekday": "Members/Resort Guests",
+        "resident_weekend": "Members/Resort Guests",
+        "non_resident_weekday": "Members/Resort Guests",
+        "non_resident_weekend": "Members/Resort Guests"
+      },
+      "amenities": [
+        "Championship",
+        "Jack Nicklaus",
+        "Four Seasons",
+        "PGA Tour Champions"
+      ],
+      "difficulty": "Hard",
+      "par": 72,
+      "yardage": 7200,
+      "features": [
+        "Jack Nicklaus",
+        "Four Seasons",
+        "Championship",
+        "Mitsubishi Electric Championship"
+      ],
+      "online_booking": false,
+      "booking_url": "",
+      "status": "active",
+      "featured": true
+    },
+    {
+      "id": "bi-007",
+      "name": "Kohanaiki Golf & Ocean Club",
+      "island": "Big Island",
+      "city": "Kailua-Kona",
+      "type": "Private",
+      "address": "73-4786 Kahawalu Street, Kailua-Kona, HI 96740",
+      "phone": "808-329-6200",
+      "website": "http://www.kohanaiki.com/",
+      "style": "Rees Jones private oceanfront club",
+      "description": "Exclusive Rees Jones design on Kona coast with oceanfront holes",
+      "rates": {
+        "resident_weekday": "Members Only",
+        "resident_weekend": "Members Only",
+        "non_resident_weekday": "Members Only",
+        "non_resident_weekend": "Members Only"
+      },
+      "amenities": [
+        "Private Club",
+        "Rees Jones Design",
+        "Oceanfront",
+        "Luxury"
+      ],
+      "difficulty": "Hard",
+      "par": 72,
+      "yardage": 7400,
+      "features": [
+        "Private",
+        "Rees Jones",
+        "Exclusive",
+        "Oceanfront"
+      ],
+      "online_booking": false,
+      "booking_url": "",
+      "status": "active",
+      "featured": true
+    },
+    {
+      "id": "bi-008",
+      "name": "Kona Country Club",
+      "island": "Big Island",
+      "city": "Kailua-Kona",
+      "type": "Resort",
+      "address": "78-7000 Alii Drive, Kailua-Kona, HI 96740",
+      "phone": "808-322-2595",
+      "website": "http://www.konagolf.com/",
+      "style": "Oceanfront resort course",
+      "description": "Historic oceanfront course in Kailua-Kona with spectacular views",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Resort Course",
+        "Oceanfront",
+        "Historic",
+        "Pro Shop"
+      ],
+      "difficulty": "Medium",
+      "par": 72,
+      "yardage": 6400,
+      "features": [
+        "Oceanfront",
+        "Historic",
+        "Kailua-Kona",
+        "Resort"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": true
+    },
+    {
+      "id": "bi-009",
+      "name": "Kukio Golf & Beach Club",
+      "island": "Big Island",
+      "city": "Kailua-Kona",
+      "type": "Private",
+      "address": "72-121 Kukio Place, Kailua-Kona, HI 96740",
+      "phone": "808-325-4116",
+      "website": "http://www.kukio.com/",
+      "style": "Tom Fazio ultra-exclusive private club",
+      "description": "Ultra-exclusive Tom Fazio design on Kona coast",
+      "rates": {
+        "resident_weekday": "Members Only",
+        "resident_weekend": "Members Only",
+        "non_resident_weekday": "Members Only",
+        "non_resident_weekend": "Members Only"
+      },
+      "amenities": [
+        "Ultra-Exclusive",
+        "Tom Fazio",
+        "Private Club",
+        "Luxury"
+      ],
+      "difficulty": "Hard",
+      "par": 72,
+      "yardage": 7200,
+      "features": [
+        "Private",
+        "Tom Fazio",
+        "Ultra-Exclusive",
+        "Kona Coast"
+      ],
+      "online_booking": false,
+      "booking_url": "",
+      "status": "active",
+      "featured": false
+    },
+    {
+      "id": "bi-010",
+      "name": "Makalei Golf Club",
+      "island": "Big Island",
+      "city": "Kailua-Kona",
+      "type": "Public",
+      "address": "72-3890 Hawaii Belt Road, Kailua-Kona, HI 96740",
+      "phone": "808-325-6625",
+      "website": "http://www.makalei.com/",
+      "style": "Upcountry course in native forest",
+      "description": "Unique upcountry course through native forest at 3,000ft elevation",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Upcountry",
+        "Cool Climate",
+        "Native Forest",
+        "Wildlife"
+      ],
+      "difficulty": "Hard",
+      "par": 72,
+      "yardage": 6800,
+      "features": [
+        "Upcountry",
+        "Cooler Climate",
+        "Native Forest",
+        "Wildlife",
+        "Elevation"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": true
+    },
+    {
+      "id": "bi-011",
+      "name": "Mauna Kea Golf Course",
+      "island": "Big Island",
+      "city": "Kohala Coast",
+      "type": "Resort",
+      "address": "62-100 Mauna Kea Beach Drive, Kamuela, HI 96743",
+      "phone": "808-882-5400",
+      "website": "http://www.princeresortshawaii.com/",
+      "style": "Robert Trent Jones Sr. classic design",
+      "description": "Historic Robert Trent Jones Sr. design, one of the most celebrated courses in Hawaii",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Historic",
+        "Robert Trent Jones Sr.",
+        "Ocean Views",
+        "Mauna Kea Resort"
+      ],
+      "difficulty": "Hard",
+      "par": 72,
+      "yardage": 7200,
+      "features": [
+        "Robert Trent Jones Sr.",
+        "Historic",
+        "World-Class",
+        "Mauna Kea Resort"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": true
+    },
+    {
+      "id": "bi-012",
+      "name": "Mauna Lani Resort Golf",
+      "island": "Big Island",
+      "city": "Kohala Coast",
+      "type": "Resort",
+      "address": "68-1400 Mauna Lani Drive, Kamuela, HI 96743",
+      "phone": "808-885-6655",
+      "website": "http://www.maunalani.com/",
+      "style": "Francis H. I'i Brown championship courses",
+      "description": "Two championship courses (North and South) at Mauna Lani Resort",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Two Courses",
+        "Resort",
+        "Ocean Views",
+        "Historic Lava Fields"
+      ],
+      "difficulty": "Hard",
+      "par": 72,
+      "yardage": 7000,
+      "features": [
+        "Two Courses",
+        "Resort",
+        "Lava Fields",
+        "Mauna Lani"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": true
+    },
+    {
+      "id": "bi-013",
+      "name": "Nanea Golf Club",
+      "island": "Big Island",
+      "city": "Kailua-Kona",
+      "type": "Private",
+      "address": "73-4530 Aholoa Place, Kailua-Kona, HI 96740",
+      "phone": "808-930-1300",
+      "website": "",
+      "style": "David McLay Kidd ultra-exclusive design",
+      "description": "Ultra-exclusive David McLay Kidd design on Kona coast, very limited membership",
+      "rates": {
+        "resident_weekday": "Members Only",
+        "resident_weekend": "Members Only",
+        "non_resident_weekday": "Members Only",
+        "non_resident_weekend": "Members Only"
+      },
+      "amenities": [
+        "Ultra-Exclusive",
+        "David McLay Kidd",
+        "Private Club",
+        "Limited Membership"
+      ],
+      "difficulty": "Hard",
+      "par": 72,
+      "yardage": 7600,
+      "features": [
+        "Private",
+        "David McLay Kidd",
+        "Ultra-Exclusive",
+        "Long Course"
+      ],
+      "online_booking": false,
+      "booking_url": "",
+      "status": "active",
+      "featured": false
+    },
+    {
+      "id": "bi-014",
+      "name": "Naniloa Volcanoes Golf Club",
+      "island": "Big Island",
+      "city": "Hilo",
+      "type": "Resort",
+      "address": "93 Banyan Drive, Hilo, HI 96720",
+      "phone": "808-935-3000",
+      "website": "http://www.hottours.us/",
+      "style": "Hilo resort course near waterfront",
+      "description": "Resort course in Hilo near Banyan Drive waterfront",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Resort",
+        "Hilo",
+        "Waterfront",
+        "Budget Friendly"
+      ],
+      "difficulty": "Medium",
+      "par": 72,
+      "yardage": 6200,
+      "features": [
+        "Hilo",
+        "Waterfront",
+        "Budget",
+        "East Side"
+      ],
+      "online_booking": false,
+      "booking_url": "",
+      "status": "active",
+      "featured": false
+    },
+    {
+      "id": "bi-015",
+      "name": "Sea Mountain Golf Course",
+      "island": "Big Island",
+      "city": "Pahala",
+      "type": "Resort",
+      "address": "95-788 Ninole Loop Road, Pahala, HI 96777",
+      "phone": "808-928-6222",
+      "website": "",
+      "style": "Resort course in Ka'u District",
+      "description": "Resort course in the Ka'u District, south part of Big Island",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Resort",
+        "Ka'u District",
+        "Remote Location"
+      ],
+      "difficulty": "Medium",
+      "par": 72,
+      "yardage": 6400,
+      "features": [
+        "Ka'u District",
+        "Remote",
+        "South Big Island"
+      ],
+      "online_booking": false,
+      "booking_url": "",
+      "status": "active",
+      "featured": false
+    },
+    {
+      "id": "bi-016",
+      "name": "Volcano Golf & Country Club",
+      "island": "Big Island",
+      "city": "Volcanoes National Park",
+      "type": "Semi-Private",
+      "address": "99-2803 Olaa Street, Volcano, HI 96785",
+      "phone": "808-967-7331",
+      "website": "http://www.volcanogolfshop.com/",
+      "style": "Highest elevation course in Hawaii",
+      "description": "Hawaii's highest course at 4,200ft elevation, near Kilauea Volcano. Adds 10-25 yards to every shot.",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Highest Elevation",
+        "Volcano Views",
+        "Cool Climate",
+        "Unique Experience"
+      ],
+      "difficulty": "Medium",
+      "par": 72,
+      "yardage": 6000,
+      "features": [
+        "Highest Elevation",
+        "Volcano Views",
+        "4,200ft",
+        "Near Kilauea",
+        "Unique"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": true
+    },
+    {
+      "id": "bi-017-a",
+      "name": "Waikoloa Beach Course",
+      "island": "Big Island",
+      "city": "Waikoloa",
+      "type": "Resort",
+      "address": "69-275 Waikoloa Beach Drive, Waikoloa, HI 96738",
+      "phone": "808-886-6060",
+      "website": "http://www.waikoloagolf.com/",
+      "style": "Robert Trent Jones Jr. resort course",
+      "description": "Robert Trent Jones Jr. design with ancient lava flows and ocean views",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Resort Course",
+        "Robert Trent Jones Jr.",
+        "Lava Fields",
+        "Ocean Views"
+      ],
+      "difficulty": "Medium",
+      "par": 70,
+      "yardage": 6500,
+      "features": [
+        "Robert Trent Jones Jr.",
+        "Lava Fields",
+        "Waikoloa",
+        "Resort"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": true
+    },
+    {
+      "id": "bi-017-b",
+      "name": "Waikoloa Kings' Course",
+      "island": "Big Island",
+      "city": "Waikoloa",
+      "type": "Resort",
+      "address": "600 Waikoloa Beach Drive, Waikoloa, HI 96738",
+      "phone": "808-886-7888",
+      "website": "http://www.waikoloagolf.com/",
+      "style": "Tom Weiskopf/Jay Morrish design",
+      "description": "Tom Weiskopf/Jay Morrish design with wide fairways and ocean views",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Resort Course",
+        "Tom Weiskopf Design",
+        "Wide Fairways",
+        "Ocean Views"
+      ],
+      "difficulty": "Medium",
+      "par": 72,
+      "yardage": 7000,
+      "features": [
+        "Tom Weiskopf Design",
+        "Wide Fairways",
+        "Waikoloa",
+        "Resort"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": true
+    },
+    {
+      "id": "bi-018",
+      "name": "Waikoloa Village Golf Club",
+      "island": "Big Island",
+      "city": "Waikoloa",
+      "type": "Public",
+      "address": "68-1793 Melia Street, Waikoloa, HI 96738",
+      "phone": "808-883-9621",
+      "website": "http://www.waikoloavillagegolf.com/",
+      "style": "Affordable public course in Waikoloa",
+      "description": "Affordable public golf in Waikoloa Village with mountain and ocean views",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Public",
+        "Affordable",
+        "Waikoloa Village",
+        "Mountain Views"
+      ],
+      "difficulty": "Medium",
+      "par": 72,
+      "yardage": 6200,
+      "features": [
+        "Public",
+        "Affordable",
+        "Waikoloa",
+        "Local Favorite"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": false
+    },
+    {
+      "id": "lanai-001",
+      "name": "Manele Golf Course",
+      "island": "Lanai",
+      "city": "Lanai City",
+      "type": "Resort",
+      "address": "1 Manele Bay Road, Lanai City, HI 96763",
+      "phone": "808-565-2222",
+      "website": "https://www.fourseasons.com/lanai/golf/",
+      "style": "Jack Nicklaus oceanfront signature course",
+      "description": "Jack Nicklaus signature design at Four Seasons Lanai. Cliffside holes with sweeping Pacific views. One of Hawaii's most spectacular courses.",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Resort Course",
+        "Jack Nicklaus Design",
+        "Four Seasons",
+        "Oceanfront",
+        "Cliffside Holes",
+        "Luxury"
+      ],
+      "difficulty": "Hard",
+      "par": 72,
+      "yardage": 7039,
+      "features": [
+        "Jack Nicklaus",
+        "Four Seasons",
+        "Cliffside",
+        "Oceanfront",
+        "Luxury",
+        "Signature Course"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": true
+    },
+    {
+      "id": "lanai-002",
+      "name": "The Challenge at Manele",
+      "island": "Lanai",
+      "city": "Lanai City",
+      "type": "Resort",
+      "address": "1 Manele Bay Road, Lanai City, HI 96763",
+      "phone": "808-565-2222",
+      "website": "https://www.fourseasons.com/lanai/golf/",
+      "style": "Tournament course (same location, alternate routing)",
+      "description": "Tournament routing at Manele for special events and challenges. Requires resort stay.",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Resort Course",
+        "Four Seasons",
+        "Tournament Layout"
+      ],
+      "difficulty": "Hard",
+      "par": 72,
+      "yardage": 7039,
+      "features": [
+        "Four Seasons",
+        "Tournament",
+        "Challenge Layout"
+      ],
+      "online_booking": true,
+      "booking_url": "",
+      "status": "active",
+      "featured": false
+    },
+    {
+      "id": "lanai-003",
+      "name": "Cavendish Golf Course",
+      "island": "Lanai",
+      "city": "Lanai City",
+      "type": "Public",
+      "address": "Lanai City, HI 96763",
+      "phone": "808-565-6970",
+      "website": "",
+      "style": "Free public 9-hole course",
+      "description": "Free public 9-hole course in Lanai City center. No fees, no tee times. Bring own clubs (no rentals).",
+      "rates": {
+        "resident_weekday": "FREE",
+        "resident_weekend": "FREE",
+        "non_resident_weekday": "FREE",
+        "non_resident_weekend": "FREE"
+      },
+      "amenities": [
+        "Public",
+        "Free",
+        "9-Hole",
+        "No Tee Times",
+        "Walk Up"
+      ],
+      "difficulty": "Easy",
+      "par": 36,
+      "yardage": 3100,
+      "features": [
+        "Free",
+        "Public",
+        "9-Hole",
+        "Lanai City",
+        "No Frills"
+      ],
+      "online_booking": false,
+      "booking_url": "",
+      "status": "active",
+      "featured": false
+    },
+    {
+      "id": "molokai-001",
+      "name": "Ironwood Hills Golf Club",
+      "island": "Molokai",
+      "city": "Kualapuu",
+      "type": "Public",
+      "address": "Kalae Highway, Kualapuu, HI 96757",
+      "phone": "808-567-6000",
+      "website": "",
+      "style": "Affordable public 9-hole course",
+      "description": "Only 9-holes on Molokai Island. Elevated green with mountain and ocean views. Local volunteer maintained. Friendly small-town atmosphere.",
+      "rates": {
+        "resident_weekday": "$TBD",
+        "resident_weekend": "$TBD",
+        "non_resident_weekday": "$TBD",
+        "non_resident_weekend": "$TBD"
+      },
+      "amenities": [
+        "Public",
+        "9-Hole",
+        "Affordable",
+        "Mountain Views",
+        "Volunteer Maintained"
+      ],
+      "difficulty": "Medium",
+      "par": 35,
+      "yardage": 2850,
+      "features": [
+        "9-Hole",
+        "Public",
+        "Molokai",
+        "Affordable",
+        "Local Favorite",
+        "Mountain Views"
+      ],
+      "online_booking": false,
+      "booking_url": "",
+      "status": "active",
+      "featured": false
+    }
+  ]
+}
