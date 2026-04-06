@@ -23,32 +23,54 @@
       "type": "Municipal",
       "address": "404 Kapahulu Avenue, Honolulu, HI 96815",
       "phone": "808-733-7387",
-      "website": "https://www.honolulu.gov/des/golf-courses/",
+      "website": "https://www.honolulu.gov/des/ala-wai-golf-course/",
       "style": "Flat and sporty",
-      "description": "Perimeter of Waikiki along the Ala Wai Canal with views of Diamond Head",
+      "description": "Located minutes from Waikiki along the Ala Wai Canal with views of Diamond Head. Honolulu's busiest municipal course featuring a flat, walker-friendly layout. The 18-hole course offers different yardage for men (5,861 yards, Par 70, Rating 66.8, Slope 115) and women (5,095 yards, Par 70, Rating 67.2, Slope 110). Features a full-service driving range open until 11 PM daily and L&L Hawaiian Grill restaurant. No twilight play until further notice.",
       "rates": {
-        "resident_weekday": "$TBD",
-        "resident_weekend": "$TBD",
-        "non_resident_weekday": "$TBD",
-        "non_resident_weekend": "$TBD"
+        "resident_18_holes_weekday": "$28",
+        "resident_18_holes_weekend": "$32",
+        "resident_9_holes_weekday": "$14",
+        "resident_9_holes_weekend": "$16",
+        "senior_disabled_18_weekday": "$23",
+        "senior_disabled_18_weekend": "$32",
+        "senior_disabled_9_weekday": "$11.50",
+        "senior_disabled_9_weekend": "$16",
+        "senior_monthly": "$95 (weekdays only, 10 round limit)",
+        "junior_18_holes": "$0 (with Resident Golf ID, 17 & under)",
+        "junior_9_holes": "$0 (with Resident Golf ID, 17 & under)",
+        "non_resident_18_holes": "$86",
+        "non_resident_9_holes": "$43",
+        "cart_18_holes": "$26",
+        "cart_9_holes": "$13"
       },
       "amenities": [
-        "Driving Range",
-        "Pro Shop",
-        "Lessons"
+        "Driving Range (6:30 AM - 11:00 PM)",
+        "Restaurant (L&L Hawaiian Grill, 6 AM - 7 PM)",
+        "Limited Club Rentals",
+        "Hand Pull Cart Rentals",
+        "Golf Lessons",
+        "Golf Merchandise"
       ],
       "difficulty": "Medium",
       "par": 70,
-      "yardage": 5862,
+      "yardage": 5861,
       "features": [
         "Waikiki Views",
         "Diamond Head Views",
-        "Beginner Friendly"
+        "Ala Wai Canal",
+        "Beginner Friendly",
+        "Flat Course",
+        "City & County of Honolulu",
+        "Municipal Rates"
       ],
       "online_booking": true,
       "booking_url": "https://www.honolulu.gov/des/golf-courses/tee-time-reservations/",
       "status": "active",
       "featured": false,
+      "image_hero": "/images/courses/ala-wai-gc.jpg",
+      "image_thumb": "/images/courses/ala-wai-gc.jpg",
+      "aeration_schedule": "March 9-10, October 2026 (TBD)",
+      "notes": "Reservations: (808) 207-6856. Starter's Office: 808.733.7387. Driving Range: 808.779.9944. Pro shop currently closed. No twilight play until further notice. Resident Golf ID required for resident rates.",
       "lat": 21.2695,
       "lng": -157.8226
     },
@@ -64,27 +86,40 @@
       "style": "Par-3 executive course",
       "description": "Windward Oahu semi-executive course with bay views",
       "rates": {
-        "resident_weekday": "$TBD",
-        "resident_weekend": "$TBD",
-        "non_resident_weekday": "$TBD",
-        "non_resident_weekend": "$TBD"
+        "resident_weekday_18_ride": "$40",
+        "resident_weekday_18_walk": "$28",
+        "resident_weekend_18_ride": "$45",
+        "resident_weekend_18_walk": "$33",
+        "non_resident_weekday_18_ride": "$66",
+        "non_resident_weekend_18_ride": "$76",
+        "early_bird": "$33 (weekdays 6:30-8am)",
+        "twilight": "$33 (after 3pm)",
+        "ladies_day": "$30 (Tuesdays)",
+        "seniors_day": "$30 (Wednesdays 62+)"
       },
       "amenities": [
         "Practice Green",
+        "Club Rentals",
         "Night Play Available"
       ],
       "difficulty": "Easy",
       "par": 60,
-      "yardage": 3200,
+      "yardage": 3399,
+      "slope": 91,
+      "rating": 56.9,
       "features": [
         "Kaneohe Bay Views",
         "Night Golf",
         "Executive"
       ],
       "online_booking": true,
-      "booking_url": "",
+      "booking_url": "https://www.chronogolf.com/club/5010",
       "status": "active",
       "featured": false,
+      "image_hero": "https://bayviewgolfcourse.us/wp-content/uploads/sites/76/2025/03/bayview-golf-course-course-00.webp",
+      "image_thumb": "https://bayviewgolfcourse.us/wp-content/uploads/sites/76/2025/03/bayview-golf-course-course-00.webp",
+      "aeration_schedule": "TBD 2026",
+      "specials": "Early Bird (weekdays 6:30-8am): $33 | Twilight (after 3pm): $33 | Ladies Day Tuesday: $30 | Seniors Day Wednesday: $30",
       "lat": 21.4038,
       "lng": -157.7976
     },
@@ -96,71 +131,98 @@
       "type": "Public",
       "address": "91-1111 Geiger Road, Ewa Beach, HI 96706",
       "phone": "808-441-4653",
-      "website": "http://www.coralcreekgolfhawaii.com/",
+      "website": "https://www.coralcreekgolf.com/",
       "style": "Championship course with challenging layout",
-      "description": "Semi-private feel with championship layout near Ewa Beach",
+      "description": "Premier 18-hole championship course designed by Robin Nelson in Ewa Beach. Features challenging layout with water hazards, including signature waterfall holes. Offers tiered pricing for residents and visitors, with special rates after aeration (April 13-26). Includes Pueo's Bar & Grill, full pro shop, driving range, and event hosting.",
       "rates": {
-        "resident_weekday": "$TBD",
-        "resident_weekend": "$TBD",
-        "non_resident_weekday": "$TBD",
-        "non_resident_weekend": "$TBD"
+        "resident_weekday": "$45 (11AM-1PM), $35 (1PM-3PM), $25 (after 3PM)",
+        "resident_weekend": "$80, $65 (after 12:30PM), $38 (after 3:30PM)",
+        "visitor": "$125 (before 12PM), $95 (12PM-3PM), $65 (after 3PM)",
+        "visitor_9_hole": "$65"
       },
       "amenities": [
         "Driving Range",
-        "Pro Shop",
-        "Restaurant"
+        "Pro Shop (6AM-5PM)",
+        "Pueo's Bar & Grill",
+        "Golf Academy",
+        "Wedding & Event Venue",
+        "Custom Fitting"
       ],
       "difficulty": "Hard",
       "par": 72,
-      "yardage": 7200,
+      "yardage": 6808,
       "features": [
         "Championship Layout",
-        "Newer Course",
-        "Ewa Beach"
+        "Robin Nelson Design",
+        "Water Features",
+        "Ewa Beach Location",
+        "Aeration Specials",
+        "Online Booking"
       ],
       "online_booking": true,
-      "booking_url": "",
+      "booking_url": "https://foreupsoftware.com/index.php/booking/22328#/login",
       "status": "active",
       "featured": true,
       "lat": 21.3055,
-      "lng": -158.0201
+      "lng": -158.0201,
+      "image": "/images/courses/coral-creek-banner.jpg",
+      "image_featured": "/images/courses/coral-creek-featured.jpg",
+      "image_thumb": "/images/courses/coral-creek-waterfall-focus-thumb.jpg",
+"special_rate": {
+        "active": false,
+        "amount": "$50",
+        "description": "Weekday Resident Special Rate",
+        "valid_until": "March 31, 2026"
+      }
     },
     {
       "id": "oahu-004",
-      "name": "Ewa Beach Golf Club",
+      "name": "360° Ewa Beach Country Club",
       "island": "Oahu",
       "city": "Ewa Beach",
-      "type": "Public",
+      "type": "Private",
       "address": "91-050 Fort Weaver Road, Ewa Beach, HI 96706",
       "phone": "808-689-6565",
-      "website": "http://www.ewabeachgc.com/",
+      "website": "https://360ewabeachcc.com/",
       "style": "Links-style championship course",
-      "description": "Links-style championship golf on Leeward Oahu",
+      "description": "Robin Nelson-designed championship links course on Leeward Oahu. Formerly Ewa Beach Golf Club.",
       "rates": {
-        "resident_weekday": "$TBD",
-        "resident_weekend": "$TBD",
-        "non_resident_weekday": "$TBD",
-        "non_resident_weekend": "$TBD"
+        "visitor": "$195",
+        "visitor_twilight": "$145 (after 12:30pm)",
+        "resident_weekday": "$80",
+        "resident_weekend": "$95",
+        "club_rental": "$75"
       },
       "amenities": [
         "Driving Range",
         "Pro Shop",
-        "Restaurant"
+        "Restaurant",
+        "Club Rentals"
       ],
       "difficulty": "Hard",
       "par": 72,
-      "yardage": 6954,
+      "yardage": 6711,
+      "slope": 137,
+      "rating": 73.1,
       "features": [
         "Links Style",
         "Championship",
-        "Leeward Oahu"
+        "Leeward Oahu",
+        "Waianae Mountain Views",
+        "Native Bird Sanctuary"
       ],
       "online_booking": true,
-      "booking_url": "",
+      "booking_url": "https://ewabeach.ezlinksgolf.com",
+      "booking_url_resident": "https://ewabeachresident.ezlinksgolf.com",
       "status": "active",
       "featured": true,
       "lat": 21.3137,
-      "lng": -158.0304
+      "lng": -158.0304,
+      "image_hero": "/images/courses/360-ewa-beach.jpg",
+      "image_thumb": "/images/courses/360-ewa-beach.jpg",
+      "aeration_schedule": "Fall 2026 (dates TBA)",
+      "specials": "Kama'aina Spring Special (Mar-Apr): Weekday after 9am $65, Weekday Twilight $45 | Twilight specials",
+      "notes": "Rebranded from Ewa Beach Golf Club. Transportation available from Waikiki and Aulani. Ancient Hawaiian fishing village remains on site."
     },
     {
       "id": "oahu-005",
@@ -170,32 +232,50 @@
       "type": "Municipal",
       "address": "91-1760 Park Row, Ewa Beach, HI 96706",
       "phone": "808-681-0220",
-      "website": "https://www.honolulu.gov/des/golf-courses/",
+      "website": "https://www.honolulu.gov/des/ewa-villages-golf-course/",
       "style": "Links-style with wind factor",
-      "description": "Challenging links-style municipal course where wind is a major factor",
+      "description": "A very challenging links-style layout where wind is a critical factor. Features relatively tight fairways where accuracy is a premium. Located in Leeward Oahu, 32 miles from downtown Honolulu (approximately 50-minute drive from Waikiki hotels). The 18-hole course offers different yardage for men (6,455 yards, Par 73, Rating 70.9, Slope 122) and women (5,595 yards, Par 73, Rating 73.6, Slope 124). No pro shop or restaurant currently available.",
       "rates": {
-        "resident_weekday": "$TBD",
-        "resident_weekend": "$TBD",
-        "non_resident_weekday": "$TBD",
-        "non_resident_weekend": "$TBD"
+        "resident_18_holes_weekday": "$28",
+        "resident_18_holes_weekend": "$32",
+        "resident_9_holes_weekday": "$14",
+        "resident_9_holes_weekend": "$16",
+        "senior_disabled_18_weekday": "$23",
+        "senior_disabled_18_weekend": "$32",
+        "senior_disabled_9_weekday": "$11.50",
+        "senior_disabled_9_weekend": "$16",
+        "senior_monthly": "$95 (weekdays only, 10 round limit)",
+        "junior_18_holes": "$0 (with Resident Golf ID, 17 & under)",
+        "junior_9_holes": "$0 (with Resident Golf ID, 17 & under)",
+        "non_resident_18_holes": "$86",
+        "non_resident_9_holes": "$43",
+        "cart_18_holes": "$26",
+        "cart_9_holes": "$13"
       },
       "amenities": [
         "Practice Green",
-        "Clubhouse"
+        "Clubhouse",
+        "Limited Club Rentals",
+        "Links Style Layout"
       ],
       "difficulty": "Hard",
-      "par": 72,
-      "yardage": 6232,
+      "par": 73,
+      "yardage": 6455,
       "features": [
         "Links Style",
         "Windy",
         "Tight Fairways",
-        "Municipal"
+        "Municipal",
+        "City & County of Honolulu",
+        "Leeward Oahu",
+        "32 miles from Honolulu"
       ],
       "online_booking": true,
       "booking_url": "https://www.honolulu.gov/des/golf-courses/tee-time-reservations/",
       "status": "active",
       "featured": false,
+      "aeration_schedule": "March 16-17, 2026",
+      "notes": "Reservations: (808) 207-6741. No Twilight Play Until Further Notice. Play limited to 9 holes during aeration days. No pro shop or restaurant on-site. Resident Golf ID required for resident rates.",
       "lat": 21.3221,
       "lng": -158.0295
     },
@@ -207,30 +287,33 @@
       "type": "Public",
       "address": "98-1214 Kaonohi Street, Aiea, HI 96701",
       "phone": "808-621-5654",
-      "website": "",
+      "website": "https://www.hawaiicountryclub808.com/",
       "style": "Central Oahu public course",
-      "description": "Public golf in central Oahu near Wahiawa",
+      "description": "Public golf in central Oahu near Wahiawa. Under new management (Stella Greens) with recently renovated facilities.",
       "rates": {
-        "resident_weekday": "$TBD",
-        "resident_weekend": "$TBD",
-        "non_resident_weekday": "$TBD",
-        "non_resident_weekend": "$TBD"
+        "weekday": "$30-40",
+        "weekend": "$40-50",
+        "note": "New lower rates under Stella Greens management"
       },
       "amenities": [
         "Pro Shop",
-        "Practice Area"
+        "Practice Area",
+        "Recently Renovated"
       ],
       "difficulty": "Medium",
       "par": 72,
       "yardage": 6400,
       "features": [
         "Central Oahu",
-        "Affordable"
+        "Affordable",
+        "New Management",
+        "Renovated"
       ],
-      "online_booking": false,
-      "booking_url": "",
+      "online_booking": true,
+      "booking_url": "https://www.hawaiicountryclub808.com/",
       "status": "active",
       "featured": false,
+      "notes": "Under new management as of 2024. New lower rates with renovated facilities.",
       "lat": 21.4122,
       "lng": -157.9733
     },
@@ -242,146 +325,153 @@
       "type": "Public",
       "address": "8902 Kalanianaole Highway, Honolulu, HI 96825",
       "phone": "808-395-2358",
-      "website": "http://www.hawaiikaigolf.com/",
+      "website": "https://hawaiikaigolf.com/",
       "style": "Championship and Executive courses",
-      "description": "Two courses: Championship and Par-3 Executive, designed by William Bell and Robert Trent Jones Sr.",
+      "description": "Located just 13 miles east of Waikiki, Hawaii Kai Golf Course features two distinct 18-hole courses. The Championship Course is a William Bell-designed layout featuring challenging elevation changes and skilled dogleg holes with breathtaking views of Moloka'i in the distance. The Executive Course is a Robert Trent Jones-designed 18-hole Par-3 course overlooking Oahu's east shore and renowned Sandy Beach Park - perfect for beginners, juniors, or those honing their iron and short game skills.",
       "rates": {
-        "resident_weekday": "$TBD",
-        "resident_weekend": "$TBD",
-        "non_resident_weekday": "$TBD",
-        "non_resident_weekend": "$TBD"
+        "championship_visitor_weekday": "$160",
+        "championship_visitor_weekend": "$170",
+        "championship_visitor_twilight": "$125",
+        "championship_resident_weekday": "$63",
+        "championship_resident_weekend": "$73",
+        "championship_resident_twilight_weekday": "$53",
+        "championship_resident_twilight_weekend": "$63",
+        "championship_9_hole_weekday": "$35",
+        "championship_9_hole_weekend": "$40",
+        "executive_visitor_riding": "$65",
+        "executive_visitor_walking": "$50",
+        "executive_resident_riding_weekday": "$37",
+        "executive_resident_walking_weekday": "$23",
+        "executive_resident_riding_weekend": "$42",
+        "executive_resident_walking_weekend": "$28",
+        "club_rental_championship": "$75",
+        "club_rental_executive": "$40",
+        "cart_fee": "$15",
+        "senior_rate": "$53 (60+ Kama'aina, Weekday)",
+        "junior_rate": "$30 Weekdays, $40 Weekends"
       },
       "amenities": [
         "Driving Range",
         "Pro Shop",
         "Restaurant",
-        "Two Courses"
+        "Two Courses",
+        "Golf Academy",
+        "Practice Facilities",
+        "Banquet Facilities",
+        "Event Venues"
       ],
       "difficulty": "Medium",
       "par": 72,
-      "yardage": 6700,
+      "yardage": 6500,
       "features": [
         "Championship Course",
-        "Executive Par-3",
-        "Robert Trent Jones Design"
+        "Executive Par-3 Course",
+        "William Bell Design",
+        "Robert Trent Jones Design",
+        "Moloka'i Views",
+        "Sandy Beach Views",
+        "East Oahu Location"
       ],
       "online_booking": true,
-      "booking_url": "",
+      "booking_url": "https://hawaiikaigolf.com/visitor-tee-times/",
+      "status": "active",
+      "featured": false,
+      "lat": 21.3489,
+      "lng": -157.9147,
+      "image_hero": "/images/courses/hawaii-kai.jpg",
+      "image_thumb": "/images/courses/hawaii-kai.jpg"
+    },
+    {
+      "id": "oahu-008",
+      "name": "Hawaii Prince Golf Club",
+      "island": "Oahu",
+      "city": "Ewa Beach",
+      "type": "Resort",
+      "address": "91-1200 Fort Weaver Road, Ewa Beach, HI 96706",
+      "phone": "808-944-4567",
+      "website": "https://www.hawaiiprincegolf.com/",
+      "style": "Links-style 27-hole facility",
+      "description": "Designed by Arnold Palmer and Ed Seay, Hawaii Prince Golf Club offers three interchangeable nines and 27 holes to create a variety of playing conditions for all skill levels. Opened in July 1992, the course features 270 acres offering stunning views of the rain-carved Waianae Mountains, long verdant fairways lined with numerous white sand bunkers and 10 strategically placed lakes. The A-C combination from the back tees is the most challenging (slope 134), while A-B is the least difficult. Home of the Quick Shot Par 3 course.",
+      "rates": {
+        "visitor": "$179 (includes cart, range balls, bottle water)",
+        "visitor_twilight_walk": "$79 (weekends from 2:30pm)",
+        "visitor_twilight_cart": "$115 (weekends from 2:30pm)",
+        "prince_waikiki_guest": "$169",
+        "prince_waikiki_guest_twilight_walk": "$69 (weekends from 2:30pm)",
+        "prince_waikiki_guest_twilight_cart": "$105 (weekends from 2:30pm)",
+        "kamaaina_weekday": "$79",
+        "kamaaina_weekend": "$89",
+        "kamaaina_spring_special_am": "$59 (Mon-Wed before 11am, Jan-Apr)",
+        "kamaaina_spring_special_pm": "$49 (Mon-Wed after 11am, Jan-Apr)",
+        "kamaaina_twilight_weekday_walk": "$37 (from 1:30pm)",
+        "kamaaina_twilight_weekday_cart": "$59 (from 1:30pm)",
+        "kamaaina_twilight_weekend_walk": "$39 (from 1:30pm)",
+        "kamaaina_twilight_weekend_cart": "$69 (from 1:30pm)",
+        "quick_shot_9_holes": "$50 (weekdays from 2:30pm)",
+        "quick_shot_9_holes_cart": "$70 (weekdays from 2:30pm)",
+        "kamaaina_quick_shot": "$25 (weekdays from 2:30pm)",
+        "kamaaina_quick_shot_cart": "$35 (weekdays from 2:30pm)",
+        "rider_fee": "$35",
+        "club_rental": "$75",
+        "rental_shoes": "$25",
+        "range_balls": "$10"
+      },
+      "amenities": [
+        "Pro Shop",
+        "Restaurant",
+        "Three 9-Hole Courses",
+        "Club Rentals",
+        "GPS Carts",
+        "Quick Shot Par 3",
+        "Practice Facility",
+        "Tennis Courts",
+        "Golf Academy"
+      ],
+      "difficulty": "Hard",
+      "par": 72,
+      "yardage": 7255,
+      "courses": {
+        "a_course": {
+          "name": "A Course",
+          "par": 36,
+          "yardage": 3550,
+          "features": "10 lakes, white sand bunkers, signature hole A7"
+        },
+        "b_course": {
+          "name": "B Course", 
+          "par": 36,
+          "yardage": 3500,
+          "features": "Least difficult, signature hole B9"
+        },
+        "c_course": {
+          "name": "C Course",
+          "par": 36,
+          "yardage": 3550,
+          "features": "Signature holes C2 & C7, challenging layout"
+        }
+      },
+      "features": [
+        "Links Style",
+        "Arnold Palmer Design",
+        "Ed Seay Design",
+        "27 Holes",
+        "Three 9-Hole Courses",
+        "10 Lakes",
+        "White Sand Bunkers",
+        "Quick Shot Par 3",
+        "Waianae Mountain Views",
+        "Fast Greens"
+      ],
+      "online_booking": true,
+      "booking_url": "https://hawaii-prince-golf-club.book.teeitup.com/",
       "status": "active",
       "featured": true,
-      "lat": 21.3489,
-      "lng": -157.9147
-    },
-    {
-      "id": "oahu-008-a",
-      "name": "Hawaii Prince Golf Club - A Course",
-      "island": "Oahu",
-      "city": "Ewa Beach",
-      "type": "Resort",
-      "address": "91-1200 Fort Weaver Road, Ewa Beach, HI 96706",
-      "phone": "808-944-4567",
-      "website": "http://www.princeresortshawaii.com/",
-      "style": "Links-style 9-hole course",
-      "description": "One of three 9-hole links-style courses at Hawaii Prince",
-      "rates": {
-        "resident_weekday": "$TBD",
-        "resident_weekend": "$TBD",
-        "non_resident_weekday": "$TBD",
-        "non_resident_weekend": "$TBD"
-      },
-      "amenities": [
-        "Pro Shop",
-        "Restaurant",
-        "Three 9-Hole Courses"
-      ],
-      "difficulty": "Medium",
-      "par": 36,
-      "yardage": 3500,
-      "features": [
-        "Links Style",
-        "9-Hole",
-        "Multiple Courses"
-      ],
-      "online_booking": true,
-      "booking_url": "",
-      "status": "active",
-      "featured": false,
-      "lat": 21.48,
-      "lng": -157.62
-    },
-    {
-      "id": "oahu-008-b",
-      "name": "Hawaii Prince Golf Club - B Course",
-      "island": "Oahu",
-      "city": "Ewa Beach",
-      "type": "Resort",
-      "address": "91-1200 Fort Weaver Road, Ewa Beach, HI 96706",
-      "phone": "808-944-4567",
-      "website": "http://www.princeresortshawaii.com/",
-      "style": "Links-style 9-hole course",
-      "description": "One of three 9-hole links-style courses at Hawaii Prince",
-      "rates": {
-        "resident_weekday": "$TBD",
-        "resident_weekend": "$TBD",
-        "non_resident_weekday": "$TBD",
-        "non_resident_weekend": "$TBD"
-      },
-      "amenities": [
-        "Pro Shop",
-        "Restaurant",
-        "Three 9-Hole Courses"
-      ],
-      "difficulty": "Medium",
-      "par": 36,
-      "yardage": 3500,
-      "features": [
-        "Links Style",
-        "9-Hole",
-        "Multiple Courses"
-      ],
-      "online_booking": true,
-      "booking_url": "",
-      "status": "active",
-      "featured": false,
-      "lat": 21.44,
-      "lng": -157.66000000000003
-    },
-    {
-      "id": "oahu-008-c",
-      "name": "Hawaii Prince Golf Club - C Course",
-      "island": "Oahu",
-      "city": "Ewa Beach",
-      "type": "Resort",
-      "address": "91-1200 Fort Weaver Road, Ewa Beach, HI 96706",
-      "phone": "808-944-4567",
-      "website": "http://www.princeresortshawaii.com/",
-      "style": "Links-style 9-hole course",
-      "description": "One of three 9-hole links-style courses at Hawaii Prince",
-      "rates": {
-        "resident_weekday": "$TBD",
-        "resident_weekend": "$TBD",
-        "non_resident_weekday": "$TBD",
-        "non_resident_weekend": "$TBD"
-      },
-      "amenities": [
-        "Pro Shop",
-        "Restaurant",
-        "Three 9-Hole Courses"
-      ],
-      "difficulty": "Medium",
-      "par": 36,
-      "yardage": 3500,
-      "features": [
-        "Links Style",
-        "9-Hole",
-        "Multiple Courses"
-      ],
-      "online_booking": true,
-      "booking_url": "",
-      "status": "active",
-      "featured": false,
-      "lat": 21.36,
-      "lng": -157.74
+      "image_hero": "/images/courses/hawaii-prince.jpg",
+      "image_thumb": "/images/courses/hawaii-prince.jpg",
+      "aeration_schedule": "March 9-29, 2026 (rotating: A=Mar 9-15, B=Mar 16-22, C=Mar 23-29)",
+      "specials": "Kama'aina Mon-Wed: $59 before 11am, $49 after | Quick Shot Par 3: $50-$70 | Twilight rates available",
+      "lat": 21.395,
+      "lng": -157.68
     },
     {
       "id": "oahu-009-a",
@@ -500,19 +590,17 @@
       "type": "Private",
       "address": "1690 Alewa Drive, Honolulu, HI 96817",
       "phone": "808-441-9400",
-      "website": "http://www.honolulucountryclub.com/",
+      "website": "https://www.honolulucountryclub.com/",
       "style": "Historic private club",
-      "description": "Historic private club in Nuuanu area of Honolulu",
+      "description": "Historic private club in Nuuanu area of Honolulu. Arnold Palmer-designed championship course.",
       "rates": {
-        "resident_weekday": "Members Only",
-        "resident_weekend": "Members Only",
-        "non_resident_weekday": "Members Only",
-        "non_resident_weekend": "Members Only"
+        "note": "Members Only - Private Club"
       },
       "amenities": [
         "Private Club",
         "Historic",
-        "Pro Shop"
+        "Pro Shop",
+        "Arnold Palmer Design"
       ],
       "difficulty": "Hard",
       "par": 72,
@@ -520,7 +608,8 @@
       "features": [
         "Private",
         "Historic",
-        "Nuuanu"
+        "Nuuanu",
+        "Arnold Palmer Design"
       ],
       "online_booking": false,
       "booking_url": "",
@@ -537,19 +626,19 @@
       "type": "Municipal",
       "address": "56-864 Kamehameha Highway, Kahuku, HI 96731",
       "phone": "808-293-5842",
-      "website": "https://www.honolulu.gov/des/golf-courses/",
+      "website": "https://www.honolulu.gov/des/kahuku-golf-course/",
       "style": "Seaside links walking course",
-      "description": "Closest course on Oahu to real links seaside layout. Walking only.",
+      "description": "9-hole municipal course on the North Shore. Closest course on Oahu to real links seaside layout. Walking only.",
       "rates": {
-        "resident_weekday": "$TBD",
-        "resident_weekend": "$TBD",
-        "non_resident_weekday": "$TBD",
-        "non_resident_weekend": "$TBD"
+        "resident": "$24-26",
+        "non_resident": "$40-45",
+        "note": "9-hole municipal rates"
       },
       "amenities": [
         "Walking Only",
         "Pull Cart Rental",
-        "Club Rental"
+        "Club Rental",
+        "9-Hole Course"
       ],
       "difficulty": "Medium",
       "par": 72,
@@ -558,12 +647,15 @@
         "Ocean Views",
         "Links Style",
         "Walking Only",
-        "North Shore"
+        "North Shore",
+        "9-Hole"
       ],
       "online_booking": true,
       "booking_url": "https://www.honolulu.gov/des/golf-courses/tee-time-reservations/",
       "status": "active",
-      "featured": true,
+      "featured": false,
+      "aeration_schedule": "April 13, 2026",
+      "notes": "9-hole municipal course. Aeration dates may affect play. Walking only.",
       "lat": 21.5833,
       "lng": -157.8833
     },
@@ -605,39 +697,50 @@
       "lng": -157.8395
     },
     {
-      "id": "oahu-014",
+"id": "oahu-014",
       "name": "Kapolei Golf Club",
       "island": "Oahu",
       "city": "Kapolei",
       "type": "Public",
       "address": "91-701 Farrington Highway, Kapolei, HI 96707",
       "phone": "808-674-2227",
-      "website": "http://www.pacificlinks.com/",
+      "website": "https://kapoleigolf.com/",
       "style": "Championship public course",
-      "description": "Championship layout in Kapolei on Leeward Oahu",
+      "description": "Former LPGA Tour venue (2013-2018) known for immaculate conditions. Bermuda fairways and bent grass greens. 15-minute drive from Ko Olina.",
       "rates": {
-        "resident_weekday": "$TBD",
-        "resident_weekend": "$TBD",
-        "non_resident_weekday": "$TBD",
-        "non_resident_weekend": "$TBD"
+        "visitor": "$210",
+        "visitor_twilight": "$155 (after 1:30pm)",
+        "resident_weekday": "$80",
+        "resident_weekend": "$90",
+        "resident_twilight_weekday": "$65",
+        "resident_twilight_weekend": "$75",
+        "replay": "$65-$155",
+        "rider_fee": "$35"
       },
       "amenities": [
         "Driving Range",
+        "Practice Greens",
+        "Club Rentals",
         "Pro Shop",
         "Restaurant"
       ],
-      "difficulty": "Hard",
+      "difficulty": "Medium",
       "par": 72,
-      "yardage": 7200,
+      "yardage": 7001,
       "features": [
         "Championship",
         "Leeward Oahu",
-        "Public"
+        "LPGA Heritage"
       ],
       "online_booking": true,
-      "booking_url": "",
+      "booking_url": "https://kapoleigolf.com/book-a-tee-time/",
       "status": "active",
       "featured": true,
+      "image_hero": "/images/courses/kapolei.jpg",
+      "image_thumb": "/images/courses/kapolei.jpg",
+      "aeration_schedule": "May 4-6, 2026",
+      "specials": "Twilight rates starting 1:30pm | Replay rates based on availability",
+      "notes": "Credit/Debit cards only, no cash. Dress code: Collared shirt, no tank tops or slippers. Reservations: Visitors 90 days, Kama'aina 7 days.",
       "lat": 21.5,
       "lng": -158.05
     },
@@ -649,20 +752,24 @@
       "type": "Resort",
       "address": "92-1220 Aliinui Drive, Kapolei, HI 96707",
       "phone": "808-676-5300",
-      "website": "http://www.koolinagolf.com/",
+      "website": "https://www.koolinagolf.com/",
       "style": "Resort championship course",
-      "description": "Ted Robinson designed resort course, former host of LPGA Lotte Championship",
+      "description": "Ted Robinson designed resort course, former host of LPGA Lotte Championship. Free transportation from Waikiki available.",
       "rates": {
-        "resident_weekday": "$TBD",
-        "resident_weekend": "$TBD",
-        "non_resident_weekday": "$TBD",
-        "non_resident_weekend": "$TBD"
+        "resort_guest": "$245",
+        "visitor": "$275",
+        "twilight": "$210 (after 1pm)",
+        "kamaaina_weekday": "$100",
+        "kamaaina_weekend": "$105",
+        "kamaaina_twilight": "$85-90",
+        "junior_kamaaina": "$40"
       },
       "amenities": [
         "Resort Course",
         "Pro Shop",
         "Restaurant",
-        "Spa"
+        "Spa",
+        "Free Waikiki Transportation"
       ],
       "difficulty": "Hard",
       "par": 72,
@@ -671,50 +778,50 @@
         "Resort",
         "Ted Robinson Design",
         "LPGA Host",
-        "Ko Olina Resort"
+        "Ko Olina Resort",
+        "Free Transportation"
       ],
       "online_booking": true,
-      "booking_url": "",
+      "booking_url": "https://www.koolinagolf.com/book-now/",
       "status": "active",
-      "featured": true,
+      "featured": false,
+      "image_hero": "https://www.koolinagolf.com/wp-content/uploads/",
+      "aeration_schedule": "May 5-19, 2026 (Aerification rates May 12-17: $85/round)",
+      "specials": "Advanced Special: 50% off rental clubs (book 10+ days ahead) | Aloha Package: $325 | Multi-Round: 2=$225, 4=$205, 10=$175 | Kids Play Free after 3PM",
       "lat": 21.3167,
       "lng": -157.85
     },
     {
       "id": "oahu-016",
-      "name": "Ko'olau Golf Club",
+      "name": "Ko'olau Golf Club (CLOSED)",
       "island": "Oahu",
       "city": "Kaneohe",
       "type": "Public",
       "address": "45-550 Kionaole Road, Kaneohe, HI 96744",
       "phone": "808-236-4653",
-      "website": "http://www.koolaugolfclub.com/",
+      "website": "",
       "style": "Mountain layout with stunning views",
-      "description": "Dramatic mountain golf at the base of the Ko'olau Range with breathtaking views",
+      "description": "DRAMATIC MOUNTAIN GOLF COURSE - PERMANENTLY CLOSED September 30, 2020. Was known for breathtaking views at the base of the Ko'olau Range.",
       "rates": {
-        "resident_weekday": "$TBD",
-        "resident_weekend": "$TBD",
-        "non_resident_weekday": "$TBD",
-        "non_resident_weekend": "$TBD"
+        "note": "Course permanently closed"
       },
       "amenities": [
-        "Mountain Views",
-        "Pro Shop",
-        "Restaurant"
+        "Mountain Views (Historical)",
+        "CLOSED"
       ],
       "difficulty": "Hard",
       "par": 72,
       "yardage": 7300,
       "features": [
         "Mountain Views",
-        "Challenging",
-        "Ko'olau Range",
-        "Waterfalls"
+        "CLOSED"
       ],
-      "online_booking": true,
+      "online_booking": false,
       "booking_url": "",
-      "status": "active",
-      "featured": true,
+      "status": "closed",
+      "featured": false,
+      "closure_date": "September 30, 2020",
+      "notes": "Permanently closed. Was a dramatic mountain course at the base of the Ko'olau Range known for stunning views and challenging play.",
       "lat": 21.45,
       "lng": -157.7667
     },
@@ -726,30 +833,36 @@
       "type": "Public",
       "address": "84-627 Makaha Valley Road, Waianae, HI 96792",
       "phone": "808-695-7111",
-      "website": "http://www.pacificlinks.com/",
+      "website": "https://www.makahavalleycc.com/",
       "style": "West side public course",
-      "description": "Golf on the Leeward coast in Makaha Valley",
+      "description": "Golf on the Leeward coast in Makaha Valley with ocean and valley views",
       "rates": {
-        "resident_weekday": "$TBD",
-        "resident_weekend": "$TBD",
-        "non_resident_weekday": "$TBD",
-        "non_resident_weekend": "$TBD"
+        "weekday_avg": "$67",
+        "weekend_avg": "$97",
+        "military_senior": "$33 (with lunch)",
+        "after_1pm_weekday": "$30"
       },
       "amenities": [
         "Pro Shop",
-        "Valley Views"
+        "Restaurant",
+        "Valley Views",
+        "Ocean Views"
       ],
       "difficulty": "Medium",
       "par": 72,
       "yardage": 6400,
       "features": [
         "West Side",
-        "Makaha Valley"
+        "Makaha Valley",
+        "Military Discounts"
       ],
       "online_booking": true,
-      "booking_url": "",
+      "booking_url": "https://www.chronogolf.com/",
       "status": "active",
       "featured": false,
+      "image_hero": "https://www.makahavalleycc.com/wp-content/uploads/2024/09/home.jpg.png",
+      "specials": "Military discounts available | Best rates through online booking",
+      "notes": "Rates are dynamic and vary. Call for current pricing.",
       "lat": 21.35,
       "lng": -157.8667
     },
@@ -799,18 +912,25 @@
       "type": "Public",
       "address": "95-176 Kipapa Drive, Mililani, HI 96789",
       "phone": "808-623-2222",
-      "website": "http://www.mililanigolf.com/",
+      "website": "https://www.mililanigolf.com/",
       "style": "Central Oahu public course",
-      "description": "Public golf in Mililani with mountain views",
+      "description": "Public golf in Mililani with mountain views and challenging elevation changes",
       "rates": {
-        "resident_weekday": "$TBD",
-        "resident_weekend": "$TBD",
-        "non_resident_weekday": "$TBD",
-        "non_resident_weekend": "$TBD"
+        "visitor_weekday": "$160",
+        "visitor_weekend": "$170",
+        "visitor_twilight": "$90-130",
+        "kamaaina_weekday": "$68",
+        "kamaaina_weekend": "$78",
+        "senior_weekday": "$60",
+        "junior": "$27-37",
+        "first_responders_weekday": "$60",
+        "club_rental": "$70"
       },
       "amenities": [
         "Driving Range",
-        "Pro Shop"
+        "Pro Shop",
+        "Restaurant",
+        "Club Rentals"
       ],
       "difficulty": "Medium",
       "par": 72,
@@ -818,12 +938,16 @@
       "features": [
         "Central Oahu",
         "Mountain Views",
-        "Affordable"
+        "Affordable",
+        "First Responder Discounts"
       ],
       "online_booking": true,
-      "booking_url": "",
+      "booking_url": "https://www.mililanigolf.com/",
       "status": "active",
       "featured": false,
+      "aeration_schedule": "April-May (discounted rates: $50 weekday, $60 weekend)",
+      "specials": "Loyalty Program: Up to 20% off rack rates",
+      "notes": "Aeration typically April-May timeframe with discounted rates",
       "lat": 21.35,
       "lng": -157.7167
     },
@@ -834,20 +958,21 @@
       "city": "Honolulu",
       "type": "Semi-Private",
       "address": "1250 Ala Aolani Street, Honolulu, HI 96819",
-      "phone": "808-839-2311",
-      "website": "",
+      "phone": "808-570-0191",
+      "website": "https://moanaluagolfclub.org/",
       "style": "Historic 9-hole course",
-      "description": "THE FIRST GOLF COURSE IN HAWAII (built 1898). Historic 9-hole layout.",
+      "description": "Hawaii's oldest golf course since 1898 and one of the oldest in the United States. Located in the stunning Moanalua Valley, this 9-hole course was designed by Scottish architect Donald MacIntyre. Public play is welcome daily after 10:30 AM - no membership required. Non-members can make reservations up to 3 days in advance. Call ahead to reserve your tee time. Members enjoy exclusive access to tee times before 10:30 AM daily.",
       "rates": {
-        "resident_weekday": "$TBD",
-        "resident_weekend": "$TBD",
-        "non_resident_weekday": "$TBD",
-        "non_resident_weekend": "$TBD"
+        "public_9_holes": "$27",
+        "public_18_holes": "$35",
+        "note": "Public rates for non-members. Membership available: $250 initiation + $250/month (includes free green fees for family). Special offer: $125/month for afternoon play after 2:00 PM."
       },
       "amenities": [
         "Historic",
         "9-Hole",
-        "Walking Course"
+        "Walking Course",
+        "Clubhouse",
+        "E Ohi Restaurant"
       ],
       "difficulty": "Medium",
       "par": 36,
@@ -856,12 +981,17 @@
         "Historic",
         "1898",
         "First Hawaii Course",
-        "9-Hole"
+        "9-Hole",
+        "Donald MacIntyre Design",
+        "Moanalua Valley",
+        "Public Play Welcome"
       ],
-      "online_booking": false,
-      "booking_url": "",
+      "online_booking": true,
+      "booking_url": "https://moanaluagolfclub.org/",
       "status": "active",
       "featured": true,
+      "image_hero": "/images/courses/moanalua-gc.jpg",
+      "image_thumb": "/images/courses/moanalua-gc.jpg",
       "lat": 21.3833,
       "lng": -157.8333
     },
@@ -1008,7 +1138,7 @@
       "online_booking": true,
       "booking_url": "",
       "status": "active",
-      "featured": true,
+      "featured": false,
       "lat": 21.3833,
       "lng": -157.9167
     },
@@ -1020,71 +1150,102 @@
       "type": "Municipal",
       "address": "45-050 Kamehameha Highway, Kaneohe, HI 96744",
       "phone": "808-266-7612",
-      "website": "https://www.honolulu.gov/des/golf-courses/",
+      "website": "https://www.honolulu.gov/des/pali-golf-course/",
       "style": "Picturesque hillside course",
-      "description": "Picturesque and challenging hillside course on Windward Oahu, foothills of Ko'olau range",
+      "description": "Picturesque and challenging hillside course on Windward Oahu, set in the foothills of the Ko'olau range. The 18-hole course offers different yardage for men (6,605 yards, Par 72, Rating 71.1, Slope 113) and women (6,121 yards, Par 74, Rating 74.5, Slope 127). Features a pro shop operated by Power Golf Hawaii with club rentals and merchandise.",
       "rates": {
-        "resident_weekday": "$TBD",
-        "resident_weekend": "$TBD",
-        "non_resident_weekday": "$TBD",
-        "non_resident_weekend": "$TBD"
+        "resident_18_holes_weekday": "$28",
+        "resident_18_holes_weekend": "$32",
+        "resident_9_holes_weekday": "$14",
+        "resident_9_holes_weekend": "$16",
+        "senior_disabled_18_weekday": "$23",
+        "senior_disabled_18_weekend": "$32",
+        "senior_disabled_9_weekday": "$11.50",
+        "senior_disabled_9_weekend": "$16",
+        "senior_monthly": "$95 (weekdays only, 10 round limit)",
+        "junior_18_holes": "$0 (with Resident Golf ID, 17 & under)",
+        "junior_9_holes": "$0 (with Resident Golf ID, 17 & under)",
+        "non_resident_18_holes": "$86",
+        "non_resident_9_holes": "$43",
+        "cart_18_holes": "$26",
+        "cart_9_holes": "$13"
       },
       "amenities": [
         "Driving Range",
-        "Pro Shop",
+        "Pro Shop (Power Golf Hawaii, 7 AM - 4 PM)",
+        "Club Rentals",
+        "Golf Merchandise",
+        "Hand Cart Rental",
         "Mountain Views"
       ],
       "difficulty": "Hard",
       "par": 72,
-      "yardage": 6513,
+      "yardage": 6605,
       "features": [
         "Mountain Views",
         "Challenging",
         "Windward Oahu",
-        "Ko'olau Views"
+        "Ko'olau Views",
+        "Picturesque",
+        "City & County of Honolulu",
+        "Municipal Rates"
       ],
       "online_booking": true,
       "booking_url": "https://www.honolulu.gov/des/golf-courses/tee-time-reservations/",
       "status": "active",
-      "featured": true,
+      "featured": false,
+      "notes": "Reservations: (808) 207-7099. Starter's Office: 808.266.7612. Pro Shop: 808.262.2911. No Twilight Play Until Further Notice. Restaurant temporarily vacant. Resident Golf ID required for resident rates.",
       "lat": 21.25,
       "lng": -157.7833
     },
     {
       "id": "oahu-025",
-      "name": "Pearl Country Club",
+      "name": "Pearl at Kalauao",
       "island": "Oahu",
       "city": "Aiea",
       "type": "Public",
-      "address": "98-1359 Koaheahe Street, Aiea, HI 96701",
+      "address": "98-535 Kaonohi Street, Aiea, HI 96701",
       "phone": "808-487-3802",
-      "website": "http://www.pearlcc.com/",
-      "style": "Public course with Pearl Harbor views",
-      "description": "Valley course with view of Pearl Harbor and the Arizona Memorial",
+      "website": "https://www.pearlatkalauao.com/",
+      "style": "Valley championship course",
+      "description": "Formerly known as Pearl Country Club, the newly transformed Pearl at Kalauao is now a premier championship course with upgraded, premium facilities. Originally designed by Akira Sato in 1967, this par-72 course has long offered golfers both a challenge and breathtaking views of Puʻuloa (Pearl Harbor) and the Waiʻanae mountains. In 2020, ownership returned to Kamehameha Schools. Features the new Nā Momi ʻEkolu 3-hole pitch & putt course for quick play and short game practice.",
       "rates": {
-        "resident_weekday": "$TBD",
-        "resident_weekend": "$TBD",
-        "non_resident_weekday": "$TBD",
-        "non_resident_weekend": "$TBD"
+        "visitor": "$140",
+        "visitor_after_1pm": "$95",
+        "note": "Download mobile app for Kama'aina rates. Book online for non-resident rates.",
+        "pitch_putt_loop": "$20",
+        "pitch_putt_6_loops": "$35",
+        "pitch_putt_included": "Free with same-day green fee"
       },
       "amenities": [
         "Pearl Harbor Views",
         "Driving Range",
-        "Pro Shop"
+        "Pro Shop",
+        "Restaurant",
+        "Nā Momi ʻEkolu Pitch & Putt",
+        "Banquet Facilities",
+        "Wedding Venue",
+        "Event Hosting"
       ],
-      "difficulty": "Medium",
+      "difficulty": "Hard",
       "par": 72,
       "yardage": 6400,
       "features": [
         "Pearl Harbor Views",
+        "Waiʻanae Mountain Views",
         "Historic",
-        "Aiea",
-        "Public"
+        "Akira Sato Design",
+        "Kamehameha Schools",
+        "Nā Momi ʻEkolu",
+        "Pitch & Putt",
+        "Cultural Heritage"
       ],
       "online_booking": true,
-      "booking_url": "",
+      "booking_url": "https://www.pearlatkalauao.com/book-a-tee-time/",
       "status": "active",
       "featured": true,
+      "image_hero": "/images/courses/pearl-at-kalauao.jpg",
+      "image_thumb": "/images/courses/pearl-at-kalauao.jpg",
       "lat": 21.3333,
       "lng": -157.7
     },
@@ -1096,34 +1257,45 @@
       "type": "Public",
       "address": "770 Auloa Road, Kailua, HI 96734",
       "phone": "808-262-2139",
-      "website": "http://www.pacificlinks.com/",
-      "style": "Formerly Luana Hills, mountain course",
-      "description": "Recently renovated mountain course in Maunawili Valley (formerly Luana Hills)",
+      "website": "https://royalhawaiiangc.com/",
+      "style": "Mountain course",
+      "description": "Opened in 1993, Royal Hawaiian Golf Club was the first course co-designed by renowned architects Peter and Perry Dye and recently redesigned by golf hall-of-famer Greg Norman. Nestled between the majestic Mount Olomana and Ko'olau Mountains in historic Maunawili Valley (formerly Luana Hills), this course is an awe-inspiring experience with Oahu's most stunning views. Far from the crowds and traffic of Honolulu, treat yourself to the lush fairways and manicured greens of this par-72 course.",
       "rates": {
-        "resident_weekday": "$TBD",
-        "resident_weekend": "$TBD",
-        "non_resident_weekday": "$TBD",
-        "non_resident_weekend": "$TBD"
+        "visitor": "$200",
+        "resident_weekday": "$80",
+        "resident_weekend": "$90",
+        "club_rental": "$80",
+        "club_play_weekday": "$75",
+        "club_play_weekend": "$85"
       },
       "amenities": [
-        "Mountain Views",
-        "Renovated"
+        "Driving Range",
+        "Practice Greens",
+        "Club Rentals",
+        "Pro Shop",
+        "Restaurant",
+        "Banquet Facilities",
+        "Wedding Venue"
       ],
       "difficulty": "Hard",
       "par": 72,
-      "yardage": 7000,
+      "yardage": 6609,
       "features": [
-        "Mountain Views",
-        "Renovated",
-        "Luana Hills History",
-        "Kailua"
+        "Mountain Course",
+        "Peter & Perry Dye Design",
+        "Greg Norman Redesign",
+        "Maunawili Valley",
+        "Ko'olau Mountain Views",
+        "Mount Olomana Views"
       ],
       "online_booking": true,
-      "booking_url": "",
+      "booking_url": "https://royalhawaiiangc.com/visitor-tee-times/",
       "status": "active",
       "featured": true,
       "lat": 21.3,
-      "lng": -157.8667
+      "lng": -157.8667,
+      "image_hero": "/images/courses/royal-hawaiian.jpg",
+      "image_thumb": "/images/courses/royal-hawaiian.jpg"
     },
     {
       "id": "oahu-027",
@@ -1158,7 +1330,7 @@
       "online_booking": true,
       "booking_url": "",
       "status": "active",
-      "featured": true,
+      "featured": false,
       "lat": 21.38,
       "lng": -157.72
     },
@@ -1167,36 +1339,55 @@
       "name": "Ted Makalena Golf Course",
       "island": "Oahu",
       "city": "Waipahu",
-      "type": "Municipal",
-      "address": "93-030 Waipio Point Access Road, Waipahu, HI 96797",
-      "phone": "808-675-6052",
-      "website": "https://www.honolulu.gov/des/golf-courses/",
-      "style": "Flat near Pearl Harbor",
-      "description": "Flat course on Waipahu peninsula near Pearl Harbor",
+      "type": "Public",
+      "address": "93-059 Waipio Point Access Road, Waipahu, HI 96797",
+      "phone": "808-207-6735",
+      "website": "https://www.honolulu.gov/des/ted-makalena-golf-course/",
+      "style": "Flat municipal course",
+      "description": "Located on the Waipahu peninsula with views of Pearl Harbor, Ted Makalena Golf Course is a municipal course operated by the City & County of Honolulu. The 18-hole course features different yardage and par for men (5,976 yards, Par 71) and women (5,551 yards, Par 73). Known for affordable rates and being one of the most accessible courses on Oahu for residents.",
       "rates": {
-        "resident_weekday": "$TBD",
-        "resident_weekend": "$TBD",
-        "non_resident_weekday": "$TBD",
-        "non_resident_weekend": "$TBD"
+        "resident_18_holes_weekday": "$28",
+        "resident_18_holes_weekend": "$32",
+        "resident_9_holes_weekday": "$14",
+        "resident_9_holes_weekend": "$16",
+        "senior_disabled_18_weekday": "$23",
+        "senior_disabled_18_weekend": "$32",
+        "senior_disabled_9_weekday": "$11.50",
+        "senior_disabled_9_weekend": "$16",
+        "senior_monthly": "$95 (weekdays only, 10 round limit)",
+        "junior_18_holes": "$0 (with Resident Golf ID)",
+        "junior_9_holes": "$0 (with Resident Golf ID)",
+        "non_resident_18_holes": "$86",
+        "non_resident_9_holes": "$43",
+        "cart_18_holes": "$26",
+        "cart_9_holes": "$13"
       },
       "amenities": [
-        "Practice Green",
-        "Pro Shop",
-        "Pearl Harbor Views"
+        "Municipal",
+        "Flat",
+        "Pearl Harbor Views",
+        "Golf Carts",
+        "Affordable Rates"
       ],
       "difficulty": "Easy",
-      "par": 72,
-      "yardage": 6369,
+      "par": 71,
+      "yardage": 5976,
       "features": [
-        "Pearl Harbor Views",
+        "Municipal",
+        "Affordable",
         "Flat",
-        "Beginner Friendly",
-        "Municipal"
+        "Pearl Harbor Area",
+        "City & County of Honolulu",
+        "Resident ID Discounts",
+        "Senior Discounts",
+        "Junior Free"
       ],
       "online_booking": true,
       "booking_url": "https://www.honolulu.gov/des/golf-courses/tee-time-reservations/",
       "status": "active",
-      "featured": false,
+      "featured": true,
+      "image_hero": "/images/courses/ted-makalena.jpg",
+      "image_thumb": "/images/courses/ted-makalena.jpg",
       "lat": 21.400000000000002,
       "lng": -157.70000000000002
     },
@@ -1279,37 +1470,40 @@
     },
     {
       "id": "oahu-030-a",
-      "name": "Leilehua Golf Course (Army)",
+      "name": "Leilehua Golf Course",
       "island": "Oahu",
       "city": "Wahiawa",
-      "type": "Military",
+      "type": "Military/Public",
       "address": "Schofield Barracks, Wahiawa, HI",
       "phone": "808-448-2318",
-      "website": "http://www.himwr.com/",
-      "style": "Army base course in Wahiawa",
-      "description": "Army golf course at Schofield Barracks in central Oahu",
+      "website": "https://www.leilehuagolf.com/",
+      "style": "Army base course open to public",
+      "description": "Golf course at Schofield Barracks open to both military and civilians. Great value course in central Oahu.",
       "rates": {
-        "resident_weekday": "Military Only",
-        "resident_weekend": "Military Only",
-        "non_resident_weekday": "Military Only",
-        "non_resident_weekend": "Military Only"
+        "military": "$21-35",
+        "civilian": "$35-47",
+        "note": "Military and public access available"
       },
       "amenities": [
-        "Military Only",
-        "Central Oahu"
+        "Military/Public Access",
+        "Central Oahu",
+        "Great Value"
       ],
       "difficulty": "Medium",
       "par": 72,
       "yardage": 6400,
       "features": [
         "Military Base",
+        "Public Welcome",
         "Schofield Barracks",
-        "Wahiawa"
+        "Wahiawa",
+        "Affordable"
       ],
-      "online_booking": false,
-      "booking_url": "",
+      "online_booking": true,
+      "booking_url": "https://www.leilehuagolf.com/",
       "status": "active",
       "featured": false,
+      "notes": "Open to both military personnel and civilians. Great value rates.",
       "lat": 21.36,
       "lng": -157.74
     },
@@ -1435,33 +1629,48 @@
       "type": "Municipal",
       "address": "91-1126 Okupe Street, Ewa Beach, HI 96706",
       "phone": "808-675-6076",
-      "website": "https://www.honolulu.gov/des/golf-courses/",
+      "website": "https://www.honolulu.gov/des/west-loch-golf-course/",
       "style": "Short but challenging with water",
-      "description": "Short but challenging municipal course with many water hazards",
+      "description": "Short but challenging municipal course with many water hazards. The 18-hole course offers different yardage for men (6,335 yards, Par 72, Rating 67.8, Slope 119) and women (5,018 yards, Par 72, Rating 68.6, Slope 117). No pro shop or restaurant currently available.",
       "rates": {
-        "resident_weekday": "$TBD",
-        "resident_weekend": "$TBD",
-        "non_resident_weekday": "$TBD",
-        "non_resident_weekend": "$TBD"
+        "resident_18_holes_weekday": "$28",
+        "resident_18_holes_weekend": "$32",
+        "resident_9_holes_weekday": "$14",
+        "resident_9_holes_weekend": "$16",
+        "senior_disabled_18_weekday": "$23",
+        "senior_disabled_18_weekend": "$32",
+        "senior_disabled_9_weekday": "$11.50",
+        "senior_disabled_9_weekend": "$16",
+        "senior_monthly": "$95 (weekdays only, 10 round limit)",
+        "junior_18_holes": "$0 (with Resident Golf ID, 17 & under)",
+        "junior_9_holes": "$0 (with Resident Golf ID, 17 & under)",
+        "non_resident_18_holes": "$86",
+        "non_resident_9_holes": "$43",
+        "cart_18_holes": "$26",
+        "cart_9_holes": "$13"
       },
       "amenities": [
         "Water Hazards",
         "Municipal",
-        "Affordable"
+        "Affordable",
+        "Leeward Oahu"
       ],
       "difficulty": "Medium",
       "par": 72,
-      "yardage": 5844,
+      "yardage": 6335,
       "features": [
         "Water Hazards",
         "Municipal",
         "Leeward Oahu",
-        "Affordable"
+        "Affordable",
+        "City & County of Honolulu",
+        "Municipal Rates"
       ],
       "online_booking": true,
       "booking_url": "https://www.honolulu.gov/des/golf-courses/tee-time-reservations/",
       "status": "active",
       "featured": false,
+      "notes": "Reservations: (808) 207-6720. Starter's Office: 808.675.6076. No Twilight Play Until Further Notice. No pro shop or restaurant on-site. Resident Golf ID required for resident rates.",
       "lat": 21.42,
       "lng": -157.68
     },
