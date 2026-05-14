@@ -2,3 +2,13 @@
 
 # Local Netlify folder
 .netlify
+
+# Next.js build output
+.next/
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
