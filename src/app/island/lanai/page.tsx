@@ -1,6 +1,13 @@
 import coursesData from '@/data/courses.json'
 import Link from 'next/link'
 import { ArrowLeft, MapPin } from 'lucide-react'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Lanai Golf Courses | Hawaii Golf Guide',
+  description: 'Discover golf courses on Lanai, including the world-class Manele Golf Course at Four Seasons Resort.',
+  alternates: { canonical: 'https://hawaiigolf.guide/island/lanai/' },
+}
 
 export default function LanaiPage() {
   const courses = coursesData.courses.filter(c => c.island === 'Lanai')

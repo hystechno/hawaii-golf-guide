@@ -1,6 +1,13 @@
 import coursesData from '@/data/courses.json'
 import Link from 'next/link'
 import { ArrowLeft, MapPin } from 'lucide-react'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Oahu Golf Courses | 36 Courses | Hawaii Golf Guide',
+  description: 'Discover 36 golf courses on Oahu, from municipal gems like Ala Wai to championship resorts like Turtle Bay. Find tee times, rates, and plan your Oahu golf vacation.',
+  alternates: { canonical: 'https://hawaiigolf.guide/island/oahu/' },
+}
 
 export default function OahuPage() {
   const courses = coursesData.courses.filter(c => c.island === 'Oahu')

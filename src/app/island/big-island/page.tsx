@@ -1,6 +1,13 @@
 import coursesData from '@/data/courses.json'
 import Link from 'next/link'
 import { ArrowLeft, MapPin } from 'lucide-react'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Big Island Golf Courses | 19 Courses | Hawaii Golf Guide',
+  description: 'Discover 19 golf courses on the Big Island of Hawaii, from oceanfront championship layouts to unique volcanic terrain courses.',
+  alternates: { canonical: 'https://hawaiigolf.guide/island/big-island/' },
+}
 
 export default function BigIslandPage() {
   const courses = coursesData.courses.filter(c => c.island === 'Big Island')

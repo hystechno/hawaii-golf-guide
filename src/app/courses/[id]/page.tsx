@@ -1,6 +1,22 @@
 import { notFound } from 'next/navigation'
 import { MapPin, Phone, Globe, Star } from 'lucide-react'
 import coursesData from '@/data/courses.json'
+import type { Metadata } from 'next'
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ id: string }>
+}): Promise<Metadata> {
+  const { id } = await params
+  const course = coursesData.courses.find((c: any) => c.id === id)
+  if (!course) return { title: 'Course Not Found' }
+  return {
+    title: `${course.name} | ${course.city}, ${course.island} | Hawaii Golf Guide`,
+    description: `${course.name} is a ${course.type.toLowerCase()} golf course on ${course.island}. Par ${course.par}, ${course.yardage?.toLocaleString() || 'N/A'} yards, ${course.difficulty} difficulty.`,
+    alternates: { canonical: `https://hawaiigolf.guide/courses/${course.id}/` },
+  }
+}
 
 export default async function CourseDetailPage({
   params,
@@ -14,8 +30,30 @@ export default async function CourseDetailPage({
     notFound()
   }
 
+  // JSON-LD structured data (invisible to users)
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'SportsActivityLocation',
+    name: course.name,
+    description: course.description,
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: course.address,
+      addressLocality: course.city,
+      addressRegion: 'HI',
+      addressCountry: 'US',
+    },
+    telephone: course.phone,
+    url: course.website,
+    ...(course.lat && course.lng ? {
+      geo: { '@type': 'GeoCoordinates', latitude: course.lat, longitude: course.lng }
+    } : {}),
+  }
+
   return (
     <main className="min-h-screen">
+      {/* JSON-LD Structured Data */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       {/* Hero */}
       <section className="bg-gradient-to-br from-emerald-600 to-emerald-800 text-white py-12 px-4">
         <div className="max-w-6xl mx-auto">
