@@ -2,9 +2,9 @@
   "metadata": {
     "last_updated": "2026-03-31",
     "source": "Hawaii State Golf Association + Manual Research",
-    "total_courses": 85,
+    "total_courses": 82,
     "total_courses_by_island": {
-      "Oahu": 39,
+      "Oahu": 36,
       "Maui": 15,
       "Kauai": 8,
       "Big Island": 19,
@@ -168,7 +168,7 @@
       "image": "/images/courses/coral-creek-banner.jpg",
       "image_featured": "/images/courses/coral-creek-featured.jpg",
       "image_thumb": "/images/courses/coral-creek-waterfall-focus-thumb.jpg",
-"special_rate": {
+      "special_rate": {
         "active": false,
         "amount": "$50",
         "description": "Weekday Resident Special Rate",
@@ -177,7 +177,7 @@
     },
     {
       "id": "oahu-004",
-      "name": "360° Ewa Beach Country Club",
+      "name": "360\u00b0 Ewa Beach Country Club",
       "island": "Oahu",
       "city": "Ewa Beach",
       "type": "Private",
@@ -438,7 +438,7 @@
           "features": "10 lakes, white sand bunkers, signature hole A7"
         },
         "b_course": {
-          "name": "B Course", 
+          "name": "B Course",
           "par": 36,
           "yardage": 3500,
           "features": "Least difficult, signature hole B9"
@@ -697,7 +697,7 @@
       "lng": -157.8395
     },
     {
-"id": "oahu-014",
+      "id": "oahu-014",
       "name": "Kapolei Golf Club",
       "island": "Oahu",
       "city": "Kapolei",
@@ -790,40 +790,6 @@
       "specials": "Advanced Special: 50% off rental clubs (book 10+ days ahead) | Aloha Package: $325 | Multi-Round: 2=$225, 4=$205, 10=$175 | Kids Play Free after 3PM",
       "lat": 21.3167,
       "lng": -157.85
-    },
-    {
-      "id": "oahu-016",
-      "name": "Ko'olau Golf Club (CLOSED)",
-      "island": "Oahu",
-      "city": "Kaneohe",
-      "type": "Public",
-      "address": "45-550 Kionaole Road, Kaneohe, HI 96744",
-      "phone": "808-236-4653",
-      "website": "",
-      "style": "Mountain layout with stunning views",
-      "description": "DRAMATIC MOUNTAIN GOLF COURSE - PERMANENTLY CLOSED September 30, 2020. Was known for breathtaking views at the base of the Ko'olau Range.",
-      "rates": {
-        "note": "Course permanently closed"
-      },
-      "amenities": [
-        "Mountain Views (Historical)",
-        "CLOSED"
-      ],
-      "difficulty": "Hard",
-      "par": 72,
-      "yardage": 7300,
-      "features": [
-        "Mountain Views",
-        "CLOSED"
-      ],
-      "online_booking": false,
-      "booking_url": "",
-      "status": "closed",
-      "featured": false,
-      "closure_date": "September 30, 2020",
-      "notes": "Permanently closed. Was a dramatic mountain course at the base of the Ko'olau Range known for stunning views and challenging play.",
-      "lat": 21.45,
-      "lng": -157.7667
     },
     {
       "id": "oahu-017",
@@ -1208,7 +1174,7 @@
       "phone": "808-487-3802",
       "website": "https://www.pearlatkalauao.com/",
       "style": "Valley championship course",
-      "description": "Formerly known as Pearl Country Club, the newly transformed Pearl at Kalauao is now a premier championship course with upgraded, premium facilities. Originally designed by Akira Sato in 1967, this par-72 course has long offered golfers both a challenge and breathtaking views of Puʻuloa (Pearl Harbor) and the Waiʻanae mountains. In 2020, ownership returned to Kamehameha Schools. Features the new Nā Momi ʻEkolu 3-hole pitch & putt course for quick play and short game practice.",
+      "description": "Formerly known as Pearl Country Club, the newly transformed Pearl at Kalauao is now a premier championship course with upgraded, premium facilities. Originally designed by Akira Sato in 1967, this par-72 course has long offered golfers both a challenge and breathtaking views of Pu\u02bbuloa (Pearl Harbor) and the Wai\u02bbanae mountains. In 2020, ownership returned to Kamehameha Schools. Features the new N\u0101 Momi \u02bbEkolu 3-hole pitch & putt course for quick play and short game practice.",
       "rates": {
         "visitor": "$140",
         "visitor_after_1pm": "$95",
@@ -1222,7 +1188,7 @@
         "Driving Range",
         "Pro Shop",
         "Restaurant",
-        "Nā Momi ʻEkolu Pitch & Putt",
+        "N\u0101 Momi \u02bbEkolu Pitch & Putt",
         "Banquet Facilities",
         "Wedding Venue",
         "Event Hosting"
@@ -1232,11 +1198,11 @@
       "yardage": 6400,
       "features": [
         "Pearl Harbor Views",
-        "Waiʻanae Mountain Views",
+        "Wai\u02bbanae Mountain Views",
         "Historic",
         "Akira Sato Design",
         "Kamehameha Schools",
-        "Nā Momi ʻEkolu",
+        "N\u0101 Momi \u02bbEkolu",
         "Pitch & Putt",
         "Cultural Heritage"
       ],

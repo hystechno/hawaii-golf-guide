@@ -1,6 +1,13 @@
 import coursesData from '@/data/courses.json'
 import Link from 'next/link'
 import { ArrowLeft, MapPin } from 'lucide-react'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Molokai Golf Courses | Hawaii Golf Guide',
+  description: 'Discover golf on Molokai, Hawaii'''s Friendly Isle. Historic plantation-style golf with authentic Hawaiian character.',
+  alternates: { canonical: 'https://hawaiigolf.guide/island/molokai/' },
+}
 
 export default function MolokaiPage() {
   const courses = coursesData.courses.filter(c => c.island === 'Molokai')
