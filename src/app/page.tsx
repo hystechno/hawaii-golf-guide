@@ -50,7 +50,7 @@ export default function HomePage() {
             className="font-[var(--font-cormorant)] text-base md:text-lg text-amber-200/90 mb-8 max-w-2xl mx-auto font-light"
             style={{ textShadow: '1px 1px 3px rgba(0,0,0,0.4)' }}
           >
-            Discover 85 exceptional courses across 6 islands, from championship resorts to hidden municipal gems
+            Discover 82 exceptional courses across 6 islands, from championship resorts to hidden municipal gems
           </p>
           
           {/* Search Bar - Elegant styling */}
@@ -73,7 +73,7 @@ export default function HomePage() {
           <div className="flex justify-center gap-10 text-white">
             <div className="text-center">
               <div className="font-[var(--font-cormorant)] text-5xl font-light mb-1 text-amber-400">
-                85
+                82
               </div>
               <div className="text-sm tracking-widest uppercase text-amber-100/80">Courses</div>
             </div>
