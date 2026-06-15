@@ -21,14 +21,16 @@ const posts: Record<string, any> = {
 
 export function generateStaticParams() { return Object.keys(posts).map(slug => ({ slug })); }
 
-export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
-  const p = posts[params.slug];
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params;
+  const p = posts[slug];
   if (!p) return { title: "Not Found" };
-  return { title: `${p.title} | Hawaii Golf Guide`, description: p.description, alternates: { canonical: `https://hawaiigolf.guide/blog/${params.slug}/` } };
+  return { title: `${p.title} | Hawaii Golf Guide`, description: p.description, alternates: { canonical: `https://hawaiigolf.guide/blog/${slug}/` } };
 }
 
-export default function BlogPostPage({ params }: { params: { slug: string } }) {
-  const p = posts[params.slug];
+export default async function BlogPostPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const p = posts[slug];
   if (!p) notFound();
   return (
     <main className="min-h-screen bg-gray-50">
