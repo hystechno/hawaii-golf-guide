@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Dancing_Script, Cormorant_Garamond } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import Link from "next/link";
 
@@ -29,6 +30,9 @@ export const metadata: Metadata = {
   title: "Hawaii Golf Guide | Every Golf Course in Hawaii",
   description: "The complete directory of golf courses across Oahu, Maui, Kauai, Big Island, Lanai, and Molokai. Find tee times, course info, and plan your Hawaii golf vacation.",
   keywords: "Hawaii golf, Oahu golf courses, Maui golf, Kauai golf, Big Island golf, Hawaii golf vacations",
+  verification: {
+    google: "sRM-MODxwuNQl9ybnGzUU5Vaux4QzlxNz2XCsYGD-Bg",
+  },
 };
 
 export default function RootLayout({
@@ -82,6 +86,20 @@ export default function RootLayout({
 
         {/* Page Content */}
         {children}
+
+        {/* Google Analytics 4 (IP anonymization enabled) */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-T7356Q29NF"
+          strategy="afterInteractive"
+        />
+        <Script id="ga4-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-T7356Q29NF', { anonymize_ip: true });
+          `}
+        </Script>
 
         {/* Footer */}
         <footer className="bg-gray-800 text-gray-300 py-12 px-4">
