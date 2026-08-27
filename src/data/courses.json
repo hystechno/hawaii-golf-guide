@@ -168,12 +168,13 @@
       "image": "/images/courses/coral-creek-banner.jpg",
       "image_featured": "/images/courses/coral-creek-featured.jpg",
       "image_thumb": "/images/courses/coral-creek-waterfall-focus-thumb.jpg",
-"special_rate": {
+      "special_rate": {
         "active": false,
         "amount": "$50",
         "description": "Weekday Resident Special Rate",
         "valid_until": "March 31, 2026"
-      }
+      },
+      "image_hero": "/images/courses/coral-creek-banner.jpg"
     },
     {
       "id": "oahu-004",
@@ -219,7 +220,7 @@
       "lat": 21.3137,
       "lng": -158.0304,
       "image_hero": "/images/courses/360-ewa-beach.jpg",
-      "image_thumb": "/images/courses/360-ewa-beach.jpg",
+      "image_thumb": "/images/courses/ewa-beach-thumb.jpg",
       "aeration_schedule": "Fall 2026 (dates TBA)",
       "specials": "Kama'aina Spring Special (Mar-Apr): Weekday after 9am $65, Weekday Twilight $45 | Twilight specials",
       "notes": "Rebranded from Ewa Beach Golf Club. Transportation available from Waikiki and Aulani. Ancient Hawaiian fishing village remains on site."
@@ -277,7 +278,9 @@
       "aeration_schedule": "March 16-17, 2026",
       "notes": "Reservations: (808) 207-6741. No Twilight Play Until Further Notice. Play limited to 9 holes during aeration days. No pro shop or restaurant on-site. Resident Golf ID required for resident rates.",
       "lat": 21.3221,
-      "lng": -158.0295
+      "lng": -158.0295,
+      "image_hero": "/images/courses/ewa-villages-gc.jpg",
+      "image_thumb": "/images/courses/ewa-villages-gc.jpg"
     },
     {
       "id": "oahu-006",
@@ -315,7 +318,9 @@
       "featured": false,
       "notes": "Under new management as of 2024. New lower rates with renovated facilities.",
       "lat": 21.4122,
-      "lng": -157.9733
+      "lng": -157.9733,
+      "image_hero": "/images/courses/hawaii-country-club.jpg",
+      "image_thumb": "/images/courses/hawaii-country-club.jpg"
     },
     {
       "id": "oahu-007",
@@ -438,7 +443,7 @@
           "features": "10 lakes, white sand bunkers, signature hole A7"
         },
         "b_course": {
-          "name": "B Course", 
+          "name": "B Course",
           "par": 36,
           "yardage": 3500,
           "features": "Least difficult, signature hole B9"
@@ -467,7 +472,7 @@
       "status": "active",
       "featured": true,
       "image_hero": "/images/courses/hawaii-prince.jpg",
-      "image_thumb": "/images/courses/hawaii-prince.jpg",
+      "image_thumb": "/images/courses/hawaii-prince-thumb.jpg",
       "aeration_schedule": "March 9-29, 2026 (rotating: A=Mar 9-15, B=Mar 16-22, C=Mar 23-29)",
       "specials": "Kama'aina Mon-Wed: $59 before 11am, $49 after | Quick Shot Par 3: $50-$70 | Twilight rates available",
       "lat": 21.395,
@@ -506,7 +511,9 @@
       "status": "active",
       "featured": false,
       "lat": 21.34,
-      "lng": -157.76000000000002
+      "lng": -157.76000000000002,
+      "image_hero": "/images/courses/oahu-009-a/hero.jpg",
+      "image_thumb": "/images/courses/oahu-009-a/thumb.jpg"
     },
     {
       "id": "oahu-009-b",
@@ -542,7 +549,9 @@
       "status": "active",
       "featured": false,
       "lat": 21.48,
-      "lng": -157.62
+      "lng": -157.62,
+      "image_hero": "/images/courses/oahu-009-b/hero.jpg",
+      "image_thumb": "/images/courses/oahu-009-b/thumb.jpg"
     },
     {
       "id": "oahu-010",
@@ -580,7 +589,9 @@
       "status": "active",
       "featured": false,
       "lat": 21.3333,
-      "lng": -158.0833
+      "lng": -158.0833,
+      "image_hero": "/images/courses/oahu-010/hero.jpg",
+      "image_thumb": "/images/courses/oahu-010/thumb.jpg"
     },
     {
       "id": "oahu-011",
@@ -616,7 +627,9 @@
       "status": "active",
       "featured": false,
       "lat": 21.4133,
-      "lng": -157.8015
+      "lng": -157.8015,
+      "image_hero": "/images/courses/honolulu-country-club.jpg",
+      "image_thumb": "/images/courses/honolulu-country-club.jpg"
     },
     {
       "id": "oahu-012",
@@ -657,7 +670,9 @@
       "aeration_schedule": "April 13, 2026",
       "notes": "9-hole municipal course. Aeration dates may affect play. Walking only.",
       "lat": 21.5833,
-      "lng": -157.8833
+      "lng": -157.8833,
+      "image_hero": "/images/courses/kahuku-gc.jpg",
+      "image_thumb": "/images/courses/kahuku-gc.jpg"
     },
     {
       "id": "oahu-013",
@@ -694,10 +709,12 @@
       "status": "active",
       "featured": false,
       "lat": 21.4562,
-      "lng": -157.8395
+      "lng": -157.8395,
+      "image_hero": "/images/courses/oahu-013/hero.jpg",
+      "image_thumb": "/images/courses/oahu-013/thumb.jpg"
     },
     {
-"id": "oahu-014",
+      "id": "oahu-014",
       "name": "Kapolei Golf Club",
       "island": "Oahu",
       "city": "Kapolei",
@@ -737,7 +754,7 @@
       "status": "active",
       "featured": true,
       "image_hero": "/images/courses/kapolei.jpg",
-      "image_thumb": "/images/courses/kapolei.jpg",
+      "image_thumb": "/images/courses/kapolei-thumb.jpg",
       "aeration_schedule": "May 4-6, 2026",
       "specials": "Twilight rates starting 1:30pm | Replay rates based on availability",
       "notes": "Credit/Debit cards only, no cash. Dress code: Collared shirt, no tank tops or slippers. Reservations: Visitors 90 days, Kama'aina 7 days.",
@@ -785,11 +802,12 @@
       "booking_url": "https://www.koolinagolf.com/book-now/",
       "status": "active",
       "featured": false,
-      "image_hero": "https://www.koolinagolf.com/wp-content/uploads/",
+      "image_hero": "/images/courses/oahu-015/hero.jpg",
       "aeration_schedule": "May 5-19, 2026 (Aerification rates May 12-17: $85/round)",
       "specials": "Advanced Special: 50% off rental clubs (book 10+ days ahead) | Aloha Package: $325 | Multi-Round: 2=$225, 4=$205, 10=$175 | Kids Play Free after 3PM",
       "lat": 21.3167,
-      "lng": -157.85
+      "lng": -157.85,
+      "image_thumb": "/images/courses/oahu-015/thumb.jpg"
     },
     {
       "id": "oahu-016",
@@ -823,7 +841,9 @@
       "closure_date": "September 30, 2020",
       "notes": "Permanently closed. Was a dramatic mountain course at the base of the Ko'olau Range known for stunning views and challenging play.",
       "lat": 21.45,
-      "lng": -157.7667
+      "lng": -157.7667,
+      "image_hero": "/images/courses/oahu-016/hero.jpg",
+      "image_thumb": "/images/courses/oahu-016/thumb.jpg"
     },
     {
       "id": "oahu-017",
@@ -860,11 +880,12 @@
       "booking_url": "https://www.chronogolf.com/",
       "status": "active",
       "featured": false,
-      "image_hero": "https://www.makahavalleycc.com/wp-content/uploads/2024/09/home.jpg.png",
+      "image_hero": "/images/courses/oahu-017/hero.avif",
       "specials": "Military discounts available | Best rates through online booking",
       "notes": "Rates are dynamic and vary. Call for current pricing.",
       "lat": 21.35,
-      "lng": -157.8667
+      "lng": -157.8667,
+      "image_thumb": "/images/courses/oahu-017/thumb.avif"
     },
     {
       "id": "oahu-018",
@@ -902,7 +923,9 @@
       "status": "active",
       "featured": false,
       "lat": 21.4667,
-      "lng": -158.0167
+      "lng": -158.0167,
+      "image_hero": "/images/courses/oahu-018/hero.jpg",
+      "image_thumb": "/images/courses/oahu-018/thumb.jpg"
     },
     {
       "id": "oahu-019",
@@ -949,7 +972,9 @@
       "specials": "Loyalty Program: Up to 20% off rack rates",
       "notes": "Aeration typically April-May timeframe with discounted rates",
       "lat": 21.35,
-      "lng": -157.7167
+      "lng": -157.7167,
+      "image_hero": "/images/courses/oahu-019/hero.jpg",
+      "image_thumb": "/images/courses/oahu-019/thumb.jpg"
     },
     {
       "id": "oahu-020",
@@ -990,8 +1015,8 @@
       "booking_url": "https://moanaluagolfclub.org/",
       "status": "active",
       "featured": true,
-      "image_hero": "/images/courses/moanalua-gc.jpg",
-      "image_thumb": "/images/courses/moanalua-gc.jpg",
+      "image_hero": "/images/courses/oahu-020/hero.jpg",
+      "image_thumb": "/images/courses/oahu-020/thumb.jpg",
       "lat": 21.3833,
       "lng": -157.8333
     },
@@ -1028,7 +1053,9 @@
       "status": "active",
       "featured": false,
       "lat": 21.46,
-      "lng": -157.64000000000001
+      "lng": -157.64000000000001,
+      "image_hero": "/images/courses/oahu-021-a/hero.jpg",
+      "image_thumb": "/images/courses/oahu-021-a/thumb.jpg"
     },
     {
       "id": "oahu-021-b",
@@ -1063,7 +1090,9 @@
       "status": "active",
       "featured": false,
       "lat": 21.38,
-      "lng": -157.72
+      "lng": -157.72,
+      "image_hero": "/images/courses/oahu-021-b/hero.jpg",
+      "image_thumb": "/images/courses/oahu-021-b/thumb.jpg"
     },
     {
       "id": "oahu-022",
@@ -1102,7 +1131,9 @@
       "status": "active",
       "featured": false,
       "lat": 21.3,
-      "lng": -157.8833
+      "lng": -157.8833,
+      "image_hero": "/images/courses/oahu-022/hero.jpg",
+      "image_thumb": "/images/courses/oahu-022/thumb.jpg"
     },
     {
       "id": "oahu-023",
@@ -1140,7 +1171,9 @@
       "status": "active",
       "featured": false,
       "lat": 21.3833,
-      "lng": -157.9167
+      "lng": -157.9167,
+      "image_hero": "/images/courses/oahu-023/hero.jpg",
+      "image_thumb": "/images/courses/oahu-023/thumb.jpg"
     },
     {
       "id": "oahu-024",
@@ -1196,7 +1229,9 @@
       "featured": false,
       "notes": "Reservations: (808) 207-7099. Starter's Office: 808.266.7612. Pro Shop: 808.262.2911. No Twilight Play Until Further Notice. Restaurant temporarily vacant. Resident Golf ID required for resident rates.",
       "lat": 21.25,
-      "lng": -157.7833
+      "lng": -157.7833,
+      "image_hero": "/images/courses/pali-gc.jpg",
+      "image_thumb": "/images/courses/pali-gc.jpg"
     },
     {
       "id": "oahu-025",
@@ -1244,8 +1279,8 @@
       "booking_url": "https://www.pearlatkalauao.com/book-a-tee-time/",
       "status": "active",
       "featured": true,
-      "image_hero": "/images/courses/pearl-at-kalauao.jpg",
-      "image_thumb": "/images/courses/pearl-at-kalauao.jpg",
+      "image_hero": "/images/courses/oahu-025/hero.jpg",
+      "image_thumb": "/images/courses/oahu-025/thumb.jpg",
       "lat": 21.3333,
       "lng": -157.7
     },
@@ -1295,7 +1330,7 @@
       "lat": 21.3,
       "lng": -157.8667,
       "image_hero": "/images/courses/royal-hawaiian.jpg",
-      "image_thumb": "/images/courses/royal-hawaiian.jpg"
+      "image_thumb": "/images/courses/royal-hawaiian-thumb.jpg"
     },
     {
       "id": "oahu-027",
@@ -1332,7 +1367,9 @@
       "status": "active",
       "featured": false,
       "lat": 21.38,
-      "lng": -157.72
+      "lng": -157.72,
+      "image_hero": "/images/courses/royal-kunia-gc.jpg",
+      "image_thumb": "/images/courses/royal-kunia-gc.jpg"
     },
     {
       "id": "oahu-028",
@@ -1428,7 +1465,9 @@
       "status": "active",
       "featured": true,
       "lat": 21.48,
-      "lng": -157.62
+      "lng": -157.62,
+      "image_hero": "/images/courses/oahu-029-a/hero.jpg",
+      "image_thumb": "/images/courses/oahu-029-a/thumb.jpg"
     },
     {
       "id": "oahu-029-b",
@@ -1466,7 +1505,9 @@
       "status": "active",
       "featured": true,
       "lat": 21.36,
-      "lng": -157.74
+      "lng": -157.74,
+      "image_hero": "/images/courses/oahu-029-b/hero.jpg",
+      "image_thumb": "/images/courses/oahu-029-b/thumb.jpg"
     },
     {
       "id": "oahu-030-a",
@@ -1505,7 +1546,9 @@
       "featured": false,
       "notes": "Open to both military personnel and civilians. Great value rates.",
       "lat": 21.36,
-      "lng": -157.74
+      "lng": -157.74,
+      "image_hero": "/images/courses/oahu-030-a/hero.jpg",
+      "image_thumb": "/images/courses/oahu-030-a/thumb.jpg"
     },
     {
       "id": "oahu-030-b",
@@ -1541,7 +1584,9 @@
       "status": "active",
       "featured": false,
       "lat": 21.46,
-      "lng": -157.64000000000001
+      "lng": -157.64000000000001,
+      "image_hero": "/images/courses/oahu-030-b/hero.webp",
+      "image_thumb": "/images/courses/oahu-030-b/thumb.webp"
     },
     {
       "id": "oahu-031",
@@ -1581,7 +1626,9 @@
       "status": "active",
       "featured": true,
       "lat": 21.3,
-      "lng": -157.8
+      "lng": -157.8,
+      "image_hero": "/images/courses/oahu-031/hero.jpg",
+      "image_thumb": "/images/courses/oahu-031/thumb.jpg"
     },
     {
       "id": "oahu-032",
@@ -1619,7 +1666,9 @@
       "status": "active",
       "featured": false,
       "lat": 21.38,
-      "lng": -157.72
+      "lng": -157.72,
+      "image_hero": "/images/courses/oahu-032/hero.jpg",
+      "image_thumb": "/images/courses/oahu-032/thumb.jpg"
     },
     {
       "id": "oahu-033",
@@ -1672,7 +1721,9 @@
       "featured": false,
       "notes": "Reservations: (808) 207-6720. Starter's Office: 808.675.6076. No Twilight Play Until Further Notice. No pro shop or restaurant on-site. Resident Golf ID required for resident rates.",
       "lat": 21.42,
-      "lng": -157.68
+      "lng": -157.68,
+      "image_hero": "/images/courses/west-loch-gc.jpg",
+      "image_thumb": "/images/courses/west-loch-gc.jpg"
     },
     {
       "id": "maui-001",
@@ -1710,7 +1761,9 @@
       "status": "active",
       "featured": true,
       "lat": 20.9167,
-      "lng": -156.3833
+      "lng": -156.3833,
+      "image_hero": "/images/courses/maui-001/hero.jpg",
+      "image_thumb": "/images/courses/maui-001/thumb.jpg"
     },
     {
       "id": "maui-002-a",
@@ -1749,7 +1802,9 @@
       "status": "active",
       "featured": true,
       "lat": 20.98,
-      "lng": -156.22
+      "lng": -156.22,
+      "image_hero": "/images/courses/maui-002-royal-hero.jpg",
+      "image_thumb": "/images/courses/maui-002-a/thumb.jpg"
     },
     {
       "id": "maui-002-b",
@@ -1787,7 +1842,9 @@
       "status": "active",
       "featured": false,
       "lat": 20.900000000000002,
-      "lng": -156.3
+      "lng": -156.3,
+      "image_hero": "/images/courses/maui-002-b/hero.jpg",
+      "image_thumb": "/images/courses/maui-002-b/thumb.jpg"
     },
     {
       "id": "maui-003",
@@ -1825,7 +1882,9 @@
       "status": "active",
       "featured": false,
       "lat": 20.8833,
-      "lng": -156.4667
+      "lng": -156.4667,
+      "image_hero": "/images/courses/maui-003/hero.jpg",
+      "image_thumb": "/images/courses/maui-003/thumb.jpg"
     },
     {
       "id": "maui-004-a",
@@ -1865,7 +1924,9 @@
       "status": "active",
       "featured": true,
       "lat": 20.94,
-      "lng": -156.26000000000002
+      "lng": -156.26000000000002,
+      "image_hero": "/images/courses/maui-004-a/hero.jpg",
+      "image_thumb": "/images/courses/maui-004-a/thumb.jpg"
     },
     {
       "id": "maui-004-b",
@@ -1905,7 +1966,9 @@
       "status": "active",
       "featured": true,
       "lat": 20.92,
-      "lng": -156.28
+      "lng": -156.28,
+      "image_hero": "/images/courses/maui-004-b/hero.jpg",
+      "image_thumb": "/images/courses/maui-004-b/thumb.jpg"
     },
     {
       "id": "maui-005",
@@ -1944,7 +2007,9 @@
       "status": "active",
       "featured": true,
       "lat": 20.7833,
-      "lng": -156.5
+      "lng": -156.5,
+      "image_hero": "/images/courses/maui-005/hero.jpg",
+      "image_thumb": "/images/courses/maui-005/thumb.jpg"
     },
     {
       "id": "maui-006",
@@ -1982,7 +2047,9 @@
       "status": "active",
       "featured": false,
       "lat": 20.7833,
-      "lng": -156.5
+      "lng": -156.5,
+      "image_hero": "/images/courses/maui-006/hero.jpg",
+      "image_thumb": "/images/courses/maui-006/thumb.jpg"
     },
     {
       "id": "maui-007",
@@ -2021,7 +2088,9 @@
       "status": "active",
       "featured": false,
       "lat": 20.8667,
-      "lng": -156.45
+      "lng": -156.45,
+      "image_hero": "/images/courses/maui-007/hero.jpg",
+      "image_thumb": "/images/courses/maui-007/thumb.jpg"
     },
     {
       "id": "maui-008",
@@ -2059,7 +2128,9 @@
       "status": "active",
       "featured": false,
       "lat": 20.9333,
-      "lng": -156.4167
+      "lng": -156.4167,
+      "image_hero": "/images/courses/maui-008/hero.jpg",
+      "image_thumb": "/images/courses/maui-008/thumb.jpg"
     },
     {
       "id": "maui-009",
@@ -2098,7 +2169,9 @@
       "status": "active",
       "featured": false,
       "lat": 20.7667,
-      "lng": -156.45
+      "lng": -156.45,
+      "image_hero": "/images/courses/maui-009/hero.jpg",
+      "image_thumb": "/images/courses/maui-009/thumb.jpg"
     },
     {
       "id": "maui-010",
@@ -2137,7 +2210,9 @@
       "status": "active",
       "featured": false,
       "lat": 20.7667,
-      "lng": -156.45
+      "lng": -156.45,
+      "image_hero": "/images/courses/maui-010/hero.jpg",
+      "image_thumb": "/images/courses/maui-010/thumb.jpg"
     },
     {
       "id": "maui-011-a",
@@ -2176,7 +2251,9 @@
       "status": "active",
       "featured": true,
       "lat": 20.88,
-      "lng": -156.32
+      "lng": -156.32,
+      "image_hero": "/images/courses/maui-011-a/hero.jpg",
+      "image_thumb": "/images/courses/maui-011-a/thumb.jpg"
     },
     {
       "id": "maui-011-b",
@@ -2214,7 +2291,9 @@
       "status": "active",
       "featured": false,
       "lat": 20.900000000000002,
-      "lng": -156.3
+      "lng": -156.3,
+      "image_hero": "/images/courses/maui-011-b/hero.jpg",
+      "image_thumb": "/images/courses/maui-011-b/thumb.jpg"
     },
     {
       "id": "maui-011-c",
@@ -2252,7 +2331,9 @@
       "status": "active",
       "featured": false,
       "lat": 20.94,
-      "lng": -156.26000000000002
+      "lng": -156.26000000000002,
+      "image_hero": "/images/courses/maui-011-c/hero.jpg",
+      "image_thumb": "/images/courses/maui-011-c/thumb.jpg"
     },
     {
       "id": "kauai-001",
@@ -2292,7 +2373,9 @@
       "status": "active",
       "featured": true,
       "lat": 21.9833,
-      "lng": -159.3167
+      "lng": -159.3167,
+      "image_hero": "/images/courses/kauai-001/hero.jpg",
+      "image_thumb": "/images/courses/kauai-001/thumb.jpg"
     },
     {
       "id": "kauai-002",
@@ -2331,7 +2414,9 @@
       "status": "active",
       "featured": true,
       "lat": 22.05,
-      "lng": -159.3333
+      "lng": -159.3333,
+      "image_hero": "/images/courses/kauai-002/hero.jpg",
+      "image_thumb": "/images/courses/kauai-002/thumb.jpg"
     },
     {
       "id": "kauai-003",
@@ -2369,7 +2454,9 @@
       "status": "active",
       "featured": true,
       "lat": 22.1667,
-      "lng": -159.3333
+      "lng": -159.3333,
+      "image_hero": "/images/courses/kauai-003/hero.jpg",
+      "image_thumb": "/images/courses/kauai-003/thumb.jpg"
     },
     {
       "id": "kauai-004",
@@ -2408,7 +2495,9 @@
       "status": "active",
       "featured": true,
       "lat": 22.1667,
-      "lng": -159.3333
+      "lng": -159.3333,
+      "image_hero": "/images/courses/kauai-004/hero.jpg",
+      "image_thumb": "/images/courses/kauai-004/thumb.jpg"
     },
     {
       "id": "kauai-005",
@@ -2447,7 +2536,9 @@
       "status": "active",
       "featured": true,
       "lat": 21.9,
-      "lng": -159.5
+      "lng": -159.5,
+      "image_hero": "/images/courses/kauai-005/hero.jpg",
+      "image_thumb": "/images/courses/kauai-005/thumb.jpg"
     },
     {
       "id": "kauai-006",
@@ -2487,7 +2578,9 @@
       "status": "active",
       "featured": true,
       "lat": 22.05,
-      "lng": -159.3833
+      "lng": -159.3833,
+      "image_hero": "/images/courses/kauai-006/hero.jpg",
+      "image_thumb": "/images/courses/kauai-006/thumb.jpg"
     },
     {
       "id": "kauai-007",
@@ -2526,7 +2619,9 @@
       "status": "active",
       "featured": false,
       "lat": 22.04,
-      "lng": -159.21
+      "lng": -159.21,
+      "image_hero": "/images/courses/kauai-007/hero.jpg",
+      "image_thumb": "/images/courses/kauai-007/thumb.jpg"
     },
     {
       "id": "kauai-008",
@@ -2563,7 +2658,9 @@
       "status": "maintenance",
       "featured": false,
       "lat": 22.02,
-      "lng": -159.32999999999998
+      "lng": -159.32999999999998,
+      "image_hero": "/images/courses/kauai-008/hero.jpg",
+      "image_thumb": "/images/courses/kauai-008/thumb.jpg"
     },
     {
       "id": "bi-001",
@@ -2602,7 +2699,9 @@
       "status": "active",
       "featured": false,
       "lat": 19.65,
-      "lng": -155.9833
+      "lng": -155.9833,
+      "image_hero": "/images/courses/bi-001/hero.jpg",
+      "image_thumb": "/images/courses/bi-001/thumb.jpg"
     },
     {
       "id": "bi-002",
@@ -2640,8 +2739,10 @@
       "booking_url": "",
       "status": "active",
       "featured": true,
-      "lat": 20.0,
-      "lng": -155.8
+      "lat": 20,
+      "lng": -155.8,
+      "image_hero": "/images/courses/Hokulia-Club-hero.jpg",
+      "image_thumb": "/images/courses/Hokulia-Club-thumb.jpg"
     },
     {
       "id": "bi-003",
@@ -2680,7 +2781,9 @@
       "status": "active",
       "featured": false,
       "lat": 20.08,
-      "lng": -155.72
+      "lng": -155.72,
+      "image_thumb": "/images/courses/Hamakua-Country-Club-thumb.jpg",
+      "image_hero": "/images/courses/Hamakua-Country-Club.jpg"
     },
     {
       "id": "bi-004",
@@ -2719,7 +2822,9 @@
       "status": "active",
       "featured": true,
       "lat": 19.9,
-      "lng": -155.9
+      "lng": -155.9,
+      "image_hero": "/images/courses/Hapuna-Golf-Course-hero.jpg",
+      "image_thumb": "/images/courses/Hapuna-Golf-Course-thumb.jpg"
     },
     {
       "id": "bi-005",
@@ -2758,7 +2863,9 @@
       "status": "active",
       "featured": false,
       "lat": 19.7167,
-      "lng": -155.0833
+      "lng": -155.0833,
+      "image_thumb": "/images/courses/Hilo-Municipal-Golf-Course-thumb.jpg",
+      "image_hero": "/images/courses/Hilo-Municipal-Golf-Course.jpg"
     },
     {
       "id": "bi-006",
@@ -2797,7 +2904,9 @@
       "status": "active",
       "featured": true,
       "lat": 19.65,
-      "lng": -155.9833
+      "lng": -155.9833,
+      "image_thumb": "/images/courses/Hualalai-thumb.jpg",
+      "image_hero": "/images/courses/Hualalai.jpg"
     },
     {
       "id": "bi-007",
@@ -2836,7 +2945,9 @@
       "status": "active",
       "featured": true,
       "lat": 19.65,
-      "lng": -155.9833
+      "lng": -155.9833,
+      "image_hero": "/images/courses/Kohanaiki-Golf-Club-hero.jpg",
+      "image_thumb": "/images/courses/Kohanaiki-Golf-Club-thumb.jpg"
     },
     {
       "id": "bi-008",
@@ -2875,7 +2986,9 @@
       "status": "active",
       "featured": true,
       "lat": 19.65,
-      "lng": -155.9833
+      "lng": -155.9833,
+      "image_thumb": "/images/courses/Kona-Country-Club-thumb.jpg",
+      "image_hero": "/images/courses/Kona-Country-Club.jpg"
     },
     {
       "id": "bi-009",
@@ -2914,7 +3027,9 @@
       "status": "active",
       "featured": false,
       "lat": 19.65,
-      "lng": -155.9833
+      "lng": -155.9833,
+      "image_hero": "/images/courses/Kukio-Golf-Club-hero.jpg",
+      "image_thumb": "/images/courses/Kukio-Golf-Club-thumb.jpg"
     },
     {
       "id": "bi-010",
@@ -2954,7 +3069,9 @@
       "status": "active",
       "featured": true,
       "lat": 19.65,
-      "lng": -155.9833
+      "lng": -155.9833,
+      "image_thumb": "/images/courses/Makalei-Golf-Club-thumb.jpg",
+      "image_hero": "/images/courses/Makalei-Golf-Club.jpg"
     },
     {
       "id": "bi-011",
@@ -2993,7 +3110,9 @@
       "status": "active",
       "featured": true,
       "lat": 19.759999999999998,
-      "lng": -155.84
+      "lng": -155.84,
+      "image_thumb": "/images/courses/Mauna-Kea-thumb.jpg",
+      "image_hero": "/images/courses/Mauna-Kea.jpg"
     },
     {
       "id": "bi-012",
@@ -3032,7 +3151,9 @@
       "status": "active",
       "featured": true,
       "lat": 19.88,
-      "lng": -155.72
+      "lng": -155.72,
+      "image_thumb": "/images/courses/Mauna-Lani-South-thumb.jpg",
+      "image_hero": "/images/courses/Mauna-Lani-North.jpg"
     },
     {
       "id": "bi-013",
@@ -3071,7 +3192,9 @@
       "status": "active",
       "featured": false,
       "lat": 19.65,
-      "lng": -155.9833
+      "lng": -155.9833,
+      "image_hero": "/images/courses/Nanea-Golf-Club-hero.jpg",
+      "image_thumb": "/images/courses/Nanea-Golf-Club-thumb.jpg"
     },
     {
       "id": "bi-014",
@@ -3147,7 +3270,9 @@
       "status": "active",
       "featured": false,
       "lat": 19.86,
-      "lng": -155.74
+      "lng": -155.74,
+      "image_thumb": "/images/courses/Sea-Mountain-Golf-Course-thumb.jpg",
+      "image_hero": "/images/courses/Sea-Mountain-Golf-Course.jpg"
     },
     {
       "id": "bi-016",
@@ -3187,7 +3312,9 @@
       "status": "active",
       "featured": true,
       "lat": 19.939999999999998,
-      "lng": -155.86
+      "lng": -155.86,
+      "image_thumb": "/images/courses/Volcano-Golf-thumb.jpg",
+      "image_hero": "/images/courses/Volcano-Golf.jpg"
     },
     {
       "id": "bi-017-a",
@@ -3226,7 +3353,9 @@
       "status": "active",
       "featured": true,
       "lat": 19.72,
-      "lng": -155.88
+      "lng": -155.88,
+      "image_thumb": "/images/courses/Waikoloa-thumb.jpg",
+      "image_hero": "/images/courses/Waikoloa.jpg"
     },
     {
       "id": "bi-017-b",
@@ -3304,7 +3433,9 @@
       "status": "active",
       "featured": false,
       "lat": 19.98,
-      "lng": -155.82
+      "lng": -155.82,
+      "image_hero": "/images/courses/bi-018/hero.jpg",
+      "image_thumb": "/images/courses/bi-018/thumb.jpg"
     },
     {
       "id": "lanai-001",
@@ -3347,7 +3478,9 @@
       "status": "active",
       "featured": true,
       "lat": 20.8667,
-      "lng": -156.9167
+      "lng": -156.9167,
+      "image_hero": "/images/courses/lanai-001/hero.jpg",
+      "image_thumb": "/images/courses/Manele-Bay-thumb.jpg"
     },
     {
       "id": "lanai-002",
@@ -3384,7 +3517,9 @@
       "status": "active",
       "featured": false,
       "lat": 20.8667,
-      "lng": -156.95
+      "lng": -156.95,
+      "image_hero": "/images/courses/lanai-002/hero.jpg",
+      "image_thumb": "/images/courses/lanai-002/thumb.jpg"
     },
     {
       "id": "lanai-003",
@@ -3425,7 +3560,9 @@
       "status": "active",
       "featured": false,
       "lat": 20.9,
-      "lng": -156.9167
+      "lng": -156.9167,
+      "image_hero": "/images/courses/lanai-003/hero.jpg",
+      "image_thumb": "/images/courses/lanai-003/thumb.jpg"
     },
     {
       "id": "molokai-001",
@@ -3467,7 +3604,9 @@
       "status": "active",
       "featured": false,
       "lat": 21.1167,
-      "lng": -157.0833
+      "lng": -157.0833,
+      "image_hero": "/images/courses/molokai-001/hero.jpg",
+      "image_thumb": "/images/courses/Ironwood-Hills-thumb.jpg"
     }
   ]
 }

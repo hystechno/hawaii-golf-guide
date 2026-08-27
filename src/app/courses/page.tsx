@@ -1,9 +1,38 @@
-import { Search, MapPin, Filter } from 'lucide-react'
+'use client'
+
+import { useState, useMemo } from 'react'
+import { Search, MapPin } from 'lucide-react'
 import coursesData from '@/data/courses.json'
+import Link from 'next/link'
 
 const courses = coursesData.courses
 
+const islands = ['All Islands', ...Array.from(new Set(courses.map(c => c.island))).sort()]
+const types = ['All Types', ...Array.from(new Set(courses.map(c => c.type))).sort()]
+const difficulties = ['All Levels', 'Easy', 'Medium', 'Hard']
+
 export default function CoursesPage() {
+  const [searchQuery, setSearchQuery] = useState('')
+  const [selectedIsland, setSelectedIsland] = useState('All Islands')
+  const [selectedType, setSelectedType] = useState('All Types')
+  const [selectedDifficulty, setSelectedDifficulty] = useState('All Levels')
+
+  const filteredCourses = useMemo(() => {
+    return courses.filter(course => {
+      const matchesSearch = 
+        searchQuery === '' ||
+        course.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        course.city.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        course.island.toLowerCase().includes(searchQuery.toLowerCase())
+      
+      const matchesIsland = selectedIsland === 'All Islands' || course.island === selectedIsland
+      const matchesType = selectedType === 'All Types' || course.type === selectedType
+      const matchesDifficulty = selectedDifficulty === 'All Levels' || course.difficulty === selectedDifficulty
+      
+      return matchesSearch && matchesIsland && matchesType && matchesDifficulty
+    })
+  }, [searchQuery, selectedIsland, selectedType, selectedDifficulty])
+
   return (
     <main className="min-h-screen bg-gray-50">
       {/* Header */}
@@ -22,37 +51,60 @@ export default function CoursesPage() {
             <input
               type="text"
               placeholder="Search courses..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
               className="w-full pl-10 pr-4 py-2 border rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500"
             />
           </div>
           <div className="flex gap-2">
-            <select className="px-4 py-2 border rounded-lg text-sm">
-              <option>All Islands</option>
-              <option>Oahu</option>
-              <option>Maui</option>
-              <option>Big Island</option>
-              <option>Kauai</option>
+            <select 
+              value={selectedIsland}
+              onChange={(e) => setSelectedIsland(e.target.value)}
+              className="px-4 py-2 border rounded-lg text-sm"
+            >
+              {islands.map(island => <option key={island} value={island}>{island}</option>)}
             </select>
-            <select className="px-4 py-2 border rounded-lg text-sm">
-              <option>All Types</option>
-              <option>Municipal</option>
-              <option>Resort</option>
-              <option>Private</option>
+            <select 
+              value={selectedType}
+              onChange={(e) => setSelectedType(e.target.value)}
+              className="px-4 py-2 border rounded-lg text-sm"
+            >
+              {types.map(type => <option key={type} value={type}>{type}</option>)}
+            </select>
+            <select 
+              value={selectedDifficulty}
+              onChange={(e) => setSelectedDifficulty(e.target.value)}
+              className="px-4 py-2 border rounded-lg text-sm"
+            >
+              {difficulties.map(diff => <option key={diff} value={diff}>{diff}</option>)}
             </select>
           </div>
         </div>
       </section>
 
+      {/* Results Count */}
+      <section className="max-w-6xl mx-auto px-4 py-4">
+        <p className="text-gray-600 text-sm">
+          Showing {filteredCourses.length} of {courses.length} courses
+        </p>
+      </section>
+
       {/* Course Grid */}
       <section className="py-8 px-4 max-w-6xl mx-auto">
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {courses.map((course) => (
-            <a
+          {filteredCourses.map((course) => (
+            <Link
               key={course.id}
-              href={`/courses/${course.id}`}
+              href={`/courses/${course.id}/`}
               className="bg-white rounded-xl shadow-sm hover:shadow-lg border border-gray-100 overflow-hidden transition-all"
             >
               <div className="h-40 bg-gradient-to-br from-emerald-500 to-teal-600 relative">
+                {course.image_thumb ? (
+                  <div 
+                    className="absolute inset-0 bg-cover bg-center opacity-80"
+                    style={{ backgroundImage: `url('${course.image_thumb}')` }}
+                  />
+                ) : null}
                 <div className="absolute top-3 left-3">
                   <span className="bg-white/90 px-2.5 py-1 rounded text-xs font-medium text-gray-800">
                     {course.type}
@@ -70,16 +122,36 @@ export default function CoursesPage() {
               </div>
               <div className="p-4">
                 <h3 className="font-semibold text-gray-800 mb-1">{course.name}</h3>
-                <p className="text-gray-500 text-sm mb-3">{course.city}, {course.island}</p>
+                <p className="text-gray-500 text-sm mb-3 flex items-center gap-1">
+                  <MapPin size={14} />
+                  {course.city}, {course.island}
+                </p>
                 <div className="flex items-center gap-3 text-sm text-gray-600">
                   <span>Par {course.par}</span>
                   <span className="text-gray-300">|</span>
                   <span>{course.yardage.toLocaleString()} yds</span>
                 </div>
               </div>
-            </a>
+            </Link>
           ))}
         </div>
+
+        {filteredCourses.length === 0 && (
+          <div className="text-center py-16">
+            <p className="text-gray-500 text-lg">No courses match your filters.</p>
+            <button 
+              onClick={() => {
+                setSearchQuery('')
+                setSelectedIsland('All Islands')
+                setSelectedType('All Types')
+                setSelectedDifficulty('All Levels')
+              }}
+              className="mt-4 text-emerald-600 hover:text-emerald-700 font-medium"
+            >
+              Clear all filters
+            </button>
+          </div>
+        )}
       </section>
     </main>
   )

@@ -1,18 +1,16 @@
-import { Search } from 'lucide-react'
 import coursesData from '@/data/courses.json'
 import InteractiveHawaiiMap from '@/components/InteractiveHawaiiMap'
+import SearchBar from '@/components/SearchBar'
+import Link from 'next/link'
 
 const courses = coursesData.courses
-
-
+const islandCount = new Set(courses.map(c => c.island)).size
 
 export default function HomePage() {
   return (
     <main className="min-h-screen bg-gray-50">
-      {/* Hero Section - Golf Course with Sun/Ocean - 20% smaller */}
+      {/* Hero Section */}
       <section className="relative min-h-[65vh] flex items-center justify-center overflow-hidden">
-        {/* Background Image - Ocean/Golf Sunset */}
-        {/* Hero Image - Hawaiian Golf Course Aerial */}
         <div 
           className="absolute inset-0 bg-cover bg-no-repeat"
           style={{
@@ -21,12 +19,9 @@ export default function HomePage() {
           }}
         />
         
-        {/* Light overlay for subtle contrast */}
         <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-black/10 to-black/30" />
         
-        {/* Content */}
         <div className="relative z-10 text-center px-4 max-w-5xl mx-auto">
-          {/* Script/Calligraphy Title - Larger */}
           <h1 
             className="text-6xl md:text-7xl lg:text-8xl mb-4 tracking-wide bg-gradient-to-r from-amber-200 via-amber-400 to-amber-300 bg-clip-text text-transparent"
             style={{ 
@@ -38,7 +33,6 @@ export default function HomePage() {
             Hawaii Golf Guide
           </h1>
           
-          {/* Tagline in elegant serif */}
           <p 
             className="font-[var(--font-cormorant)] text-xl md:text-2xl lg:text-3xl text-amber-100 mb-4 tracking-wide"
             style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.5)' }}
@@ -50,37 +44,23 @@ export default function HomePage() {
             className="font-[var(--font-cormorant)] text-base md:text-lg text-amber-200/90 mb-8 max-w-2xl mx-auto font-light"
             style={{ textShadow: '1px 1px 3px rgba(0,0,0,0.4)' }}
           >
-            Discover 85 exceptional courses across 6 islands, from championship resorts to hidden municipal gems
+            Discover {courses.length} exceptional courses across {islandCount} islands, from championship resorts to hidden municipal gems
           </p>
           
-          {/* Search Bar - Elegant styling */}
-          <div className="max-w-xl mx-auto relative mb-8">
-            <div className="absolute inset-0 bg-gradient-to-r from-amber-500/20 to-amber-300/20 blur-xl rounded-full" />
-            <div className="relative flex items-center bg-white/95 backdrop-blur-md rounded-full shadow-2xl overflow-hidden border-2 border-amber-200/50">
-              <Search className="ml-5 text-amber-600" size={20} />
-              <input
-                type="text"
-                placeholder="Search courses, islands, or cities..."
-                className="flex-1 py-4 px-3 text-gray-800 bg-transparent focus:outline-none text-base placeholder:text-gray-400 font-[var(--font-cormorant)]"
-              />
-              <button className="bg-gradient-to-r from-amber-500 to-amber-600 text-white px-6 py-4 font-medium hover:from-amber-600 hover:to-amber-700 transition-all">
-                Search
-              </button>
-            </div>
-          </div>
+          <SearchBar />
           
-          {/* Elegant Stats - smaller text */}
+          {/* Elegant Stats */}
           <div className="flex justify-center gap-10 text-white">
             <div className="text-center">
               <div className="font-[var(--font-cormorant)] text-5xl font-light mb-1 text-amber-400">
-                85
+                {courses.length}
               </div>
               <div className="text-sm tracking-widest uppercase text-amber-100/80">Courses</div>
             </div>
             <div className="w-px bg-white/20" />
             <div className="text-center">
               <div className="font-[var(--font-cormorant)] text-5xl font-light mb-1 text-amber-400">
-                6
+                {islandCount}
               </div>
               <div className="text-sm tracking-widest uppercase text-amber-100/80">Islands</div>
             </div>
@@ -94,7 +74,6 @@ export default function HomePage() {
           </div>
         </div>
         
-        {/* Scroll indicator */}
         <div className="absolute bottom-8 left-1/2 -translate-x-1/2 text-white/60 animate-bounce">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
             <path d="M12 5v14M5 12l7 7 7-7" />
@@ -102,7 +81,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Interactive Map Section - smaller heading */}
+      {/* Interactive Map Section */}
       <section className="py-10 px-4 max-w-7xl mx-auto">
         <div className="text-center mb-6">
           <h2 className="font-[var(--font-cormorant)] text-xl md:text-2xl mb-1 font-semibold text-emerald-800">
@@ -116,7 +95,7 @@ export default function HomePage() {
         <InteractiveHawaiiMap />
       </section>
 
-      {/* Featured Courses - 2 rows of 4, smaller cards */}
+      {/* Featured Courses */}
       <section className="py-16 px-4 max-w-7xl mx-auto">
         <div className="text-center mb-10">
           <h2 className="font-[var(--font-cormorant)] text-4xl mb-3 font-semibold text-emerald-800">
@@ -134,12 +113,14 @@ export default function HomePage() {
               className="bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 overflow-hidden group"
             >
               <div className="h-40 bg-gradient-to-br from-emerald-600 to-teal-700 relative overflow-hidden">
-                <div 
-                  className="absolute inset-0 bg-cover bg-center opacity-60 group-hover:scale-110 transition-transform duration-700"
-                  style={{
-                    backgroundImage: `url('https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?w=800&q=80')`
-                  }}
-                />
+                {course.image_thumb ? (
+                  <div 
+                    className="absolute inset-0 bg-cover bg-center opacity-80 group-hover:scale-110 transition-transform duration-700"
+                    style={{
+                      backgroundImage: `url('${course.image_thumb}')`
+                    }}
+                  />
+                ) : null}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
                 <div className="absolute bottom-3 left-3 right-3">
                   <span className="bg-amber-500/90 backdrop-blur-sm text-white px-2 py-0.5 rounded-full text-[10px] font-medium">
@@ -169,12 +150,12 @@ export default function HomePage() {
                 <p className="text-gray-600 text-xs line-clamp-2 mb-3">
                   {course.description}
                 </p>
-                <a
-                  href={`/courses/${course.id}`}
+                <Link
+                  href={`/courses/${course.id}/`}
                   className="block w-full text-center bg-gradient-to-r from-emerald-600 to-emerald-700 hover:from-emerald-700 hover:to-emerald-800 text-white py-2 rounded-md font-medium text-sm transition-all shadow-sm hover:shadow-md"
                 >
                   View Course
-                </a>
+                </Link>
               </div>
             </div>
           ))}
@@ -188,7 +169,6 @@ export default function HomePage() {
           background: 'linear-gradient(135deg, #1a5f4a 0%, #0d3b2e 50%, #1a5f4a 100%)'
         }}
       >
-        {/* Subtle pattern overlay */}
         <div className="absolute inset-0 opacity-10" style={{
           backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`
         }} />
@@ -204,12 +184,18 @@ export default function HomePage() {
             Join Hawaii's most comprehensive golf directory. Connect with thousands of golfers planning their perfect Hawaii golf vacation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-gradient-to-r from-amber-500 to-amber-600 text-white px-10 py-4 rounded-full font-bold text-lg hover:from-amber-600 hover:to-amber-700 transition-all shadow-xl hover:shadow-2xl">
+            <Link 
+              href="/contact/"
+              className="bg-gradient-to-r from-amber-500 to-amber-600 text-white px-10 py-4 rounded-full font-bold text-lg hover:from-amber-600 hover:to-amber-700 transition-all shadow-xl hover:shadow-2xl"
+            >
               List Your Business
-            </button>
-            <button className="bg-white/10 backdrop-blur-sm border-2 border-amber-400/50 text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-white/20 transition-all">
+            </Link>
+            <Link 
+              href="/about/"
+              className="bg-white/10 backdrop-blur-sm border-2 border-amber-400/50 text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-white/20 transition-all"
+            >
               Learn More
-            </button>
+            </Link>
           </div>
         </div>
       </section>

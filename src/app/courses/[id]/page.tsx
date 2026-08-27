@@ -17,10 +17,17 @@ export default async function CourseDetailPage({
   return (
     <main className="min-h-screen">
       {/* Hero */}
-      <section className="bg-gradient-to-br from-emerald-600 to-emerald-800 text-white py-12 px-4">
-        <div className="max-w-6xl mx-auto">
+      <section className="relative text-white py-16 px-4 overflow-hidden">
+        {course.image_hero ? (
+          <div 
+            className="absolute inset-0 bg-cover bg-center"
+            style={{ backgroundImage: `url('${course.image_hero}')` }}
+          />
+        ) : null}
+        <div className={`absolute inset-0 ${course.image_hero ? 'bg-black/50' : 'bg-gradient-to-br from-emerald-600 to-emerald-800'}`} />
+        <div className="relative z-10 max-w-6xl mx-auto">
           <div className="flex flex-wrap gap-2 mb-4">
-            <span className="bg-white/20 px-3 py-1 rounded-full text-sm">
+            <span className="bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full text-sm">
               {course.type}
             </span>
             <span className={`px-3 py-1 rounded-full text-sm ${
@@ -36,7 +43,7 @@ export default async function CourseDetailPage({
               </span>
             )}
           </div>
-          <h1 className="text-4xl font-bold mb-2">{course.name}</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-2">{course.name}</h1>
           <p className="text-emerald-100 text-lg">
             {course.city}, {course.island}
           </p>
@@ -47,6 +54,19 @@ export default async function CourseDetailPage({
         <div className="grid lg:grid-cols-3 gap-8">
           {/* Main Content */}
           <div className="lg:col-span-2">
+            {/* Military Access Notice */}
+            {course.type && course.type.toLowerCase().includes('military') && (
+              <section className="bg-amber-50 border border-amber-200 rounded-lg p-6 mb-6">
+                <h2 className="text-lg font-bold text-amber-900 mb-2">⚠️ Military Base Access Required</h2>
+                <p className="text-amber-800 text-sm leading-relaxed">
+                  This course is located on a military installation. Access typically requires an active 
+                  military ID, a sponsored guest with base privileges, or advance arrangements through 
+                  the course. Public access policies vary by base and can change. Call ahead before visiting 
+                  to confirm current access requirements.
+                </p>
+              </section>
+            )}
+
             {/* Description */}
             <section className="bg-white rounded-lg shadow-sm p-6 mb-6">
               <h2 className="text-xl font-bold mb-4">About This Course</h2>

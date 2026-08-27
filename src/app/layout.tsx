@@ -69,12 +69,12 @@ export default function RootLayout({
               </div>
 
               <div className="flex items-center gap-3">
-                <button className="hidden md:block text-gray-600 hover:text-emerald-600">
+                <Link href="/courses/" className="hidden md:block text-gray-600 hover:text-emerald-600 transition-colors">
                   Search
-                </button>
-                <button className="bg-emerald-600 hover:bg-emerald-700 text-white px-4 py-2 rounded-lg font-medium transition-colors">
+                </Link>
+                <Link href="/contact/" className="bg-emerald-600 hover:bg-emerald-700 text-white px-4 py-2 rounded-lg font-medium transition-colors">
                   List Your Course
-                </button>
+                </Link>
               </div>
             </nav>
           </div>
@@ -107,19 +107,19 @@ export default function RootLayout({
             <div>
               <h4 className="text-white font-semibold mb-4">Resources</h4>
               <ul className="space-y-2 text-sm">
-                <li><a href="#" className="hover:text-white transition-colors">Tee Times</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Golf Stores</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Instructors</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Events</a></li>
+                <li><Link href="/blog/" className="hover:text-white transition-colors">Golf Blog</Link></li>
+                <li><Link href="/trip-planner/" className="hover:text-white transition-colors">Trip Planner</Link></li>
+                <li><Link href="/courses/" className="hover:text-white transition-colors">All Courses</Link></li>
+                <li><Link href="/privacy/" className="hover:text-white transition-colors">Privacy Policy</Link></li>
               </ul>
             </div>
             <div>
               <h4 className="text-white font-semibold mb-4">Business</h4>
               <ul className="space-y-2 text-sm">
-                <li><a href="#" className="hover:text-white transition-colors">List Your Course</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Advertise</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">About Us</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Contact</a></li>
+                <li><Link href="/contact/" className="hover:text-white transition-colors">List Your Course</Link></li>
+                <li><Link href="/contact/" className="hover:text-white transition-colors">Advertise</Link></li>
+                <li><Link href="/about/" className="hover:text-white transition-colors">About Us</Link></li>
+                <li><Link href="/contact/" className="hover:text-white transition-colors">Contact</Link></li>
               </ul>
             </div>
           </div>

@@ -1,0 +1,29 @@
+=== HAWAII GOLF GUIDE - DEPLOYMENT PACKAGE ===
+Date: April 4, 2026
+Status: Ready to deploy (Netlify limit reached)
+
+=== CHANGES MADE ===
+1. CORAL CREEK:
+   - Yardage: 6808 yards (updated)
+   - Thumbnail: Waterfall-focused image
+   - Rates: Special $50 weekday rate (in red), correct weekend rates
+   - Website: https://www.coralcreekgolf.com/
+
+2. NEW COURSE IMAGES ADDED:
+   - Kapolei Golf Club
+   - Royal Hawaiian Golf Club
+   - Ewa Beach Golf Club
+   - Hawaii Prince Golf Club (A, B, C courses)
+
+3. IMAGES IN /images/courses/:
+   - coral-creek-waterfall-focus-thumb.jpg
+   - kapolei-thumb.jpg
+   - royal-hawaiian-thumb.jpg
+   - ewa-beach-thumb.jpg
+   - hawaii-prince-thumb.jpg
+
+=== TO DEPLOY ===
+When Netlify limit resets (next month), run:
+  npx netlify deploy --prod --dir=deploy --site=ca0f0c17-fd55-41b0-8dbf-2b4f2c72cc9d
+
+Or manually upload the 'deploy' folder via Netlify web UI.
