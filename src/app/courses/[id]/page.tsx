@@ -1,6 +1,8 @@
 import { notFound } from 'next/navigation'
 import { MapPin, Phone, Globe, Star } from 'lucide-react'
 import coursesData from '@/data/courses.json'
+import { GolfNowCTA } from '@/components/affiliates/GolfNowCTA'
+import { SecondSwingCard } from '@/components/affiliates/SecondSwingCard'
 
 export default async function CourseDetailPage({
   params,
@@ -191,6 +193,7 @@ export default async function CourseDetailPage({
                 >
                   Book Online
                 </a>
+                <GolfNowCTA courseName={course.name} city={course.city} variant="compact" />
               </section>
             )}
             
@@ -200,8 +203,12 @@ export default async function CourseDetailPage({
                 <p className="text-gray-600">
                   Call the course directly to book your tee time.
                 </p>
+                <GolfNowCTA courseName={course.name} city={course.city} variant="compact" />
               </section>
             )}
+
+            {/* Gear affiliate */}
+            <SecondSwingCard />
           </div>
         </div>
       </div>

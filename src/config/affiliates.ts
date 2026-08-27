@@ -1,6 +1,39 @@
 export const AMAZON_ASSOCIATES_ID = 'hawaiigolfg02-20';
 export const AMAZON_BASE_URL = 'https://www.amazon.com';
 
+// ---------------------------------------------------------------------------
+// GolfNow (tee time bookings)
+// TODO: replace placeholder with real affiliate tracking link once approved.
+// Program details (verified 2026-08-27): ~1-4% per booking / ~$3 per round,
+// CPC+CPS hybrid, $25 min payout, monthly. Historically via CJ Affiliate.
+// When approved, paste the network-generated deep link template below.
+// ---------------------------------------------------------------------------
+export const GOLFNOW_ENABLED = false; // flip to true when real IDs are in place
+export const GOLFNOW_AFFILIATE_ID = 'GOLFNOW-AFFILIATE-ID-PLACEHOLDER';
+export const GOLFNOW_BASE_URL = 'https://www.golfnow.com/tee-times/search';
+
+export function buildGolfNowLink(courseName?: string, city?: string): string {
+  const query = [courseName, city, 'Hawaii'].filter(Boolean).join(' ');
+  return `${GOLFNOW_BASE_URL}?query=${encodeURIComponent(query)}&aff=${GOLFNOW_AFFILIATE_ID}`;
+}
+
+// ---------------------------------------------------------------------------
+// 2nd Swing Golf (new & pre-owned clubs, gear)
+// TODO: replace placeholder with real affiliate tracking link once approved.
+// Program details (verified 2026-08-27 via 2ndswing.com/affiliate-program):
+// 15% commission on select new-release products (14-day window),
+// 5% on all other products (30-day window), auto-deposit payouts.
+// Program runs on a network (Awin merchant 95935; historically ShareASale) -
+// confirm which network at signup and use its deep-link format below.
+// ---------------------------------------------------------------------------
+export const SECOND_SWING_ENABLED = false; // flip to true when real IDs are in place
+export const SECOND_SWING_AFFILIATE_ID = '2NDSWING-AFFILIATE-ID-PLACEHOLDER';
+export const SECOND_SWING_BASE_URL = 'https://www.2ndswing.com';
+
+export function buildSecondSwingLink(path = '/'): string {
+  return `${SECOND_SWING_BASE_URL}${path}?clickid=${SECOND_SWING_AFFILIATE_ID}`;
+}
+
 export function buildAmazonLink(asin: string): string {
   return `${AMAZON_BASE_URL}/dp/${asin}?tag=${AMAZON_ASSOCIATES_ID}&linkCode=ogi&th=1&psc=1`;
 }
