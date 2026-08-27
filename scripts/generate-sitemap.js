@@ -8,6 +8,12 @@ const SITEMAP_PATH = path.join(__dirname, '..', 'public', 'sitemap.xml');
 const data = JSON.parse(fs.readFileSync(COURSES_PATH, 'utf-8'));
 const courses = data.courses || data;
 
+// Auto-discover blog posts from markdown files
+const BLOG_DIR = path.join(__dirname, '..', 'src', 'data', 'blog');
+const blogSlugs = fs.existsSync(BLOG_DIR)
+  ? fs.readdirSync(BLOG_DIR).filter(f => f.endsWith('.md')).map(f => f.replace('.md', ''))
+  : [];
+
 const staticPaths = [
   { path: '/', priority: '1.0' },
   { path: '/courses/', priority: '0.9' },
@@ -41,6 +47,13 @@ const urls = [
     <lastmod>${today}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>`),
+  ...blogSlugs.map(slug => `
+  <url>
+    <loc>${BASE_URL}/blog/${slug}/</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>`),
 ];
 
