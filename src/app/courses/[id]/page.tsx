@@ -4,6 +4,15 @@ import coursesData from '@/data/courses.json'
 import { GolfNowCTA } from '@/components/affiliates/GolfNowCTA'
 import { SecondSwingCard } from '@/components/affiliates/SecondSwingCard'
 
+function formatRateLabel(key: string): string {
+  return key
+    .replace(/_/g, ' ')
+    .replace(/\b\w/g, (ch) => ch.toUpperCase())
+    .replace(/Kamaaina/g, "Kama'aina")
+    .replace(/Non Resident/g, 'Non-Resident')
+    .replace(/\b(\d+) Holes?\b/g, '$1 Holes')
+}
+
 export default async function CourseDetailPage({
   params,
 }: {
@@ -18,6 +27,22 @@ export default async function CourseDetailPage({
 
   return (
     <main className="min-h-screen">
+      {course.faq && course.faq.length > 0 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'FAQPage',
+              mainEntity: course.faq.map((item: { question: string; answer: string }) => ({
+                '@type': 'Question',
+                name: item.question,
+                acceptedAnswer: { '@type': 'Answer', text: item.answer },
+              })),
+            }),
+          }}
+        />
+      )}
       {/* Hero */}
       <section className="relative text-white py-16 px-4 overflow-hidden">
         {course.image_hero ? (
@@ -112,7 +137,7 @@ export default async function CourseDetailPage({
             </section>
 
             {/* Amenities */}
-            <section className="bg-white rounded-lg shadow-sm p-6">
+            <section className="bg-white rounded-lg shadow-sm p-6 mb-6">
               <h2 className="text-xl font-bold mb-4">Amenities</h2>
               <div className="flex flex-wrap gap-2">
                 {course.amenities.map((amenity: string) => (
@@ -122,6 +147,21 @@ export default async function CourseDetailPage({
                 ))}
               </div>
             </section>
+
+            {/* FAQ */}
+            {course.faq && course.faq.length > 0 && (
+              <section className="bg-white rounded-lg shadow-sm p-6">
+                <h2 className="text-xl font-bold mb-4">Frequently Asked Questions</h2>
+                <div className="space-y-4">
+                  {course.faq.map((item: { question: string; answer: string }, i: number) => (
+                    <div key={i}>
+                      <h3 className="font-semibold text-gray-900">{item.question}</h3>
+                      <p className="text-gray-700 mt-1 leading-relaxed">{item.answer}</p>
+                    </div>
+                  ))}
+                </div>
+              </section>
+            )}
           </div>
 
           {/* Sidebar */}
@@ -158,23 +198,18 @@ export default async function CourseDetailPage({
             <section className="bg-white rounded-lg shadow-sm p-6 mb-6">
               <h2 className="text-xl font-bold mb-4">Green Fees</h2>
               <div className="space-y-3">
-                <div className="flex justify-between">
-                  <span className="text-gray-600">Resident (Weekday)</span>
-                  <span className="font-medium">{course.rates.resident_weekday}</span>
-                </div>
-                <div className="flex justify-between">
-                  <span className="text-gray-600">Resident (Weekend)</span>
-                  <span className="font-medium">{course.rates.resident_weekend}</span>
-                </div>
-                <div className="flex justify-between">
-                  <span className="text-gray-600">Visitor (Weekday)</span>
-                  <span className="font-medium">{course.rates.non_resident_weekday}</span>
-                </div>
-                <div className="flex justify-between">
-                  <span className="text-gray-600">Visitor (Weekend)</span>
-                  <span className="font-medium">{course.rates.non_resident_weekend}</span>
-                </div>
+                {Object.entries(course.rates || {})
+                  .filter(([key]) => key !== 'rates_note')
+                  .map(([key, value]) => (
+                    <div key={key} className="flex justify-between gap-4">
+                      <span className="text-gray-600">{formatRateLabel(key)}</span>
+                      <span className="font-medium text-right">{String(value)}</span>
+                    </div>
+                  ))}
               </div>
+              {course.rates?.rates_note && (
+                <p className="text-xs text-gray-600 mt-3">{course.rates.rates_note}</p>
+              )}
               <p className="text-xs text-gray-500 mt-4">
                 Rates are estimates. Contact course for current pricing.
               </p>

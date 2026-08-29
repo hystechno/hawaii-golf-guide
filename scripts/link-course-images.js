@@ -73,6 +73,8 @@ const ROOT_FILE_TO_COURSE = {
   'old-blue-course-at-wailea': 'maui-011-c',
 
   // Big Island
+  'makani-golf-club': 'bi-001',
+  'makani-golf-club-thumb': 'bi-001',
   'big-island-country-club': 'bi-001',
   'hokulia-club-hero': 'bi-002',
   'hokulia-club-thumb': 'bi-002',

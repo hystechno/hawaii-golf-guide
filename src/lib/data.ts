@@ -26,6 +26,7 @@ export interface Course {
   lat?: number
   lng?: number
   notes?: string
+  faq?: { question: string; answer: string }[]
 }
 
 export interface IslandStats {
