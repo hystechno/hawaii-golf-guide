@@ -15,12 +15,12 @@ interface Island {
 }
 
 const islands: Island[] = [
-  { id: 'kauai', name: 'Kauai', courseCount: 10, lat: 21.85, long: 158.55, width: 95, height: 76 },
-  { id: 'oahu', name: 'Oahu', courseCount: 37, lat: 21.40, long: 157.95, width: 100, height: 78 },
-  { id: 'molokai', name: 'Molokai', courseCount: 1, lat: 21.27, long: 157.25, width: 90, height: 26 },
-  { id: 'lanai', name: 'Lanai', courseCount: 3, lat: 21.00, long: 157.15, width: 48, height: 40 },
-  { id: 'maui', name: 'Maui', courseCount: 15, lat: 20.93, long: 156.58, width: 110, height: 75 },
-  { id: 'big-island', name: 'Big Island', courseCount: 19, lat: 20.45, long: 155.45, width: 235, height: 270 }
+  { id: 'kauai', name: 'Kauai', courseCount: 10, lat: 21.85, long: 158.55, width: 101, height: 81 },
+  { id: 'oahu', name: 'Oahu', courseCount: 37, lat: 21.41, long: 157.95, width: 109, height: 85 },
+  { id: 'molokai', name: 'Molokai', courseCount: 1, lat: 21.31, long: 157.25, width: 87, height: 25 },
+  { id: 'lanai', name: 'Lanai', courseCount: 3, lat: 21.00, long: 157.09, width: 29, height: 24 },
+  { id: 'maui', name: 'Maui', courseCount: 15, lat: 20.95, long: 156.58, width: 141, height: 96 },
+  { id: 'big-island', name: 'Big Island', courseCount: 19, lat: 20.37, long: 155.45, width: 153, height: 175 }
 ]
 
 const LAT_MIN = 19.8
@@ -46,10 +46,11 @@ export default function InteractiveHawaiiMap() {
 
   return (
     <div className="w-full max-w-[50rem] mx-auto">
-      <div 
+      <div
         className="relative rounded-2xl overflow-visible shadow-2xl aspect-[1.6/1]"
         style={{
-          background: 'linear-gradient(135deg, #020617 0%, #082f49 30%, #0c4a6e 50%, #0369a1 70%, #0284c7 85%, #0ea5e9 100%)'
+          background: 'linear-gradient(135deg, #020617 0%, #082f49 30%, #0c4a6e 50%, #0369a1 70%, #0284c7 85%, #0ea5e9 100%)',
+          containerType: 'inline-size'
         }}
       >
         <svg className="absolute inset-0 w-full h-full opacity-[0.03] rounded-2xl pointer-events-none" preserveAspectRatio="none">
@@ -81,8 +82,8 @@ export default function InteractiveHawaiiMap() {
                   style={{
                     left: `${left}%`,
                     top: `${top}%`,
-                    width: `${island.width}px`,
-                    height: `${island.height}px`,
+                    width: `${island.width / 8}cqw`,
+                    height: `${island.height / 8}cqw`,
                     transform: `translate(-50%, -50%) scale(${hoverScale})`,
                     cursor: 'pointer',
                     transition: 'transform 0.25s ease',
