@@ -18,8 +18,8 @@ export default function OahuPage() {
       <section className="relative">
         <div className="relative h-[300px] md:h-[400px] lg:h-[500px] w-full">
           <img
-            src="/images/courses/oahu-015/hero.jpg"
-            alt="Ko Olina Golf Club on Oahu's west coast"
+            src="/images/islands/oahu-banner.jpg"
+            alt="Oahu golf course fairway beneath the Ko'olau mountains and Pacific coastline"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />

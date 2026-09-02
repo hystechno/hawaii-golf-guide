@@ -70,6 +70,12 @@ export default function RootLayout({
                 <Link href="/island/kauai" className="text-gray-600 hover:text-emerald-600 transition-colors">
                   Kauai
                 </Link>
+                <Link href="/island/molokai-lanai" className="text-gray-600 hover:text-emerald-600 transition-colors">
+                  Molokai & Lanai
+                </Link>
+                <Link href="/blog" className="text-gray-600 hover:text-emerald-600 transition-colors">
+                  Blog
+                </Link>
               </div>
 
               <div className="flex items-center gap-3">
