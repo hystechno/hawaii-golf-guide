@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "framework": null,
+  "redirects": [
+    { "source": "/islands", "destination": "/island", "permanent": true },
+    { "source": "/islands/", "destination": "/island", "permanent": true },
+    { "source": "/island/hawaii", "destination": "/island/big-island", "permanent": true },
+    { "source": "/island/hawaii/", "destination": "/island/big-island", "permanent": true }
+  ]
+}
