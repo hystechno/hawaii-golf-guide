@@ -18,8 +18,8 @@ export default function LanaiPage() {
       <section className="relative">
         <div className="relative h-[300px] md:h-[400px] lg:h-[500px] w-full">
           <img
-            src="/images/courses/lanai-001/hero.jpg"
-            alt="Manele Golf Course overlooking Hulopoe Bay, Lanai"
+            src="/images/islands/lanai-banner.jpg"
+            alt="Scenic view of Lanai's dramatic coastline, Hawaii"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />

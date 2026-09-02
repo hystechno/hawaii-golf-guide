@@ -18,8 +18,8 @@ export default function MolokaiPage() {
       <section className="relative">
         <div className="relative h-[300px] md:h-[400px] lg:h-[500px] w-full">
           <img
-            src="/images/courses/molokai-001/hero.jpg"
-            alt="Ironwood Hills Golf Club on Molokai"
+            src="/images/islands/molokai-banner.jpg"
+            alt="Scenic view of Molokai's sea cliffs and coastline, Hawaii"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />

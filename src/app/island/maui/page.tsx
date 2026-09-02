@@ -18,7 +18,7 @@ export default function MauiPage() {
       <section className="relative">
         <div className="relative h-[300px] md:h-[400px] lg:h-[500px] w-full">
           <img
-            src="/images/islands/maui-banner.avif"
+            src="/images/islands/maui-banner.jpg"
             alt="Maui coastline and golf scenery"
             className="w-full h-full object-cover"
           />

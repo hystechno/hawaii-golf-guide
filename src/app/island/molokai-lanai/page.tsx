@@ -16,7 +16,7 @@ export default function MolokaiLanaiPage() {
         {/* Banner Image - Full Width */}
         <div className="relative h-[300px] md:h-[400px] lg:h-[500px] w-full">
           <img 
-            src="/images/islands/molokai-lanai-banner.webp"
+            src="/images/islands/molokai-lanai-banner.jpg"
             alt="Molokai and Lanai aerial view"
             className="w-full h-full object-cover"
           />

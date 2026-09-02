@@ -18,7 +18,7 @@ export default function BigIslandPage() {
       <section className="relative">
         <div className="relative h-[300px] md:h-[400px] lg:h-[500px] w-full">
           <img
-            src="/images/islands/big-island-banner.webp"
+            src="/images/islands/big-island-banner.jpg"
             alt="Big Island lava coastline and golf scenery"
             className="w-full h-full object-cover"
           />

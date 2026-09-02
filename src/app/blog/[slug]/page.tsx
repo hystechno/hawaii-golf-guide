@@ -14,6 +14,7 @@ interface BlogPost {
   date: string
   readingTime: string
   content: string
+  heroImage: string | null
 }
 
 const postsDirectory = path.join(process.cwd(), 'src', 'data', 'blog')
@@ -43,11 +44,23 @@ function getPostData(slug: string): BlogPost | null {
     ? descMatch[1].substring(0, 160) + (descMatch[1].length > 160 ? '...' : '')
     : `Read ${title} on Hawaii Golf Guide.`
 
+  // Strip the house-format header block (H1 + Last Updated/Reading Time/Author + first hr)
+  // so it renders only in the styled page header, not duplicated in the body.
+  const bodyContent = fileContent
+    .replace(/^# .+\n/, '')
+    .replace(/^\*\*Last Updated:\*\*.*\n?/m, '')
+    .replace(/^\*\*Reading Time:\*\*.*\n?/m, '')
+    .replace(/^\*\*Author:\*\*.*\n?/m, '')
+    .replace(/^\s*---\s*\n/, '')
+
   // Convert markdown to HTML
-  const htmlContent = marked(fileContent, {
+  const htmlContent = marked(bodyContent, {
     gfm: true,
     breaks: true,
   })
+
+  const heroFile = path.join(process.cwd(), 'public', 'images', 'blog', `${slug}-hero.jpg`)
+  const heroImage = fs.existsSync(heroFile) ? `/images/blog/${slug}-hero.jpg` : null
 
   return {
     slug,
@@ -56,6 +69,7 @@ function getPostData(slug: string): BlogPost | null {
     date,
     readingTime,
     content: htmlContent as string,
+    heroImage,
   }
 }
 
@@ -149,6 +163,17 @@ export default async function BlogPostPage({
           </div>
         </div>
       </div>
+
+      {/* Hero Image */}
+      {post.heroImage && (
+        <div className="max-w-4xl mx-auto px-4 pt-10">
+          <img
+            src={post.heroImage}
+            alt={post.title}
+            className="w-full rounded-2xl shadow-md object-cover max-h-[420px]"
+          />
+        </div>
+      )}
 
       {/* Article Content */}
       <div className="max-w-4xl mx-auto px-4 py-12">

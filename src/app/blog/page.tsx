@@ -11,6 +11,7 @@ interface BlogPostMeta {
   date: string
   readingTime: string
   excerpt: string
+  thumb: string | null
 }
 
 const postsDirectory = path.join(process.cwd(), 'src', 'data', 'blog')
@@ -54,6 +55,9 @@ function getAllPosts(): BlogPostMeta[] {
     // Extract excerpt (first ~150 chars of description)
     const excerpt = description.substring(0, 150) + (description.length > 150 ? '...' : '')
 
+    const thumbFile = path.join(process.cwd(), 'public', 'images', 'blog', `${slug}-thumb.jpg`)
+    const thumb = fs.existsSync(thumbFile) ? `/images/blog/${slug}-thumb.jpg` : null
+
     posts.push({
       slug,
       title,
@@ -61,6 +65,7 @@ function getAllPosts(): BlogPostMeta[] {
       date,
       readingTime,
       excerpt,
+      thumb,
     })
   }
 
@@ -115,6 +120,16 @@ export default function BlogIndexPage() {
                 key={post.slug}
                 className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition-shadow"
               >
+                {post.thumb && (
+                  <Link href={`/blog/${post.slug}/`} className="block">
+                    <img
+                      src={post.thumb}
+                      alt={post.title}
+                      className="w-full h-52 object-cover hover:opacity-95 transition-opacity"
+                      loading="lazy"
+                    />
+                  </Link>
+                )}
                 <div className="p-8">
                   <div className="flex flex-wrap items-center gap-4 text-sm text-gray-500 mb-4">
                     {post.date && (

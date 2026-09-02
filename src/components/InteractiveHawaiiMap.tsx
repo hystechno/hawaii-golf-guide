@@ -15,12 +15,12 @@ interface Island {
 }
 
 const islands: Island[] = [
-  { id: 'kauai', name: 'Kauai', courseCount: 8, lat: 21.85, long: 158.55, width: 71, height: 59 },
-  { id: 'oahu', name: 'Oahu', courseCount: 39, lat: 21.40, long: 157.95, width: 80, height: 66 },
-  { id: 'molokai', name: 'Molokai', courseCount: 1, lat: 21.27, long: 157.25, width: 52, height: 43 },
-  { id: 'lanai', name: 'Lanai', courseCount: 3, lat: 21.00, long: 157.15, width: 38, height: 32 },
-  { id: 'maui', name: 'Maui', courseCount: 15, lat: 20.93, long: 156.58, width: 96, height: 80 },
-  { id: 'hawaii', name: 'Big Island', courseCount: 19, lat: 20.45, long: 155.45, width: 223, height: 183 }
+  { id: 'kauai', name: 'Kauai', courseCount: 10, lat: 21.85, long: 158.55, width: 95, height: 76 },
+  { id: 'oahu', name: 'Oahu', courseCount: 37, lat: 21.40, long: 157.95, width: 100, height: 78 },
+  { id: 'molokai', name: 'Molokai', courseCount: 1, lat: 21.27, long: 157.25, width: 90, height: 26 },
+  { id: 'lanai', name: 'Lanai', courseCount: 3, lat: 21.00, long: 157.15, width: 48, height: 40 },
+  { id: 'maui', name: 'Maui', courseCount: 15, lat: 20.93, long: 156.58, width: 110, height: 75 },
+  { id: 'big-island', name: 'Big Island', courseCount: 19, lat: 20.45, long: 155.45, width: 235, height: 270 }
 ]
 
 const LAT_MIN = 19.8
@@ -69,7 +69,7 @@ export default function InteractiveHawaiiMap() {
             const left = longToLeft(island.long)
             
             // Special label positioning for each island
-            const isBigIsland = island.id === 'hawaii'
+            const isBigIsland = island.id === 'big-island'
             const isMolokai = island.id === 'molokai'
             const isLanai = island.id === 'lanai'
             
@@ -98,9 +98,9 @@ export default function InteractiveHawaiiMap() {
                     fill
                     className="object-contain"
                     style={{
-                      filter: isHovered 
-                        ? 'invert(48%) sepia(95%) saturate(400%) hue-rotate(95deg) brightness(1.15) drop-shadow(0 0 15px rgba(74, 222, 128, 0.6))'
-                        : 'invert(48%) sepia(95%) saturate(335%) hue-rotate(100deg) brightness(1.05) drop-shadow(0 2px 4px rgba(0,0,0,0.3))'
+                      filter: isHovered
+                        ? 'brightness(1.2) drop-shadow(0 0 15px rgba(74, 222, 128, 0.6))'
+                        : 'drop-shadow(0 2px 4px rgba(0,0,0,0.3))'
                     }}
                     unoptimized
                   />
