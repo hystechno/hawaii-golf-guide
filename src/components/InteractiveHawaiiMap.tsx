@@ -110,9 +110,9 @@ export default function InteractiveHawaiiMap() {
                   <div 
                     className="absolute whitespace-nowrap pointer-events-none"
                     style={{
-                      left: isBigIsland ? '0%' : isLanai ? '65%' : '50%',
-                      top: isBigIsland ? '85%' : isMolokai ? '80%' : isLanai ? '103%' : '103%',
-                      transform: isBigIsland ? 'translate(0, -100%)' : 'translate(-50%, 0)',
+                      left: isBigIsland ? '-17%' : isLanai ? '65%' : '50%',
+                      top: isBigIsland ? '76%' : isMolokai ? '80%' : isLanai ? '103%' : '103%',
+                      transform: isBigIsland ? 'translate(-50%, -50%)' : 'translate(-50%, 0)',
                       textAlign: 'center',
                       lineHeight: 1.2,
                       zIndex: 35
