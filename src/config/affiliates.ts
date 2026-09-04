@@ -64,6 +64,22 @@ export function buildGolfscapeLink(island?: string): string {
 // the CJ Affiliate application is approved and GOLFNOW_ENABLED is true.
 export const TEE_TIME_PROVIDER: 'golfscape' | 'golfnow' = 'golfscape';
 
+// ---------------------------------------------------------------------------
+// Ship Sticks (golf club shipping - ship clubs ahead to the hotel/course)
+// Program details (verified 2026-09-04 via shipsticks.com/affiliate):
+// CPS percentage commission, 30-day cookie, monthly PayPal payouts,
+// no minimum payout, free to join via their online form.
+// Perfect fit for packing/travel posts and course pages (fly light to Hawaii).
+// TODO: replace placeholder with real tracking link once approved.
+// ---------------------------------------------------------------------------
+export const SHIP_STICKS_ENABLED = false; // flip to true when real ID is in place
+export const SHIP_STICKS_AFFILIATE_ID = 'SHIPSTICKS-AFFILIATE-ID-PLACEHOLDER';
+export const SHIP_STICKS_BASE_URL = 'https://www.shipsticks.com';
+
+export function buildShipSticksLink(path = '/'): string {
+  return `${SHIP_STICKS_BASE_URL}${path}?aff=${SHIP_STICKS_AFFILIATE_ID}`;
+}
+
 export function buildAmazonLink(asin: string): string {
   return `${AMAZON_BASE_URL}/dp/${asin}?tag=${AMAZON_ASSOCIATES_ID}&linkCode=ogi&th=1&psc=1`;
 }
