@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation'
 import { MapPin, Phone, Globe, Star } from 'lucide-react'
 import coursesData from '@/data/courses.json'
-import { GolfNowCTA } from '@/components/affiliates/GolfNowCTA'
+import { TeeTimeCTA } from '@/components/affiliates/TeeTimeCTA'
 import { SecondSwingCard } from '@/components/affiliates/SecondSwingCard'
 
 function formatRateLabel(key: string): string {
@@ -228,7 +228,7 @@ export default async function CourseDetailPage({
                 >
                   Book Online
                 </a>
-                <GolfNowCTA courseName={course.name} city={course.city} variant="compact" />
+                <TeeTimeCTA courseName={course.name} city={course.city} island={course.island} variant="compact" />
               </section>
             )}
             
@@ -238,7 +238,7 @@ export default async function CourseDetailPage({
                 <p className="text-gray-600">
                   Call the course directly to book your tee time.
                 </p>
-                <GolfNowCTA courseName={course.name} city={course.city} variant="compact" />
+                <TeeTimeCTA courseName={course.name} city={course.city} island={course.island} variant="compact" />
               </section>
             )}
 

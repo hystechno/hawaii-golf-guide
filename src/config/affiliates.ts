@@ -34,6 +34,36 @@ export function buildSecondSwingLink(path = '/'): string {
   return `${SECOND_SWING_BASE_URL}${path}?clickid=${SECOND_SWING_AFFILIATE_ID}`;
 }
 
+// ---------------------------------------------------------------------------
+// golfscape (tee time bookings) - INTERIM provider while GolfNow is pending.
+// Verified 2026-09-04 via affiliate.golfscape.com:
+// 5-6% commission on played tee times, 30-day cookie, $10 signup bonus,
+// $15 first-sale bonus, PayPal payout at $50.
+// Tracking is domain-based: once hawaiigolf.guide is registered in their
+// affiliate portal, ALL direct links to golfscape.com get credited - no
+// special link parameters needed. Deep links to island pages convert best.
+// Signup: https://affiliate.golfscape.com/
+// ---------------------------------------------------------------------------
+export const GOLFSCAPE_ENABLED = true;
+export const GOLFSCAPE_BASE_URL = 'https://golfscape.com';
+
+const GOLFSCAPE_ISLAND_SLUGS: Record<string, string> = {
+  'Oahu': 'oahu-golf-courses',
+  'Maui': 'maui-golf-courses',
+  'Kauai': 'kauai-golf-courses',
+  'Big Island': 'big-island-golf-courses',
+  // Molokai / Lanai have no golfscape pages - fall back to the Hawaii index
+};
+
+export function buildGolfscapeLink(island?: string): string {
+  const slug = island ? GOLFSCAPE_ISLAND_SLUGS[island] : undefined;
+  return `${GOLFSCAPE_BASE_URL}/${slug || 'hawaii-golf-courses'}`;
+}
+
+// Which tee-time partner the CTA slots point at. Switch to 'golfnow' once
+// the CJ Affiliate application is approved and GOLFNOW_ENABLED is true.
+export const TEE_TIME_PROVIDER: 'golfscape' | 'golfnow' = 'golfscape';
+
 export function buildAmazonLink(asin: string): string {
   return `${AMAZON_BASE_URL}/dp/${asin}?tag=${AMAZON_ASSOCIATES_ID}&linkCode=ogi&th=1&psc=1`;
 }
