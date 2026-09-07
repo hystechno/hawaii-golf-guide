@@ -2,6 +2,11 @@ import coursesData from '@/data/courses.json'
 import InteractiveHawaiiMap from '@/components/InteractiveHawaiiMap'
 import SearchBar from '@/components/SearchBar'
 import Link from 'next/link'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  alternates: { canonical: '/' },
+}
 
 const courses = coursesData.courses
 const islandCount = new Set(courses.map(c => c.island)).size

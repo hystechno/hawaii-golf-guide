@@ -100,6 +100,7 @@ export async function generateMetadata({
   return {
     title: `${post.title} | Hawaii Golf Guide Blog`,
     description: post.description,
+    alternates: { canonical: `/blog/${slug}/` },
     openGraph: {
       title: post.title,
       description: post.description,

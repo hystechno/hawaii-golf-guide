@@ -1,5 +1,12 @@
 import coursesData from '@/data/courses.json'
 import FilteredCourseGrid from '@/components/FilteredCourseGrid'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Molokai & Lanai Golf Courses | Hawaii Golf Guide',
+  description: 'Golf on Molokai and Lanai: Ironwood Hills, Manele, and Cavendish with prices, access details, and booking tips.',
+  alternates: { canonical: '/island/molokai-lanai/' },
+}
 
 export default function MolokaiLanaiPage() {
   const courses = coursesData.courses.filter(c => 

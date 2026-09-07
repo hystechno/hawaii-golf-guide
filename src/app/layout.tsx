@@ -27,6 +27,7 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://hawaiigolf.guide"),
   title: "Hawaii Golf Guide | Every Golf Course in Hawaii",
   description: "The complete directory of golf courses across Oahu, Maui, Kauai, Big Island, Lanai, and Molokai. Find tee times, course info, and plan your Hawaii golf vacation.",
   keywords: "Hawaii golf, Oahu golf courses, Maui golf, Kauai golf, Big Island golf, Hawaii golf vacations",

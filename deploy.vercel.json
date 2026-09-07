@@ -1,7 +1,9 @@
 {
   "version": 2,
   "framework": null,
+  "trailingSlash": true,
   "redirects": [
+    { "source": "/(.*)", "has": [{ "type": "host", "value": "www.hawaiigolf.guide" }], "destination": "https://hawaiigolf.guide/$1", "permanent": true },
     { "source": "/islands", "destination": "/island", "permanent": true },
     { "source": "/islands/", "destination": "/island", "permanent": true },
     { "source": "/island/hawaii", "destination": "/island/big-island", "permanent": true },

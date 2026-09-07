@@ -7,6 +7,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Oahu Golf Courses — Complete Guide | Hawaii Golf Guide',
   description: 'Every golf course on Oahu: championship resorts, municipal gems, prices, and booking tips for the Gathering Place.',
+  alternates: { canonical: '/island/oahu/' },
 }
 
 export default function OahuPage() {

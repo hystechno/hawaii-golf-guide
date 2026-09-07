@@ -3,6 +3,26 @@ import { MapPin, Phone, Globe, Star } from 'lucide-react'
 import coursesData from '@/data/courses.json'
 import { TeeTimeCTA } from '@/components/affiliates/TeeTimeCTA'
 import { SecondSwingCard } from '@/components/affiliates/SecondSwingCard'
+import type { Metadata } from 'next'
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ id: string }>
+}): Promise<Metadata> {
+  const { id } = await params
+  const course = coursesData.courses.find((c: any) => c.id === id)
+
+  if (!course) {
+    return { title: 'Course Not Found | Hawaii Golf Guide' }
+  }
+
+  return {
+    title: `${course.name} | Hawaii Golf Guide`,
+    description: course.description,
+    alternates: { canonical: `/courses/${id}/` },
+  }
+}
 
 function formatRateLabel(key: string): string {
   return key

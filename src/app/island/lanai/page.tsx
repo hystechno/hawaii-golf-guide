@@ -7,6 +7,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Lanai Golf Courses — Complete Guide | Hawaii Golf Guide',
   description: 'Golf on Lanai: Manele Golf Course and island golf info with prices, access details, and booking tips for the Pineapple Isle.',
+  alternates: { canonical: '/island/lanai/' },
 }
 
 export default function LanaiPage() {

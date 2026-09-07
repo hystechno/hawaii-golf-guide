@@ -7,6 +7,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Maui Golf Courses — Complete Guide | Hawaii Golf Guide',
   description: 'Every golf course on Maui: Kapalua, Wailea, and hidden gems with prices, reviews, and booking tips for the Valley Isle.',
+  alternates: { canonical: '/island/maui/' },
 }
 
 export default function MauiPage() {

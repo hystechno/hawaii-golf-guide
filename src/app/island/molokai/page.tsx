@@ -7,6 +7,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Molokai Golf Courses — Complete Guide | Hawaii Golf Guide',
   description: 'Golf on Molokai: Ironwood Hills and the Friendly Isle golf scene with prices, access details, and booking tips.',
+  alternates: { canonical: '/island/molokai/' },
 }
 
 export default function MolokaiPage() {

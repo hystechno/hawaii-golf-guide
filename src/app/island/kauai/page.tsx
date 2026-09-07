@@ -7,6 +7,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Kauai Golf Courses — Complete Guide | Hawaii Golf Guide',
   description: 'Every golf course on Kauai: Princeville, Poipu Bay, Hokuala and more with prices, reviews, and booking tips for the Garden Isle.',
+  alternates: { canonical: '/island/kauai/' },
 }
 
 export default function KauaiPage() {

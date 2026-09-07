@@ -5,6 +5,7 @@ import { Download, MapPin, Calendar, ClipboardCheck, Luggage } from "lucide-reac
 export const metadata: Metadata = {
   title: "FREE Hawaii Golf Trip Planner | Hawaii Golf Guide",
   description: "Download our free Hawaii Golf Trip Planner with island selection guide, 3 sample itineraries, and packing checklist.",
+  alternates: { canonical: "/trip-planner/" },
 };
 
 export default function TripPlannerPage() {

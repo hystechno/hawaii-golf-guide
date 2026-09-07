@@ -5,6 +5,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Hawaii Golf Courses by Island | Hawaii Golf Guide',
   description: 'Browse every golf course in Hawaii by island: Oahu, Maui, Big Island, Kauai, Lanai, and Molokai — with prices, reviews, and booking tips.',
+  alternates: { canonical: '/island/' },
 }
 
 const islands = [

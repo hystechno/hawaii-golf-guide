@@ -7,6 +7,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Big Island Golf Courses — Complete Guide | Hawaii Golf Guide',
   description: 'Every golf course on the Big Island: Kohala Coast resorts, Mauna Kea, Hilo munis and more with prices and booking tips.',
+  alternates: { canonical: '/island/big-island/' },
 }
 
 export default function BigIslandPage() {

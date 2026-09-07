@@ -80,6 +80,7 @@ function getAllPosts(): BlogPostMeta[] {
 export const metadata: Metadata = {
   title: 'Blog | Hawaii Golf Guide',
   description: 'Expert guides, course rankings, and tips for golfing in Hawaii. Discover the best courses, plan your trip, and improve your game.',
+  alternates: { canonical: '/blog/' },
   openGraph: {
     title: 'Hawaii Golf Guide Blog',
     description: 'Expert guides, course rankings, and tips for golfing in Hawaii.',
