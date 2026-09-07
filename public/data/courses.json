@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "last_updated": "2026-08-28",
+    "last_updated": "2026-09-07",
     "source": "Hawaii State Golf Association + Manual Research",
     "total_courses": 85,
     "total_courses_by_island": {
@@ -216,10 +216,11 @@
       "style": "Championship course with challenging layout",
       "description": "Premier 18-hole championship course designed by Robin Nelson in Ewa Beach. Features challenging layout with water hazards, including signature waterfall holes. Offers tiered pricing for residents and visitors, with special rates after aeration (April 13-26). Includes Pueo's Bar & Grill, full pro shop, driving range, and event hosting.",
       "rates": {
-        "resident_weekday": "$45 (11AM-1PM), $35 (1PM-3PM), $25 (after 3PM)",
+        "resident_weekday": "$65 (open-12:30PM), $50 (12:30-3:30PM), $30 (after 3:30PM)",
         "resident_weekend": "$80, $65 (after 12:30PM), $38 (after 3:30PM)",
         "visitor": "$125 (before 12PM), $95 (12PM-3PM), $65 (after 3PM)",
-        "visitor_9_hole": "$65"
+        "visitor_9_hole": "$65",
+        "rates_note": "All rates include cart. Active duty military same as Kama'aina. Verified 2026-09-07 via ccgchawaii.com/course/rates."
       },
       "amenities": [
         "Driving Range",
@@ -4037,14 +4038,16 @@
       "type": "Resort",
       "address": "3351 Hoolaulea Way, Lihue, HI 96766",
       "phone": "808-241-4500",
-      "website": "https://www.kauailagoonsgolf.com/",
+      "website": "https://www.golfhokuala.com/",
       "style": "Jack Nicklaus/Hokuala championship course",
       "description": "Award-winning Jack Nicklaus-designed 18-hole championship course with ocean views. Formerly Kauai Lagoons, rebranded as Hokuala.",
       "rates": {
-        "resident_weekday": "$TBD",
-        "resident_weekend": "$TBD",
-        "non_resident_weekday": "$TBD",
-        "non_resident_weekend": "$TBD"
+        "kamaaina": "$165 (call Golf Shop 808-241-6000)",
+        "visitor": "Dynamic online pricing - lowest rates booking direct at golfhokuala.com",
+        "club_rental": "$85 (Callaway Elyte, includes sleeve of balls)",
+        "rider_fee": "$35",
+        "range_use": "$40-$50",
+        "rates_note": "Course operates as The Ocean Course at Hokuala (formerly Kauai Lagoons; see kauai-003). Verified 2026-09-07 via golfhokuala.com/rates-specials; Kama'aina $165 per hawaiilife.com (Jun 2024)."
       },
       "amenities": [
         "Resort Course",
@@ -5471,14 +5474,18 @@
       "type": "Resort",
       "address": "93 Banyan Drive, Hilo, HI 96720",
       "phone": "808-935-3000",
-      "website": "http://www.hottours.us/",
+      "website": "https://www.grandnaniloahilo.com/golf-course.htm",
       "style": "Hilo resort course near waterfront",
       "description": "Resort course in Hilo near Banyan Drive waterfront",
       "rates": {
-        "resident_weekday": "$TBD",
-        "resident_weekend": "$TBD",
-        "non_resident_weekday": "$TBD",
-        "non_resident_weekend": "$TBD"
+        "9_holes": "$20",
+        "monthly_membership": "$85 (18 holes/day, cart extra)",
+        "yearly_membership": "$600 + tax (18 holes/day, cart extra)",
+        "golf_cart_9_holes": "$25",
+        "golf_cart_18_holes": "$37.50",
+        "hand_cart_9_holes": "$15",
+        "hand_cart_18_holes": "$22.50",
+        "rates_note": "9-hole course at Grand Naniloa Hotel Hilo (DoubleTree); non-hotel guests welcome. Cashless shop, cards only. Driving range 8:00 AM-3:15 PM. Verified 2026-09-07 via grandnaniloahilo.com/golf-course.htm"
       },
       "amenities": [
         "Resort",
@@ -5500,7 +5507,8 @@
       "status": "active",
       "featured": false,
       "lat": 19.7167,
-      "lng": -155.0833
+      "lng": -155.0833,
+      "notes": "Formerly listed website hottours.us is defunct; official page is the Grand Naniloa Hotel golf page."
     },
     {
       "id": "bi-015",
@@ -5730,12 +5738,18 @@
       "phone": "808-886-7888",
       "website": "http://www.waikoloagolf.com/",
       "style": "Tom Weiskopf/Jay Morrish design",
-      "description": "Tom Weiskopf/Jay Morrish design with wide fairways and ocean views",
+      "description": "Tom Weiskopf/Jay Morrish design with wide fairways and ocean views. Now operated as the Kings' Nine of Waikoloa Beach Resort Golf's 27-hole facility.",
       "rates": {
-        "resident_weekday": "$TBD",
-        "resident_weekend": "$TBD",
-        "non_resident_weekday": "$TBD",
-        "non_resident_weekend": "$TBD"
+        "18_holes_morning": "$215 (Waikoloa Beach Resort guests $175)",
+        "18_holes_midday": "$150",
+        "18_holes_afternoon": "$119",
+        "9_holes": "$99",
+        "kamaaina_18_holes": "$89",
+        "kamaaina_9_holes": "$70",
+        "same_day_replay": "$80",
+        "junior_6_17": "$75",
+        "rider_fee": "$35",
+        "rates_note": "Now the Kings' Nine of Waikoloa Beach Resort Golf's 27-hole facility; 18-hole rounds combine two nines. Rates include shared cart, bottled water, practice facilities; exclude HI GE tax. Verified 2026-09-07 via waikoloabeachgolf.com/rates-27/"
       },
       "amenities": [
         "Resort Course",
@@ -5930,10 +5944,9 @@
       "style": "Tournament course (same location, alternate routing)",
       "description": "Tournament routing at Manele for special events and challenges. Requires resort stay.",
       "rates": {
-        "resident_weekday": "$TBD",
-        "resident_weekend": "$TBD",
-        "non_resident_weekday": "$TBD",
-        "non_resident_weekend": "$TBD"
+        "tee_time": "~$350 per person (approx.)",
+        "access": "Resort guests only - course access not available for day guest use",
+        "rates_note": "Legacy name of Manele Golf Course at Four Seasons Resort Lanai (see lanai-001). Open Tue-Sun; aeration closure Sep 21-28, 2026. Verified 2026-09-07 via fourseasons.com/lanai/golf; ~$350 tee time per U.S. News Travel (Jul 2026)."
       },
       "amenities": [
         "Resort Course",
