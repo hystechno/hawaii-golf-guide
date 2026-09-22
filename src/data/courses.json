@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "last_updated": "2026-09-07",
+    "last_updated": "2026-09-22",
     "source": "Hawaii State Golf Association + Manual Research",
     "total_courses": 85,
     "total_courses_by_island": {
@@ -454,16 +454,10 @@
       "style": "Central Oahu public course",
       "description": "Public golf in central Oahu near Wahiawa. Under new management (Stella Greens) with recently renovated facilities.",
       "rates": {
-        "weekday_18_holes": "$38",
-        "weekend_18_holes": "$48",
-        "weekday_9_holes": "$22",
-        "weekend_9_holes": "$28",
-        "senior_60_plus_weekday": "$32",
-        "junior_17_under": "$15",
-        "military": "$32",
-        "cart_18_holes": "$20",
-        "cart_9_holes": "$12",
-        "note": "New lower rates under Stella Greens management (2024). Call for current pricing."
+        "green_fee_18_holes": "$20 + tax (flat rate for all, no residency requirement)",
+        "green_fee_9_holes": "$10 + tax",
+        "cart_18_holes": "$26 (as of Jun 2026)",
+        "note": "Rates per course's Yelp business info (Jun 2026); no official website - call 808-621-5654 to confirm. GolfNow profile lists carts as included in green fees (conflicting). Previously posted 2024 Stella Greens card: weekday $38 / weekend $48; senior/junior/military rates no longer advertised under flat-rate pricing."
       },
       "amenities": [
         "Pro Shop",
@@ -1207,12 +1201,13 @@
       "rates": {
         "visitor": "$210",
         "visitor_twilight": "$155 (after 1:30pm)",
-        "resident_weekday": "$80",
-        "resident_weekend": "$90",
+        "resident_weekday": "$80 (standard), $85-$95 (peak)",
+        "resident_weekend": "$90 (standard), $95-$105 (peak)",
         "resident_twilight_weekday": "$65",
         "resident_twilight_weekend": "$75",
         "replay": "$65-$155",
-        "rider_fee": "$35"
+        "rider_fee": "$35",
+        "rates_note": "Rates dynamically priced by day/time; include cart. Twilight 1:30 pm year-round. Rates effective Jan 1, 2024. Verified 2026-09-22 via kapoleigolf.com/visitor-rate & /kamaaina-rates."
       },
       "amenities": [
         "Driving Range",
@@ -2677,15 +2672,16 @@
         "club_rental_18_holes": "$15",
         "push_cart_9_holes": "$3",
         "push_cart_18_holes": "$5",
-        "membership_e1_e5_single": "$800/year",
-        "membership_e1_e5_family": "$1,100/year",
-        "membership_dod_single": "$1,400/year",
-        "membership_dod_family": "$1,800/year",
-        "membership_civilian_single": "$1,850/year",
-        "membership_civilian_family": "$2,250/year",
+        "membership_e1_e5_single": "$810/year (2027 rate; 2026: $800)",
+        "membership_e1_e5_family": "$1,120/year (2027 rate; 2026: $1,100)",
+        "membership_dod_single": "$1,450/year (2027 rate; 2026: $1,400)",
+        "membership_dod_family": "$1,850/year (2027 rate; 2026: $1,800)",
+        "membership_civilian_single": "$1,900/year (2027 rate; 2026: $1,850)",
+        "membership_civilian_family": "$2,320/year (2027 rate; 2026: $2,250)",
         "hale_koa_e1_e5_youth": "$23 (9 holes with cart & clubs)",
         "hale_koa_other_authorized": "$32 (9 holes with cart & clubs)",
-        "hale_koa_public": "$40 (9 holes with cart & clubs)"
+        "hale_koa_public": "$40 (9 holes with cart & clubs)",
+        "rates_note": "2027 annual memberships published on official Army MWR page (updated 09/02/2026). Green-fee schedule per 2026 USAG Hawaii Golf Fees PDF on same page. Verified 2026-09-22."
       },
       "amenities": [
         "Military Only",
@@ -3671,7 +3667,7 @@
         "kamaaina_super_twilight_after_1pm": "$35",
         "kamaaina_junior_17_under": "$25",
         "kamaaina_rider_fee": "$25",
-        "kamaaina_note": "Rates valid through April 30, 2025. Local ID required.",
+        "kamaaina_note": "Published rate card dated through Apr 30, 2025; as of 2026-09-22 the official site lists specials only: Terrific Thursday $69 (green fee + shared cart), rental-club + round special $129, Aloha Pass $299/30-day or $169/7-day (+$35 cart/round), Kama'aina Tuesdays $36. Local ID required. Call 808-572-1314 for current standard rates.",
         "club_rental_before_1pm": "$50",
         "club_rental_after_1pm": "$35",
         "driving_range_full_bucket": "$6",
@@ -5478,14 +5474,15 @@
       "style": "Hilo resort course near waterfront",
       "description": "Resort course in Hilo near Banyan Drive waterfront",
       "rates": {
-        "9_holes": "$20",
+        "9_holes": "$25 (public); $20 (Grand Naniloa hotel guests)",
+        "18_holes": "$37.50 (public); $30 (hotel guests)",
         "monthly_membership": "$85 (18 holes/day, cart extra)",
         "yearly_membership": "$600 + tax (18 holes/day, cart extra)",
         "golf_cart_9_holes": "$25",
         "golf_cart_18_holes": "$37.50",
         "hand_cart_9_holes": "$15",
         "hand_cart_18_holes": "$22.50",
-        "rates_note": "9-hole course at Grand Naniloa Hotel Hilo (DoubleTree); non-hotel guests welcome. Cashless shop, cards only. Driving range 8:00 AM-3:15 PM. Verified 2026-09-07 via grandnaniloahilo.com/golf-course.htm"
+        "rates_note": "9-hole course at Grand Naniloa Hotel Hilo (DoubleTree); non-hotel guests welcome. Official page (checked 2026-09-22) lists membership & cart fees only; daily green fees per lovebigisland.com (Aug 2026) and greenfeetracker.com (May 2026). Cashless shop, cards only. Driving range 8:00 AM-3:15 PM."
       },
       "amenities": [
         "Resort",
@@ -6052,10 +6049,11 @@
       "style": "Affordable public 9-hole course",
       "description": "Only 9-holes on Molokai Island. Elevated green with mountain and ocean views. Local volunteer maintained. Friendly small-town atmosphere.",
       "rates": {
-        "green_fee": "$25",
-        "9_holes": "$25",
-        "18_holes": "$25 (play twice around)",
-        "notes": "$25 green fee. Pull carts $1. Trail fee for own riding cart $5. Honor system in place."
+        "green_fee": "$36 (18 holes) / $18 (9 holes)",
+        "9_holes": "$18",
+        "18_holes": "$36 (play twice around)",
+        "club_rental": "$10",
+        "notes": "Green fees per Yelp (Sep 2026) and 1golf.eu / GolfDigest 2026 listings; previously listed $25 flat. Pull carts $1. Trail fee for own riding cart $5. Honor system in place. Course active - hosts Hui O Kukui Golf Club events (Molokai Dispatch, Mar 2026); a stale 'CLOSED' tag on Yelp appears incorrect."
       },
       "amenities": [
         "Public",
